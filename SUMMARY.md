@@ -2,6 +2,11 @@
 
 * [Contents](README.md)
 
+## 😁 Career
+
+* [Introduce](career/introduce.md)
+* [Resume/CV](career/resume-cv.md)
+
 ## 👊 Glossary
 
 * [Introduce](glossary/introduce.md)
