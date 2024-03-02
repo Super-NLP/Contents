@@ -15,7 +15,8 @@
 
 * [Introduce](preprocessing/introduce.md)
 * [🐌 Basic Concept of Text data](preprocessing/basic-concept-of-text-data.md)
-* [🐌 Similarity](preprocessing/similarity.md)
+* [🐌 Data Crawling](preprocessing/data-crawling.md)
+* [🐌 Data Cleaning](preprocessing/data-cleaning.md)
 
 ## ✌️ Tokenizing
 

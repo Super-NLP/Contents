@@ -1,3 +1,0 @@
-# 🐌 Similarity
-
-Similarity
