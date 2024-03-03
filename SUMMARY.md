@@ -50,10 +50,10 @@
 
 * [Introduce](evaluate/introduce.md)
 
-## 🫴 Serving
-
-* [Introduce](serving/introduce.md)
-
 ## 👏 Methodology
 
 * [Introduce](methodology/introduce.md)
+
+## 🌊 Serving
+
+* [Introduce](serving/introduce.md)
