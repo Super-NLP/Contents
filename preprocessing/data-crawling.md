@@ -28,4 +28,14 @@ Disallow: /profiles
 ```
 {% endcode %}
 
-일반적으로 크롤링은 Python의 **Selenium**이나 **Beautiful Soup**을 사용한다.
+더 많은 내용을 알고싶다면 "http://www.robotstxt.org"를 참고하면 된다. 일반적으로 크롤링은 Python의 **Selenium**이나 **Beautiful Soup**을 사용한다.&#x20;
+
+그외에 오픈소스로 공개되어있는 코퍼스 데이터를 사용할 수도 있다. 범용적으로 많이 쓰이는 곳을 알려두겠다.
+
+* **AI Hub** -> [https://www.aihub.or.kr/](https://www.aihub.or.kr/)
+* **Wikipedia** -> [https://dumps.wikimedia.org/](https://dumps.wikimedia.org/)
+* **Project Gutenberg** -> [https://www.gutenberg.org/](https://www.gutenberg.org/)
+* **HuggingFace** -> [https://huggingface.co/datasets](https://huggingface.co/datasets)
+
+해당부분은 지속적으로 업데이트하도록 하겠다. :smile:
+
