@@ -15,3 +15,4 @@ coverY: 0
   * BPE (Byte Pair Encoding)
   * WordPiece
   * SentencePiece
+* **Korean Preprocessing**
