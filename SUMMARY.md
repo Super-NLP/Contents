@@ -22,7 +22,7 @@
 
 * [Introduce](tokenizing/introduce.md)
 * [🦂 Basic Concept of Tokenizing](tokenizing/basic-concept-of-tokenizing.md)
-* [🦂 Tokenizer](tokenizing/tokenizer.md)
+* [🦂 Subword Tokenizer](tokenizing/subword-tokenizer.md)
 
 ## 🤟 Embedding
 
