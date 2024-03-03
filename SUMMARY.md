@@ -29,12 +29,10 @@
 
 * [Introduce](embedding/introduce.md)
 * [🕷️ Basic Concept of Embedding](embedding/basic-concept-of-embedding.md)
-* [🕷️ Integer Labeled Encoding](embedding/integer-labeled-encoding.md)
-* [🕷️ Frequency based Embedding](embedding/frequency-based-embedding.md)
 * [🕷️ Word2Vec](embedding/word2vec.md)
-* [🕷️ Sent2Vec](embedding/sent2vec.md)
+* [🕷️ GloVe](embedding/glove.md)
+* [🕷️ ELMo](embedding/elmo.md)
 * [🕷️ Doc2Vec](embedding/doc2vec.md)
-* [🕷️ Embedding with LM](embedding/embedding-with-lm.md)
 
 ## 🖐️ Model
 
