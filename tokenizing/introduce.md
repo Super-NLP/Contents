@@ -11,6 +11,7 @@ coverY: 0
   * Character Tokenizing
   * Word Tokenizing
 * **Subword Tokenizing**
+  * Frequency based Tokenizing
   * BPE (Byte Pair Encoding)
   * WordPiece
   * SentencePiece

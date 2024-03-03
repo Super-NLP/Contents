@@ -23,6 +23,7 @@
 * [Introduce](tokenizing/introduce.md)
 * [🦂 Basic Concept of Tokenizing](tokenizing/basic-concept-of-tokenizing.md)
 * [🦂 Subword Tokenizer](tokenizing/subword-tokenizer.md)
+* [🦂 Korean Preprocessing](tokenizing/korean-preprocessing.md)
 
 ## 🤟 Embedding
 
