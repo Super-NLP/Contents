@@ -98,5 +98,32 @@ re.sub(regex, "REMOVED", x) # REMOVED
 
 ## Ⅱ. Stopwords
 
+Corpus를 수집한 뒤 정제를 할 때 노이즈를 제거한다고 얘기했습니다. 여기서 노이즈는 불필요한 의미를 가진 단어들을 말한것입니다. 이러한 노이즈를 불용어(Stopwords)라고 부르게 됩니다. 예를 들면, I, my, me, over, 조사, 접미사 같은 단어들은 문장에서는 자주 등장하지만 실제 의미 분석을 하는데는 거의 기여하는 바가 없는 대표적인 경우입니다. 물론 불용어는 개발자가 직접 정의할 수도 있지만 여기서는 한국어 전처리에 초점을 맞추어 코드 구현을 다뤄보겠습니다.
 
+{% code lineNumbers="true" %}
+```python
+from konlpy.tag import Okt
 
+okt = Okt()
+
+example = "고기를 아무렇게나 구우려고 하면 안 돼. 고기라고 다 같은 게 아니거든. 예컨대 삼겹살을 구울 때는 중요한 게 있지."
+stop_words = "를 아무렇게나 구 우려 고 안 돼 같은 게 구울 때 는"
+
+stop_words = set(stop_words.split(' '))
+word_tokens = okt.morphs(example)
+
+result = [word for word in word_tokens if not word in stop_words]
+
+print('불용어 제거 전 :',word_tokens) 
+print('불용어 제거 후 :',result)
+```
+{% endcode %}
+
+```
+불용어 제거 전 : ['고기', '를', '아무렇게나', '구', '우려', '고', '하면', '안', '돼', '.', '고기', '라고', '다', '같은', '게', '아니거든', '.', '예컨대', '삼겹살', '을', '구울', '때', '는', '중요한', '게', '있지', '.']
+불용어 제거 후 : ['고기', '하면', '.', '고기', '라고', '다', '아니거든', '.', '예컨대', '삼겹살', '을', '중요한', '있지', '.']
+```
+
+불용어가 많은 경우에는 코드 내에서 직접 정의하지 않고 txt 파일이나 csv 파일로 정리해놓고 이것을 불러와서 사용하기도 합니다. 다만 기준에 따라 내용은 바뀔 수 있으며 이 기준은 어떤 목적의 어떤 작업을 하느냐에 따라 달라집니다. 아래 링크는 가장 대표적인 한국어 불용어 리스트를 참조할 수 있는 사이트이니 참고하시기 바랍니다.
+
+* [https://www.ranks.nl/stopwords/korean](https://www.ranks.nl/stopwords/korean)
