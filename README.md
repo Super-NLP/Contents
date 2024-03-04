@@ -9,7 +9,8 @@ coverY: 0
 
 # Contents
 
-**This WEB is personal playground for NLP Research** :smile:
+**This WEB is personal playground for NLP Research** :smile:\
+**My Eternity Goal is "**<mark style="background-color:yellow;">**Autonomous Agent System that can communicate with humans using LM ⭐️**</mark>**"**
 
 
 

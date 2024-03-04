@@ -37,6 +37,7 @@
 ## 🖐️ Model
 
 * [Introduce](model/introduce.md)
+* [👾 Language Model](model/language-model.md)
 * [👾 1D CNN](model/1d-cnn.md)
 * [👾 RNN](model/rnn.md)
 * [👾 LSTM](model/lstm.md)
@@ -44,6 +45,8 @@
 * [👾 AutoEncoder](model/autoencoder.md)
 * [👾 Seq2Seq](model/seq2seq.md)
 * [👾 Transformer](model/transformer.md)
+* [👾 BERT](model/bert.md)
+* [👾 GPT](model/gpt.md)
 
 ## 🙌 Evaluate
 

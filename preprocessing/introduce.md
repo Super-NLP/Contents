@@ -5,4 +5,10 @@ coverY: 0
 
 # Introduce
 
-Big Text Data (= Corpus) Preprocessing and Cleaning Task
+* **Basic Concept of Text Data**
+  * What is Corpus
+  * How to preprocessing step by step
+* **Data Crawling**
+* **Data Cleaning**
+  * Cleaning & Normalization
+  * Stopwords

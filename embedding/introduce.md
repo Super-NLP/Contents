@@ -10,8 +10,17 @@ coverY: 0
 
 * **Basic Concept of Embedding**
   * Integer Labeled Encoding
-  * Frequency based Embedding
+    * OHE, OHV
+    * Sparse Vector, Dense Vector
+  * Count based Embedding
+    * BoW
+    * DTM
+    * TF-IDF
   * Vector Similarity
+    * Cosine Similartiy
+    * L1 Distance
+    * L2 Distance
+    * Infinity Norm
   * Word Embedding
 * **Word2Vec**
   * CBOW
