@@ -31,8 +31,8 @@
 * [🕷️ Basic Concept of Embedding](embedding/basic-concept-of-embedding.md)
 * [🕷️ Word2Vec](embedding/word2vec.md)
 * [🕷️ GloVe](embedding/glove.md)
-* [🕷️ ELMo](embedding/elmo.md)
 * [🕷️ Doc2Vec](embedding/doc2vec.md)
+* [🕷️ ELMo](embedding/elmo.md)
 
 ## 🖐️ Model
 

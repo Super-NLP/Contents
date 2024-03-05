@@ -27,7 +27,7 @@ coverY: 0
   * Skip-Gram
   * SGNS
 * **GloVe**
+  * GloVe
   * Fasttext
-  * SISG
-* **ELMo**
 * **Doc2Vec**
+* **ELMo**
