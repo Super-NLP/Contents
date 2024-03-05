@@ -44,6 +44,7 @@
 * [👾 GRU](model/gru.md)
 * [👾 AutoEncoder](model/autoencoder.md)
 * [👾 Seq2Seq](model/seq2seq.md)
+* [👾 Attention](model/attention.md)
 * [👾 Transformer](model/transformer.md)
 * [👾 BERT](model/bert.md)
 * [👾 GPT](model/gpt.md)
@@ -52,10 +53,18 @@
 
 * [Introduce](evaluate/introduce.md)
 
-## 👏 Methodology
+## 🙏 Algorithm
 
-* [Introduce](methodology/introduce.md)
+* [Introduce](algorithm/introduce.md)
+
+## 🐾 Quantization
+
+* [Introduce](quantization/introduce.md)
 
 ## 🌊 Serving
 
 * [Introduce](serving/introduce.md)
+
+## 👽 Application
+
+* [Introduce](application/introduce.md)

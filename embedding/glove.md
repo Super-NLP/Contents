@@ -1,3 +1,10 @@
 # 🕷️ GloVe
 
-GloVe
+
+
+## Ⅰ. Fasttext
+
+
+
+## Ⅱ. SISG
+
