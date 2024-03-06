@@ -34,20 +34,26 @@
 * [🕷️ Doc2Vec](embedding/doc2vec.md)
 * [🕷️ ELMo](embedding/elmo.md)
 
-## 🖐️ Model
+## 👍 Model
 
 * [Introduce](model/introduce.md)
-* [👾 Language Model](model/language-model.md)
-* [👾 1D CNN](model/1d-cnn.md)
-* [👾 RNN](model/rnn.md)
-* [👾 LSTM](model/lstm.md)
-* [👾 GRU](model/gru.md)
-* [👾 AutoEncoder](model/autoencoder.md)
-* [👾 Seq2Seq](model/seq2seq.md)
-* [👾 Attention](model/attention.md)
-* [👾 Transformer](model/transformer.md)
-* [👾 BERT](model/bert.md)
-* [👾 GPT](model/gpt.md)
+* [😀 Regression](model/regression.md)
+* [😃 Classification](model/classification.md)
+
+## 🖐️ NLP Model
+
+* [Introduce](nlp-model/introduce.md)
+* [👾 Language Model](nlp-model/language-model.md)
+* [👾 1D CNN](nlp-model/1d-cnn.md)
+* [👾 RNN](nlp-model/rnn.md)
+* [👾 LSTM](nlp-model/lstm.md)
+* [👾 GRU](nlp-model/gru.md)
+* [👾 AutoEncoder](nlp-model/autoencoder.md)
+* [👾 Seq2Seq](nlp-model/seq2seq.md)
+* [👾 Attention](nlp-model/attention.md)
+* [👾 Transformer](nlp-model/transformer.md)
+* [👾 BERT](nlp-model/bert.md)
+* [👾 GPT](nlp-model/gpt.md)
 
 ## 🙌 Evaluate
 

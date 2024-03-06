@@ -1,20 +1,9 @@
 ---
-description: 다양한 일을 수행하는 NLP의 모델들에 대해 알아봅시다.
+description: torch를 이용한 기초 모델 구현과 기타 여러가지를 공부해보자.
 coverY: 0
 ---
 
 # Introduce
 
-* **Language Model**
-  * Statical LM
-  * LM
-* **1D CNN**
-* **RNN**
-* **LSTM**
-* **GRU**
-* **AutoEncoder**
-* **Seq2Seq**
-* **Attention**
-* **Transformer**
-* **BERT**
-* **GPT**
+* **Regression ( Scikit Learn California Housing )**
+* **Classification ( CIFAR10 )**
