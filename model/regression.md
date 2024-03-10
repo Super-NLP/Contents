@@ -137,7 +137,6 @@ def run_train(model = model, n_epochs = 150,
                                        loss_fn = loss_fn, 
                                        device = device)
         
-        # 줍줍
         train_hs.append(train_loss)
         valid_hs.append(valid_loss)
         
@@ -153,14 +152,11 @@ def run_train(model = model, n_epochs = 150,
             torch.save(model.state_dict(), './model_regression.bin') # pth, pt
         else:
             if early_stop > 0 and lowest_epoch+ early_stop < epoch +1:
-                print("삽 질 중....zz") 
+                print("print("Early Stopping..!")") 
                 break
                 
     print()            
     print(f"The Best Validation Loss={lowest_loss:.3e} at {lowest_epoch} Epoch")
-
-    # model load
-    # model.load_state_dict(torch.load('./model_regression.bin'))
     
     result = dict()
     result["Train Loss"] = train_hs

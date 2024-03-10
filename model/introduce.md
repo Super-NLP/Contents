@@ -6,7 +6,7 @@ coverY: 0
 # Introduce
 
 * **Regression ( Scikit Learn California Housing )**
-* **Classification ( IMDB )**
+* **Classification ( CIFAR-10 )**
 
 
 
@@ -14,4 +14,4 @@ coverY: 0
 
 <figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-글(텍스트)에서 부터 정보를 추출하는것.
+바로 글(텍스트)에서부터 정보를 추출하는것!
