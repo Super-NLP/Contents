@@ -47,11 +47,14 @@
 * [👾 RNN](nlp-model/rnn.md)
 * [👾 LSTM](nlp-model/lstm.md)
 * [👾 GRU](nlp-model/gru.md)
-* [👾 AutoEncoder](nlp-model/autoencoder.md)
 * [👾 Seq2Seq](nlp-model/seq2seq.md)
-* [👾 Attention](nlp-model/attention.md)
+* [👾 Attention Algorithm](nlp-model/attention-algorithm.md)
+* [Language Model Assemble](nlp-model/language-model-assemble.md)
+* [👾 Transformer Paper](nlp-model/transformer-paper.md)
 * [👾 Transformer](nlp-model/transformer.md)
+* [👾 BERT Paper](nlp-model/bert-paper.md)
 * [👾 BERT](nlp-model/bert.md)
+* [👾 GPT Paper](nlp-model/gpt-paper.md)
 * [👾 GPT](nlp-model/gpt.md)
 
 ## 🙌 Evaluate
