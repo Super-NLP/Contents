@@ -12,7 +12,7 @@ description: 임베딩에 대한 기본적인 개념을 알아봅시다.
 
 이것을 알기쉽게 카테고리화하여 보면 다음과 같이 분류할 수 있습니다.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Category of Word Representation</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Category of Word Representation</p></figcaption></figure>
 
 여기서는 크게 One-hot Encoding과 One-hot Vector, Bag-of-Words와 그의 확장인 DTM(또는 TDM), 여기서 가중치 개념이 들어간 TF-IDF에 대해 소개할 것이고 공통적으로 사용되는 벡터의 유사도에 대해서도 이야기하겠습니다.
 
@@ -145,7 +145,7 @@ BoW vector : [1, 2, 1, 1, 2, 1, 1, 1, 1, 1]
 
 각각에 대해 띄어쓰기 단위 토큰화를 수행한다고 가정하고, 문서 단어 행렬로 표현하면 다음과 같습니다.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>DTM 예시</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption><p>DTM 예시</p></figcaption></figure>
 
 ### ⅲ. TF-IDF : Term Frequency - Inverse Documents Frequency
 
@@ -212,7 +212,7 @@ tf_
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption><p>tf_</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption><p>tf_</p></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -226,7 +226,7 @@ idf_
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="" width="139"><figcaption><p>idf</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt="" width="139"><figcaption><p>idf</p></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -243,7 +243,7 @@ tfidf_
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (3).png" alt="" width="563"><figcaption><p>tf-idf</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption><p>tf-idf</p></figcaption></figure>
 
 ## Ⅲ. Vector Similarity
 

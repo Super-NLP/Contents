@@ -8,7 +8,7 @@ description: 본격적으로 단어를 Vector로 만드는 방법을 알아봅�
 
 이러한 Word2Vec은 사실 **CBOW(Continous Bag of Words)**라는 방법과 **Skip-Gram**이라는 방법을 같이 부르는 말입니다. 각 방식에 대해 알아보고 이들의 한계점을 개선하기 위한 방법으로 제안된 Negative Sampling (2013) 을 이용한 **SGNS (Skip Gram with Negative Sampling)** 을 소개하겠습니다.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Ⅰ. CBOW
 
@@ -20,17 +20,17 @@ description: 본격적으로 단어를 Vector로 만드는 방법을 알아봅�
 
 중심 단어를 예측하기 위해서 **앞, 뒤로 몇 개의 단어를 볼지**를 결정했다면 이 **범위를 윈도우(window)**라고 합니다. 예를 들어서 윈도우 크기가 2이고, 예측하고자 하는 중심 단어가 sat이라고 한다면 앞의 두 단어인 fat와 cat, 그리고 뒤의 두 단어인 on, the를 참고합니다. 윈도우 크기가 n이라고 한다면, 실제 중심 단어를 예측하기 위해 참고하려고 하는 주변 단어의 개수는 2n이 될 것입니다.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>window = 2</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>window = 2</p></figcaption></figure>
 
 윈도우를 계속 움직여서 주변 단어와 중심 단어 선택을 바꿔가며 학습을 위한 데이터 셋을 만들 수 있는데, 이 방법을 **슬라이딩 윈도우(sliding window)**라고 합니다.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>CBOW Mechanism</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>CBOW Mechanism</p></figcaption></figure>
 
 위의 그림은 CBOW의 Mechanism을 도식화하여 나타낸 그림입니다. 입력층(Input layer)의 입력으로서 앞, 뒤로 사용자가 정한 윈도우 크기 범위 안에 있는 주변 단어들의 원-핫 벡터가 들어가게 되고, 출력층(Output layer)에서 예측하고자 하는 중간 단어의 원-핫 벡터가 필요합니다.
 
 사실 Word2Vec은 딥 러닝 모델(Deep Learning Model)은 아닙니다. 보통 딥 러닝이라함은, 입력층과 출력층 사이의 은닉층의 개수가 충분히 쌓인 신경망을 학습할 때를 말하는데 Word2Vec의 경우 입력층과 출력층 사이에 하나의 은닉층만이 존재합니다. 이렇게 은닉층(hidden Layer)이 1개인 경우에는 일반적으로 심층신경망(Deep Neural Network)이 아니라 **얕은신경망(Shallow Neural Network)**이라고 부릅니다. 또한 Word2Vec의 은닉층은 일반적인 은닉층과는 달리 활성화 함수가 존재하지 않으며 **룩업 테이블**이라는 연산을 담당하는 층으로 일반적인 은닉층과 구분하기 위해 **투사층(projection layer)**이라고 부르기도 합니다.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt="" width="411"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt="" width="411"><figcaption></figcaption></figure>
 
 위의 CBOW Mechanism에서 중요한 것은 2가지인데, 첫번째로 투사층(=Projection layer)의 크기가 M이라는 점입니다. 이러한 투사층의 크기 M은 임베딩하고 난 벡터의 차원이 됩니다. 즉, 위의 그림에서 투사층의 크기는 M=5이기 때문에 CBOW를 수행하고나서 얻는 각 단어의 임베딩 벡터의 차원은 5가 될 것입니다.
 

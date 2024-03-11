@@ -350,7 +350,7 @@ print(df)
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt="" width="163"><figcaption><p>df</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt="" width="163"><figcaption><p>df</p></figcaption></figure>
 
 ```python
 encoded = tokenizer.encode('아 배고픈데 짜장면먹고싶다')
