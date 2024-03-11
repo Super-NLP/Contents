@@ -22,6 +22,7 @@ coverY: 0
   * KLUE BenchMark&#x20;
   * BLEU Score&#x20;
   * MMLU
+    * [https://www.kaggle.com/code/debarshichanda/llm-evaluation-mmlu-style](https://www.kaggle.com/code/debarshichanda/llm-evaluation-mmlu-style)
 * **Korean BenchMark**
   * HAERAE BenchMark
   * K-MMLU
