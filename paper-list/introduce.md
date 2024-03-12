@@ -5,6 +5,8 @@ coverY: 0
 
 # Introduce
 
+* **Stealing Part of a Production Language Model**
+  * Link : [https://arxiv.org/pdf/2403.06634.pdf](https://arxiv.org/pdf/2403.06634.pdf)
 * **The Claude 3 Model Family: Opus, Sonnet, Haiku**
   * Link : [https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model\_Card\_Claude\_3.pdf?utm\_source=pytorchkr](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model\_Card\_Claude\_3.pdf?utm\_source=pytorchkr)
 * **Functional Benchmarks for Robust Evaluation of Reasoning Performance, and the Reasoning Gap**
