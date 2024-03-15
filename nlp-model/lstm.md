@@ -90,12 +90,13 @@ $$
 
 
 
-## Ⅲ. LSTM 구현
+## Ⅲ. Implementation
 
 LSTM 역시 torch안에 내장되어 구현되어 있기 때문에 LSTM을 이용한 네이버 리뷰분류를 구현해보도록 하겠습니다.
 
 {% code lineNumbers="true" %}
 ```python
+
 
 
 
