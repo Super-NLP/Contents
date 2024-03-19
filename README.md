@@ -15,6 +15,7 @@ coverY: 0
 
 
 * [https://wikidocs.net/book/2788](https://wikidocs.net/book/2788)
+* [https://brunch.co.kr/@learning/12](https://brunch.co.kr/@learning/12)
 * [https://ratsgo.github.io/nlpbook/](https://ratsgo.github.io/nlpbook/)
 * [https://real-myeong.tistory.com/41](https://real-myeong.tistory.com/41)
 * [https://wikidocs.net/92961](https://wikidocs.net/92961)
