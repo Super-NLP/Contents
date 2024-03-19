@@ -18,3 +18,20 @@ coverY: 0
 * **Transformer**
 * **BERT**
 * **GPT**
+* **InstructGPT**
+
+
+
+***
+
+
+
+### Reference LINK
+
+* Tabnet
+  * [https://ffighting.net/deep-learning-paper-review/tabular-model/tabnet/](https://ffighting.net/deep-learning-paper-review/tabular-model/tabnet/)
+* Kernel-SVM
+  * [https://ratsgo.github.io/machine%20learning/2017/05/30/SVM3/](https://ratsgo.github.io/machine%20learning/2017/05/30/SVM3/)
+* VAE
+  * [https://ratsgo.github.io/generative%20model/2018/01/27/VAE/](https://ratsgo.github.io/generative%20model/2018/01/27/VAE/)
+
