@@ -80,3 +80,7 @@
 ## 🍓 Tutorial
 
 * [Introduce](tutorial/introduce.md)
+
+## 🎤 Tech-Interview
+
+* [Interview List](tech-interview/interview-list.md)
