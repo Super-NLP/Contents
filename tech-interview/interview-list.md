@@ -24,3 +24,4 @@ coverY: 0
 * Fine Tuning과 SFT에 대해 비교하여 설명해주세요.
 * Word Embedding과 Sentence Embedding에 대해 비교하여 설명해주세요.
 * Knowledge Distillation에 대해 설명해주세요.
+* OverFitting이 무엇이고 어떻게 방지할 수 있나요?
