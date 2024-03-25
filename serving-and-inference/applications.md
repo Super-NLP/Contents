@@ -3,17 +3,20 @@ description: LM과 LLM, NLP로 할 수 있는 응용분야에 대해 연구하�
 coverY: 0
 ---
 
-# Introduce
+# Applications
 
 * **Vector DB**
   * FAISS
   * ChromaDB
+  * Redis
 * **RAG**
   * LangChain
   * Ollama
 * **Application**
-  * Autonomous Agent
   * Phidata
+* **Agent**
+  * BabyAGI
+  * Autonomous Agent
 
 
 
@@ -21,6 +24,8 @@ coverY: 0
 
 ### **Reference LINK**
 
+* Project Template
+  * [https://modulabs.co.kr/blog/python-env-poetry/](https://modulabs.co.kr/blog/python-env-poetry/)
 * Langchain Tutorial
   * [https://wikidocs.net/234008](https://wikidocs.net/234008)
 * Deploying Langchain apps with langserve on GCP
