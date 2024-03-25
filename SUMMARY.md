@@ -84,3 +84,7 @@
 ## 🎤 Tech-Interview
 
 * [Interview List](tech-interview/interview-list.md)
+
+## 🅰️ Appendix
+
+* [Useful Reference](appendix/useful-reference.md)
