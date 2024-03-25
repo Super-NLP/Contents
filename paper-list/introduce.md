@@ -5,6 +5,8 @@ coverY: 0
 
 # Introduce
 
+* **FollowIR : Evaluating and Teaching Information Retrieval Models to Follow Instructions**
+  * Link : [https://arxiv.org/abs/2403.15246](https://arxiv.org/abs/2403.15246)
 * **Stealing Part of a Production Language Model**
   * Link : [https://arxiv.org/pdf/2403.06634.pdf](https://arxiv.org/pdf/2403.06634.pdf)
 * **The Claude 3 Model Family: Opus, Sonnet, Haiku**
