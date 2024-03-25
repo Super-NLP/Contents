@@ -73,10 +73,10 @@
 
 * [Interview List](tech-interview/interview-list.md)
 
-## 🍓 Playground
-
-* [Introduce](playground/introduce.md)
-
 ## 🅰️ Appendix
 
 * [Useful Reference](appendix/useful-reference.md)
+
+## 🧑‍💻 Playground
+
+* [Introduce](playground/introduce.md)
