@@ -59,6 +59,7 @@
 
 * [Methods](algorithm/methods.md)
 * [Quantizations](algorithm/quantizations.md)
+* [Alignments](algorithm/alignments.md)
 * [Prompt Engineering](algorithm/prompt-engineering.md)
 
 ## 🌊 Serving & Inference
