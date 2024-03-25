@@ -7,6 +7,10 @@ coverY: 0
 
 # Introduce
 
+{% hint style="danger" %}
+**요 부분은 모델학습과 구현에 중점을 두고 정리하였으니 참고바랍니다 😁**
+{% endhint %}
+
 * **Basic Model**
   * Regression
   * Classification

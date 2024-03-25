@@ -47,12 +47,9 @@
 * [👾 Seq2Seq](model/seq2seq.md)
 * [👾 Attention Algorithm](model/attention-algorithm.md)
 * [► Language Model Assemble](model/language-model-assemble.md)
-* [👾 Transformer Paper](model/transformer-paper.md)
 * [👾 Transformer](model/transformer.md)
-* [👾 BERT Paper](model/bert-paper.md)
 * [👾 BERT](model/bert.md)
-* [👾 GPT Paper](model/gpt-paper.md)
-* [👾 GPT](model/gpt.md)
+* [👾 GPT-1](model/gpt-1.md)
 
 ## 🙌 Evaluate
 
