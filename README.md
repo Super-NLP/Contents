@@ -1,24 +1,15 @@
 ---
-description: >-
-  @ash-hun이 독학으로 공부한 NLP의 내용을 하나로 모아놓은 것입니다. 실습코드는 직접 작성한것도 있고 외부에서 가져온것도 있습니다.
-  개인공부 목적으로 사용하였음을 알립니다.
+description: "@ash-hun\x1D의 삽질로 뚱땅친 공부내용을 기록하고자 합니다. NLP & LLM & GenAI 등에 대한 내용을 다루며 외부에서 가져온 내용도, 직접 기록한 내용도 마구 섞여있으니 양해부탁드립니다 😊"
 cover: >-
-  https://images.unsplash.com/photo-1569982175971-d92b01cf8694?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw3fHxncmFkaWVudHxlbnwwfHx8fDE3MDkzMTE4ODN8MA&ixlib=rb-4.0.3&q=85
+  https://images.unsplash.com/photo-1520257328559-2062fc7de0b3?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwyfHxodWQlMjBzeXN0ZW18ZW58MHx8fHwxNzExMzQ1MTMzfDA&ixlib=rb-4.0.3&q=85
 coverY: 0
 ---
 
 # Contents
 
-**This WEB is personal playground for NLP Research** :smile:\
-**My Eternity Goal is "**<mark style="background-color:yellow;">**Autonomous Agent System that can communicate with humans using LM ⭐️**</mark>**"**
+:smile: **My Eternity Goal is **<mark style="background-color:yellow;">**"Developing Personal Assistant Service based on Autonomous Agent System that can communicate with humans using LM."**</mark>
 
 
 
-* [https://wikidocs.net/book/2788](https://wikidocs.net/book/2788)
-* [https://brunch.co.kr/@learning/12](https://brunch.co.kr/@learning/12)
-* [https://ratsgo.github.io/nlpbook/](https://ratsgo.github.io/nlpbook/)
-* [https://real-myeong.tistory.com/41](https://real-myeong.tistory.com/41)
-* [https://wikidocs.net/92961](https://wikidocs.net/92961)
-* [https://wikidocs.net/99893](https://wikidocs.net/99893)
-* [https://devocean.sk.com/blog/techBoardDetail.do?ID=164570\&boardType=techBlog#none](https://devocean.sk.com/blog/techBoardDetail.do?ID=164570\&boardType=techBlog#none)
-* [https://devocean.sk.com/blog/techBoardDetail.do?page=\&boardType=undefined\&query=\&ID=165452\&searchData=\&subIndex=#none](https://devocean.sk.com/blog/techBoardDetail.do?page=\&boardType=undefined\&query=\&ID=165452\&searchData=\&subIndex=#none)
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Glossary</strong></td><td>List-up words used in NLP &#x26; LLM &#x26; GenAI fileds</td><td></td><td><a href="broken-reference">Broken link</a></td><td><a href=".gitbook/assets/Glosary.png">Glosary.png</a></td></tr><tr><td><strong>Paper</strong></td><td>List-up paper about NLP &#x26; LLM &#x26; GenAI</td><td></td><td><a href="broken-reference">Broken link</a></td><td><a href=".gitbook/assets/paper.png">paper.png</a></td></tr><tr><td><strong>Preprocessing</strong></td><td>Formatting the text appropriately</td><td></td><td><a href="broken-reference">Broken link</a></td><td><a href=".gitbook/assets/preprocessing.png">preprocessing.png</a></td></tr><tr><td><strong>Tokenizing</strong></td><td>Divide sentence or documents into specific units</td><td></td><td><a href="broken-reference">Broken link</a></td><td><a href=".gitbook/assets/tokenizing.png">tokenizing.png</a></td></tr><tr><td><strong>Embedding</strong></td><td>Vectorizing the seperated words from sentence or documents</td><td></td><td><a href="broken-reference">Broken link</a></td><td><a href=".gitbook/assets/embedding.png">embedding.png</a></td></tr><tr><td><strong>Model</strong></td><td>Summerizing models about Natural Language Process &#x26; Large Language Model</td><td></td><td><a href="broken-reference">Broken link</a></td><td><a href=".gitbook/assets/model.png">model.png</a></td></tr><tr><td><strong>Evaluate</strong></td><td>Summerizing Evaluate methods and metrics for model &#x26; downstream task</td><td></td><td><a href="broken-reference">Broken link</a></td><td><a href=".gitbook/assets/evaluate.png">evaluate.png</a></td></tr><tr><td><strong>Algorithm</strong></td><td>Summerizing many methods used in NLP &#x26; LLM &#x26; GenAI</td><td></td><td><a href="broken-reference">Broken link</a></td><td><a href=".gitbook/assets/algorithm.png">algorithm.png</a></td></tr><tr><td><strong>Serving &#x26; Inference</strong></td><td>Lean how to serve models, make inference, adapt faster inference &#x26; serving</td><td></td><td><a href="broken-reference">Broken link</a></td><td><a href=".gitbook/assets/serving inference.png">serving inference.png</a></td></tr><tr><td><strong>Tech-Interview</strong></td><td>Here's a list of technical interviews from @ash-hun's real experience</td><td></td><td><a href="broken-reference">Broken link</a></td><td><a href=".gitbook/assets/tech-interview.png">tech-interview.png</a></td></tr><tr><td>Appendix</td><td>Save the sourcdeㄴ ㅐ d</td><td></td><td></td><td><a href=".gitbook/assets/appendix.png">appendix.png</a></td></tr><tr><td>lP</td><td>dsfdsf</td><td></td><td><a href="broken-reference">Broken link</a></td><td><a href=".gitbook/assets/play-ground (1).png">play-ground (1).png</a></td></tr></tbody></table>
+

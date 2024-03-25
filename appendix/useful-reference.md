@@ -9,3 +9,11 @@ coverY: 0
 
 * **모델학습시 GPU 사용량 계산하는 사이트**
   * [https://huggingface.co/spaces/Vokturz/can-it-run-llm](https://huggingface.co/spaces/Vokturz/can-it-run-llm)
+* [https://wikidocs.net/book/2788](https://wikidocs.net/book/2788)
+* [https://brunch.co.kr/@learning/12](https://brunch.co.kr/@learning/12)
+* [https://ratsgo.github.io/nlpbook/](https://ratsgo.github.io/nlpbook/)
+* [https://real-myeong.tistory.com/41](https://real-myeong.tistory.com/41)
+* [https://wikidocs.net/92961](https://wikidocs.net/92961)
+* [https://wikidocs.net/99893](https://wikidocs.net/99893)
+* [https://devocean.sk.com/blog/techBoardDetail.do?ID=164570\&boardType=techBlog#none](https://devocean.sk.com/blog/techBoardDetail.do?ID=164570\&boardType=techBlog#none)
+* [https://devocean.sk.com/blog/techBoardDetail.do?page=\&boardType=undefined\&query=\&ID=165452\&searchData=\&subIndex=#none](https://devocean.sk.com/blog/techBoardDetail.do?page=\&boardType=undefined\&query=\&ID=165452\&searchData=\&subIndex=#none)

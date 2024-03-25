@@ -1,9 +1,9 @@
 ---
-description: NLP에 대한 논문 리스트를 정리해봅시다.
+description: NLP & LLM & GenAI 에 대한 논문 리스트를 정리해봅시다.
 coverY: 0
 ---
 
-# Introduce
+# Paper List
 
 * **FollowIR : Evaluating and Teaching Information Retrieval Models to Follow Instructions**
   * Link : [https://arxiv.org/abs/2403.15246](https://arxiv.org/abs/2403.15246)

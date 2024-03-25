@@ -2,9 +2,10 @@
 
 * [Contents](README.md)
 
-## 📄 Paper List
+## 📄 Paper
 
-* [Introduce](paper-list/introduce.md)
+* [Paper List](paper/paper-list.md)
+* [\[Review\] ###](paper/review.md)
 
 ## 👊 Glossary
 
@@ -33,29 +34,25 @@
 * [🕷️ Doc2Vec](embedding/doc2vec.md)
 * [🕷️ ELMo](embedding/elmo.md)
 
-## 👍 Model
+## 🖐️ Model
 
 * [Introduce](model/introduce.md)
 * [😀 Regression](model/regression.md)
 * [😃 Classification](model/classification.md)
-
-## 🖐️ NLP Model
-
-* [Introduce](nlp-model/introduce.md)
-* [👾 Language Model](nlp-model/language-model.md)
-* [👾 1D CNN](nlp-model/1d-cnn.md)
-* [👾 RNN](nlp-model/rnn.md)
-* [👾 LSTM](nlp-model/lstm.md)
-* [👾 GRU](nlp-model/gru.md)
-* [👾 Seq2Seq](nlp-model/seq2seq.md)
-* [👾 Attention Algorithm](nlp-model/attention-algorithm.md)
-* [Language Model Assemble](nlp-model/language-model-assemble.md)
-* [👾 Transformer Paper](nlp-model/transformer-paper.md)
-* [👾 Transformer](nlp-model/transformer.md)
-* [👾 BERT Paper](nlp-model/bert-paper.md)
-* [👾 BERT](nlp-model/bert.md)
-* [👾 GPT Paper](nlp-model/gpt-paper.md)
-* [👾 GPT](nlp-model/gpt.md)
+* [👾 Language Model](model/language-model.md)
+* [👾 1D CNN](model/1d-cnn.md)
+* [👾 RNN](model/rnn.md)
+* [👾 LSTM](model/lstm.md)
+* [👾 GRU](model/gru.md)
+* [👾 Seq2Seq](model/seq2seq.md)
+* [👾 Attention Algorithm](model/attention-algorithm.md)
+* [► Language Model Assemble](model/language-model-assemble.md)
+* [👾 Transformer Paper](model/transformer-paper.md)
+* [👾 Transformer](model/transformer.md)
+* [👾 BERT Paper](model/bert-paper.md)
+* [👾 BERT](model/bert.md)
+* [👾 GPT Paper](model/gpt-paper.md)
+* [👾 GPT](model/gpt.md)
 
 ## 🙌 Evaluate
 
@@ -63,27 +60,22 @@
 
 ## 🙏 Algorithm
 
-* [Introduce](algorithm/introduce.md)
+* [Methods](algorithm/methods.md)
+* [Quantizations](algorithm/quantizations.md)
 
-## 🐾 Quantization
+## 🌊 Serving & Inference
 
-* [Introduce](quantization/introduce.md)
-
-## 🌊 Serving
-
-* [Introduce](serving/introduce.md)
-
-## 👽 Application
-
-* [Introduce](application/introduce.md)
-
-## 🍓 Tutorial
-
-* [Introduce](tutorial/introduce.md)
+* [Inference](serving-and-inference/inference.md)
+* [Serving (with. Prod)](serving-and-inference/serving-with.-prod.md)
+* [Applications](serving-and-inference/applications.md)
 
 ## 🎤 Tech-Interview
 
 * [Interview List](tech-interview/interview-list.md)
+
+## 🍓 Playground
+
+* [Introduce](playground/introduce.md)
 
 ## 🅰️ Appendix
 
