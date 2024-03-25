@@ -58,6 +58,7 @@
 ## 🙏 Algorithm
 
 * [Methods](algorithm/methods.md)
+* [Fine tune](algorithm/fine-tune.md)
 * [Quantizations](algorithm/quantizations.md)
 * [Alignments](algorithm/alignments.md)
 * [Prompt Engineering](algorithm/prompt-engineering.md)
@@ -83,3 +84,7 @@
 ## 👏 HCI
 
 * [Introduce](hci/introduce.md)
+
+## 📄 Korean Dataset
+
+* [Dataset](korean-dataset/dataset.md)

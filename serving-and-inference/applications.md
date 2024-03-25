@@ -13,16 +13,26 @@ coverY: 0
   * LangChain
   * Ollama
 * **Application**
-  * Phidata
+  * pyscript : [https://github.com/pyscript/pyscript](https://github.com/pyscript/pyscript)
+  * Chainlit : [https://github.com/Chainlit/chainlit](https://github.com/Chainlit/chainlit)
+  * Phidata : [https://github.com/phidatahq/phidata](https://github.com/phidatahq/phidata)
+  * Ollama : [https://github.com/ollama/ollama](https://github.com/ollama/ollama)
 * **Agent**
   * BabyAGI
   * Autonomous Agent
+  * HAAS (Hierarchical Autonomous Agent Swarm)
+    * [https://github.com/daveshap/OpenAI\_Agent\_Swarm](https://github.com/daveshap/OpenAI\_Agent\_Swarm)&#x20;
 
 
+
+<mark style="color:blue;">**PS.**</mark> <mark style="background-color:blue;">(NLP & LLM & GenAI와 관련없지만 주인장 본인의 관심사 ㅎㅎ..)</mark>
+
+* **StreamDiffusion의 realtime interactive generation의 원리**
+  * [https://github.com/cumulo-autumn/StreamDiffusion](https://github.com/cumulo-autumn/StreamDiffusion)
 
 ***
 
-### **Reference LINK**
+### **Reference**
 
 * Project Template
   * [https://modulabs.co.kr/blog/python-env-poetry/](https://modulabs.co.kr/blog/python-env-poetry/)

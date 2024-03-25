@@ -5,4 +5,8 @@ coverY: 0
 
 # Inference
 
-wtf
+* **vLLM : A high-throughput and memory-efficient inference and serving engine for LLMs**
+  * [https://github.com/vllm-project/vllm](https://github.com/vllm-project/vllm)
+* **FlashAttention : Fast and memory-efficient exact attention**
+  * [https://github.com/Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention)
+*

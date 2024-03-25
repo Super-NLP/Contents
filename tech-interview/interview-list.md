@@ -25,3 +25,18 @@ coverY: 0
 * Word Embedding과 Sentence Embedding에 대해 비교하여 설명해주세요.
 * Knowledge Distillation에 대해 설명해주세요.
 * OverFitting이 무엇이고 어떻게 방지할 수 있나요?
+
+
+
+
+
+### Reference
+
+* **Ready for tech-interview**
+  * [https://github.com/WooVictory/Ready-For-Tech-Interview](https://github.com/WooVictory/Ready-For-Tech-Interview)
+* **데이터 분석, 그로스 질문**
+  * [https://github.com/diligejy/Growth](https://github.com/diligejy/Growth)
+* **ai-tech-interviews**
+  * [https://github.com/boost-devs/ai-tech-interview](https://github.com/boost-devs/ai-tech-interview)
+* **Data Science Interview Questions**
+  * [https://github.com/zzsza/Datascience-Interview-Questions](https://github.com/zzsza/Datascience-Interview-Questions)
