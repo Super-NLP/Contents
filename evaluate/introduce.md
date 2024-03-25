@@ -26,3 +26,5 @@ coverY: 0
 * **Korean BenchMark**
   * HAERAE BenchMark
   * K-MMLU
+  * ko-lm-evaluation-harness
+    * [https://github.com/Beomi/ko-lm-evaluation-harness](https://github.com/Beomi/ko-lm-evaluation-harness)
