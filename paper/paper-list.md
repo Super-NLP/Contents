@@ -43,3 +43,5 @@ coverY: 0
   * Link : [https://arxiv.org/pdf/2208.02813.pdf](https://arxiv.org/pdf/2208.02813.pdf)
 * **SELF-DISCOVER: Large Language Models Self-Compose Reasoning Structures**
   * Link : [https://arxiv.org/pdf/2402.03620.pdf](https://arxiv.org/pdf/2402.03620.pdf)
+* **CLAM: Selective Clarification for Ambiguous Questions with Generative Language Models**
+  * Link : [https://arxiv.org/pdf/2212.07769.pdf](https://arxiv.org/pdf/2212.07769.pdf)
