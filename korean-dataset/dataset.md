@@ -5,6 +5,9 @@ coverY: 0
 
 # Dataset
 
+* **LogicKor**
+  * [https://github.com/StableFluffy/LogicKor](https://github.com/StableFluffy/LogicKor)
+  * [https://lk.instruct.kr/](https://lk.instruct.kr/)
 * **AwesomeKorean Data**
   * [https://github.com/songys/AwesomeKorean\_Data](https://github.com/songys/AwesomeKorean\_Data)
 * **KorQuad**

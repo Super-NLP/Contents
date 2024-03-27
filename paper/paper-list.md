@@ -1,10 +1,16 @@
 ---
 description: NLP & LLM & GenAI 에 대한 논문 리스트를 정리해봅시다.
+cover: >-
+  https://images.unsplash.com/photo-1683723483309-fd1b42875bfb?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwyfHxhcmNoaXZ8ZW58MHx8fHwxNzExNTI0MjkzfDA&ixlib=rb-4.0.3&q=85
 coverY: 0
 ---
 
 # Paper List
 
+* **AIOS : LLM Agent Operating System**
+  * Link : [https://arxiv.org/pdf/2403.16971.pdf](https://arxiv.org/pdf/2403.16971.pdf)
+* **Fine Tuning vs. Retrieval Augmented Generation for Less Popular Knowledge**
+  * Link : [https://arxiv.org/pdf/2403.01432.pdf](https://arxiv.org/pdf/2403.01432.pdf)
 * **FollowIR : Evaluating and Teaching Information Retrieval Models to Follow Instructions**
   * Link : [https://arxiv.org/abs/2403.15246](https://arxiv.org/abs/2403.15246)
 * **Stealing Part of a Production Language Model**

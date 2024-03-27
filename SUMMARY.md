@@ -7,25 +7,29 @@
 * [Paper List](paper/paper-list.md)
 * [\[Review\] ###](paper/review.md)
 
-## 👊 Glossary
+## 🔤 Glossary
 
 * [Introduce](glossary/introduce.md)
 
-## ☝️ Preprocessing
+## 🔵 HCI
+
+* [Introduce](hci/introduce.md)
+
+## ✒️ Preprocessing
 
 * [Introduce](preprocessing/introduce.md)
 * [🐌 Basic Concept of Text data](preprocessing/basic-concept-of-text-data.md)
 * [🐌 Data Crawling](preprocessing/data-crawling.md)
 * [🐌 Data Cleaning](preprocessing/data-cleaning.md)
 
-## ✌️ Tokenizing
+## 🔪 Tokenizing
 
 * [Introduce](tokenizing/introduce.md)
 * [🦂 Basic Concept of Tokenizing](tokenizing/basic-concept-of-tokenizing.md)
 * [🦂 Subword Tokenizer](tokenizing/subword-tokenizer.md)
 * [🦂 Korean Preprocessing](tokenizing/korean-preprocessing.md)
 
-## 🤟 Embedding
+## 📙 Embedding
 
 * [Introduce](embedding/introduce.md)
 * [🕷️ Basic Concept of Embedding](embedding/basic-concept-of-embedding.md)
@@ -34,7 +38,7 @@
 * [🕷️ Doc2Vec](embedding/doc2vec.md)
 * [🕷️ ELMo](embedding/elmo.md)
 
-## 🖐️ Model
+## 🧠 Model
 
 * [Introduce](model/introduce.md)
 * [😀 Regression](model/regression.md)
@@ -51,11 +55,11 @@
 * [👾 BERT](model/bert.md)
 * [👾 GPT-1](model/gpt-1.md)
 
-## 🙌 Evaluate
+## 💯 Evaluate
 
 * [Introduce](evaluate/introduce.md)
 
-## 🙏 Algorithm
+## 📝 Algorithm
 
 * [Methods](algorithm/methods.md)
 * [Fine tune](algorithm/fine-tune.md)
@@ -69,22 +73,18 @@
 * [Serving (with. Prod)](serving-and-inference/serving-with.-prod.md)
 * [Applications](serving-and-inference/applications.md)
 
-## 🎤 Tech-Interview
-
-* [Interview List](tech-interview/interview-list.md)
-
 ## 🅰️ Appendix
 
 * [Useful Reference](appendix/useful-reference.md)
+
+## 🎤 Tech-Interview
+
+* [Interview List](tech-interview/interview-list.md)
 
 ## 🧑‍💻 Playground
 
 * [Introduce](playground/introduce.md)
 
-## 👏 HCI
-
-* [Introduce](hci/introduce.md)
-
-## 📄 Korean Dataset
+## 🇰🇷 Korean Dataset
 
 * [Dataset](korean-dataset/dataset.md)
