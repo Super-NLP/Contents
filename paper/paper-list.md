@@ -23,6 +23,8 @@ coverY: 0
   * Link : [https://arxiv.org/pdf/2403.03507.pdf](https://arxiv.org/pdf/2403.03507.pdf)
 * **Can Large Language Models Reason and Plan?**
   * Link : [https://arxiv.org/pdf/2403.04121.pdf](https://arxiv.org/pdf/2403.04121.pdf)
+* **ChatGPT Outperforms Crowd-Workers for Text-Annotation Tasks**
+  * [https://arxiv.org/pdf/2303.15056.pdf](https://arxiv.org/pdf/2303.15056.pdf)
 * **Retrieval-Augmented Generation for AI-Generated Content: A Survey**
   * Link : [https://arxiv.org/pdf/2402.19473v1.pdf](https://arxiv.org/pdf/2402.19473v1.pdf)
 * **KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents**

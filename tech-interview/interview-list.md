@@ -3,9 +3,25 @@ description: NLP Engineering, LLM Engineering 직군의 취업을 위해 준비�
 cover: >-
   https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxncmFkYXRpb258ZW58MHx8fHwxNzExMTgwMTI2fDA&ixlib=rb-4.0.3&q=85
 coverY: 0
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
 # Interview List
+
+### 🔴 Artificial Intelligence
 
 * MSE는 왜 회귀모델에 유리하고 CrossEntropy는 왜 분류모델에 유리한가요?
 * RAG의 장점이 뭐에요?
@@ -25,12 +41,28 @@ coverY: 0
 * Word Embedding과 Sentence Embedding에 대해 비교하여 설명해주세요.
 * Knowledge Distillation에 대해 설명해주세요.
 * OverFitting이 무엇이고 어떻게 방지할 수 있나요?
+* BERT Model에 대해 설명해주세요.
+* RAG를 사용하면 무엇이 이로운가요?
+
+
+
+### 🔵 Engineering
+
+* 개념적으로 일반적인DB와 VectorDB에 동일한 벡터포맷의 데이터를 넣었을 때 특정 데이터를 인덱싱 하는데 무엇이 유리할까요?
+* fastAPI의 장점이 무엇인가요?
+* array와 Linked List의 차이점을 설명해주세요.
+* array와 Linked List의 삽입연산에 대해 설명해주세요.
+*
 
 
 
 
 
-### Reference
+
+
+***
+
+### 🛠️ Reference
 
 * **Ready for tech-interview**
   * [https://github.com/WooVictory/Ready-For-Tech-Interview](https://github.com/WooVictory/Ready-For-Tech-Interview)
