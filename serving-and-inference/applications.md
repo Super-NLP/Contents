@@ -11,7 +11,8 @@ coverY: 0
   * Redis
 * **RAG**
   * LangChain
-  * Ollama
+    * [https://python.langchain.com/docs/get\_started/introduction](https://python.langchain.com/docs/get\_started/introduction)
+    * [https://wikidocs.net/book/14314](https://wikidocs.net/book/14314)
 * **Application**
   * pyscript : [https://github.com/pyscript/pyscript](https://github.com/pyscript/pyscript)
   * Chainlit : [https://github.com/Chainlit/chainlit](https://github.com/Chainlit/chainlit)

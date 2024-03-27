@@ -3,7 +3,7 @@ description: 언어모델과 LLM을 포함하여 어떻게 서비스로 연결�
 coverY: 0
 ---
 
-# Introduce
+# Serving (with. Prod)
 
 > **Keyword**\
 > \-> Docker, Kubernates(k8s), FastAPI, MLflow, vLLM, Lakehouse, Blue/Green, LoadBalancing
@@ -37,3 +37,5 @@ coverY: 0
 [vLLM: Easy, Fast, and Cheap LLM Serving with PagedAttention](https://blog.vllm.ai/2023/06/20/vllm.html)
 
 [https://www.ray.io/](https://www.ray.io/)
+
+[https://yozm.wishket.com/magazine/detail/2515/](https://yozm.wishket.com/magazine/detail/2515/)
