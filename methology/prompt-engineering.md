@@ -19,3 +19,4 @@ description: 프롬프트 엔지니어링 기법에 대해 알아봅시다.
 ### Reference
 
 * [https://www.promptingguide.ai/kr/techniques/cot](https://www.promptingguide.ai/kr/techniques/cot)
+* [https://docs.anthropic.com/claude/prompt-library](https://docs.anthropic.com/claude/prompt-library)

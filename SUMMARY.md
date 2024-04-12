@@ -59,13 +59,13 @@
 
 * [Introduce](evaluate/introduce.md)
 
-## 📝 Algorithm
+## 📝 Methology
 
-* [Methods](algorithm/methods.md)
-* [Fine tune](algorithm/fine-tune.md)
-* [Quantizations](algorithm/quantizations.md)
-* [Alignments](algorithm/alignments.md)
-* [Prompt Engineering](algorithm/prompt-engineering.md)
+* [Methods](methology/methods.md)
+* [Fine tune](methology/fine-tune.md)
+* [Quantizations](methology/quantizations.md)
+* [Alignments](methology/alignments.md)
+* [Prompt Engineering](methology/prompt-engineering.md)
 
 ## 🌊 Serving & Inference
 
