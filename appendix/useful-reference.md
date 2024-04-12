@@ -7,6 +7,8 @@ coverY: 0
 
 # Useful Reference
 
+* **Easy PDF Chunking open-source library : Open-Parse**
+  * [https://github.com/Filimoa/open-parse](https://github.com/Filimoa/open-parse)
 * **모델학습시 GPU 사용량 계산하는 사이트**
   * [https://huggingface.co/spaces/Vokturz/can-it-run-llm](https://huggingface.co/spaces/Vokturz/can-it-run-llm)
 * **Open Ai : Transformer Debugger**
