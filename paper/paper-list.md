@@ -7,6 +7,8 @@ coverY: 0
 
 # Paper List
 
+* **Will GPT-4 Run Doom?**
+  * [https://arxiv.org/pdf/2403.05468.pdf](https://arxiv.org/pdf/2403.05468.pdf)
 * **PiSSA : Principal Singular Values and Singular Vectors Adaptation of Large Language Models**
   * [https://arxiv.org/pdf/2404.02948.pdf](https://arxiv.org/pdf/2404.02948.pdf)
 * **RAFT : Adapting Language Model to Domain Specific RAG**

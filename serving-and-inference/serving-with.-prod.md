@@ -39,3 +39,11 @@ coverY: 0
 [https://www.ray.io/](https://www.ray.io/)
 
 [https://yozm.wishket.com/magazine/detail/2515/](https://yozm.wishket.com/magazine/detail/2515/)
+
+[https://docs.wandb.ai/ko/guides](https://docs.wandb.ai/ko/guides)
+
+[https://github.com/langgenius/dify](https://github.com/langgenius/dify)
+
+
+
+[https://blog.doctor-cha.com/buliding-local-airflow-and-apply-vault](https://blog.doctor-cha.com/buliding-local-airflow-and-apply-vault)

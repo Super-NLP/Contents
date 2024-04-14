@@ -12,3 +12,10 @@ coverY: 0
 * **Data Cleaning**
   * Cleaning & Normalization
   * Stopwords
+
+***
+
+### ️ ️🛠️ Reference
+
+* **DataVerse** \[OpenSource Library from **Upstage AI**] : [https://github.com/UpstageAI/dataverse](https://github.com/UpstageAI/dataverse)
+
