@@ -1,5 +1,5 @@
 ---
-description: NLP & LLM & GenAI 에 대한 논문 리스트를 정리해봅시다.
+description: NLP & LLM & GenAI & Agent 에 대한 최신 논문 동향을 파악하고 리스트를 정리해보자!
 cover: >-
   https://images.unsplash.com/photo-1683723483309-fd1b42875bfb?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwyfHxhcmNoaXZ8ZW58MHx8fHwxNzExNTI0MjkzfDA&ixlib=rb-4.0.3&q=85
 coverY: 0
@@ -7,6 +7,18 @@ coverY: 0
 
 # Paper List
 
+* **PiSSA : Principal Singular Values and Singular Vectors Adaptation of Large Language Models**
+  * [https://arxiv.org/pdf/2404.02948.pdf](https://arxiv.org/pdf/2404.02948.pdf)
+* **RAFT : Adapting Language Model to Domain Specific RAG**
+  * [https://arxiv.org/pdf/2403.10131.pdf](https://arxiv.org/pdf/2403.10131.pdf)
+* **ReALM : Reference Resolution As Language Modeling**
+  * [https://arxiv.org/pdf/2403.20329.pdf](https://arxiv.org/pdf/2403.20329.pdf)
+* **WavLLM : Towards Robust and Adaptive Speech Large Language Model**
+  * [https://arxiv.org/pdf/2404.00656.pdf](https://arxiv.org/pdf/2404.00656.pdf)
+* **Batch Calibration : Rethinking Calibration for In-Context Learning and Prompt Engineering**
+  * [https://arxiv.org/pdf/2309.17249.pdf?fbclid=IwAR1CxzuKE5BqpKBZk61xlUX3qJNKZ6rI9Z0gGlHSRhsyrvpQ44Ga0wraCu4\_aem\_ATjGyhm21zmG3fZ5OZZMhj9yCR4tqUDuCHcl9hGTxBGx\_yZzV5BjOj92NFnrWpYqT8YmO9PvqfI1DyQZcujKnDI1](https://arxiv.org/pdf/2309.17249.pdf?fbclid=IwAR1CxzuKE5BqpKBZk61xlUX3qJNKZ6rI9Z0gGlHSRhsyrvpQ44Ga0wraCu4\_aem\_ATjGyhm21zmG3fZ5OZZMhj9yCR4tqUDuCHcl9hGTxBGx\_yZzV5BjOj92NFnrWpYqT8YmO9PvqfI1DyQZcujKnDI1)
+* **Tokenizer Choice For LLM Training: Negligible or Crucial?**
+  * [https://arxiv.org/pdf/2310.08754.pdf?fbclid=IwAR1uR9YayRIg7CqTzPnGCc8ikdVCBaSdrnaM-u5exJb2WJiZcn1v9Pzd6z4\_aem\_AYr3BSBDwa0oghSm7lM3-ub30Dq3LnEOg8b97C3o6yoKYbF3lwRNa-wEsACUdUCRolj\_zZ025P9dpuqv\_dGZMcWk](https://arxiv.org/pdf/2310.08754.pdf?fbclid=IwAR1uR9YayRIg7CqTzPnGCc8ikdVCBaSdrnaM-u5exJb2WJiZcn1v9Pzd6z4\_aem\_AYr3BSBDwa0oghSm7lM3-ub30Dq3LnEOg8b97C3o6yoKYbF3lwRNa-wEsACUdUCRolj\_zZ025P9dpuqv\_dGZMcWk)
 * **AIOS : LLM Agent Operating System**
   * Link : [https://arxiv.org/pdf/2403.16971.pdf](https://arxiv.org/pdf/2403.16971.pdf)
 * **Fine Tuning vs. Retrieval Augmented Generation for Less Popular Knowledge**

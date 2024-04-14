@@ -1,5 +1,5 @@
 ---
-description: "@ash-hun\x1D의 삽질로 뚱땅친 공부내용을 기록하고자 합니다. NLP & LLM & GenAI & Agent 등에 대한 내용을 다루며 외부에서 가져온 내용도, 직접 기록한 내용도 마구 섞여있으니 양해부탁드립니다 😊"
+description: "@ash-hun\x1D의 삽질로 시작된 공부내용을 기록하고자 합니다. NLP & LLM & GenAI & Agent 등에 대한 내용을 다루며 외부에서 가져온 내용도, 직접 기록한 내용도 마구 섞여있으니 양해부탁드립니다 😊"
 cover: >-
   https://images.unsplash.com/photo-1520257328559-2062fc7de0b3?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwyfHxodWQlMjBzeXN0ZW18ZW58MHx8fHwxNzExMzQ1MTMzfDA&ixlib=rb-4.0.3&q=85
 coverY: 0
