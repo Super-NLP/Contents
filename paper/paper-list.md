@@ -7,6 +7,8 @@ coverY: 0
 
 # Paper List
 
+* **EEVE : Efficient and Effective Vocabulary Expansion Towards Mulitilingual Large Language Models**
+  * [https://arxiv.org/pdf/2402.14714.pdf](https://arxiv.org/pdf/2402.14714.pdf)
 * **Will GPT-4 Run Doom?**
   * [https://arxiv.org/pdf/2403.05468.pdf](https://arxiv.org/pdf/2403.05468.pdf)
 * **PiSSA : Principal Singular Values and Singular Vectors Adaptation of Large Language Models**
