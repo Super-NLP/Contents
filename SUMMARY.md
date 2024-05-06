@@ -5,7 +5,7 @@
 ## 📄 Paper
 
 * [Paper List](paper/paper-list.md)
-* [\[2017\] Attention is all you need](paper/2017-attention-is-all-you-need.md)
+* [\[2017\] Attention is all you need](paper/review.md)
 
 ## 🔤 Glossary
 
