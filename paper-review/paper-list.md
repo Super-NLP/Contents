@@ -3,6 +3,20 @@ description: NLP & LLM & GenAI & Agent 에 대한 최신 논문 동향을 파악
 cover: >-
   https://images.unsplash.com/photo-1683723483309-fd1b42875bfb?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwyfHxhcmNoaXZ8ZW58MHx8fHwxNzExNTI0MjkzfDA&ixlib=rb-4.0.3&q=85
 coverY: 0
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
 # Paper List
