@@ -4,7 +4,7 @@
 
 ## 🥑 Resume / CV
 
-* [my-resume](resume-cv/my-resume.md)
+* [Reseume / CV](resume-cv/reseume-cv.md)
 
 ## 📄 Paper Review
 
