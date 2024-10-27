@@ -16,15 +16,15 @@
 * [\[2023\] Interleaving Retrieval with Chain-of-Thought for Knowledge-Intensive Multi-Step Questions](paper-review/2023-interleaving-retrieval-with-chain-of-thought-for-knowledge-intensive-multi-step-questions.md)
 * [\[2024\] Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models](paper-review/2024-take-a-step-back-evoking-reasoning-via-abstraction-in-large-language-models.md)
 
-## 📝 Methology
+## 📝 Research
 
-* [Dataset](methology/dataset.md)
-* [Useful Reference](methology/useful-reference.md)
-* [Methods](methology/methods.md)
-* [Fine tune](methology/fine-tune.md)
-* [Quantizations](methology/quantizations.md)
-* [Alignments](methology/alignments.md)
-* [Prompt Engineering](methology/prompt-engineering.md)
+* [Dataset](research/dataset.md)
+* [Useful Reference](research/useful-reference.md)
+* [Methods](research/methods.md)
+* [Fine tune](research/fine-tune.md)
+* [Quantizations](research/quantizations.md)
+* [Alignments](research/alignments.md)
+* [Prompt Engineering](research/prompt-engineering.md)
 
 ## ✒️ Preprocessing
 
@@ -79,7 +79,3 @@
 * [Inference](serving-and-inference/inference.md)
 * [Serving (with. Prod)](serving-and-inference/serving-with.-prod.md)
 * [Applications](serving-and-inference/applications.md)
-
-## 🎤 Tech-Interview
-
-* [Interview List](tech-interview/interview-list.md)
