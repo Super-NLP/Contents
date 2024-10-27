@@ -145,7 +145,7 @@ BoW vector : [1, 2, 1, 1, 2, 1, 1, 1, 1, 1]
 
 각각에 대해 띄어쓰기 단위 토큰화를 수행한다고 가정하고, 문서 단어 행렬로 표현하면 다음과 같습니다.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption><p>DTM 예시</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption><p>DTM 예시</p></figcaption></figure>
 
 ### ⅲ. TF-IDF : Term Frequency - Inverse Documents Frequency
 
@@ -212,7 +212,7 @@ tf_
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption><p>tf_</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>tf_</p></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python

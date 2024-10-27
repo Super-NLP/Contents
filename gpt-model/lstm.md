@@ -10,13 +10,13 @@ RNN의 다른 이름은 가장 단순한 형태의 RNN이라고 하여 ‘Vanill
 
 ### 1. Vanila RNN의 한계
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 앞에서 바닐라 RNN은 출력 결과가 이전의 계산 결과에 의존한다는 것을 언급했습니다. 바닐라 RNN은 비교적 짧은 시퀀스(sequence)에 대해서만 효과를 보이는 단점이 있고 바닐라 RNN의 시점(time step)이 길어질 수록 앞의 정보가 뒤로 충분히 전달되지 못하는 현상이 발생합니다. 위의 그림은 첫 번째 입력값인 $$x_1$$의 정보량을 짙은 남색으로 표현했을 때, 색이 점차 얕아지는것으로 시점이 지날수록 $$x_1$$의 정보량이 손실되어가는 과정을 표현한 것입니다. 뒤로 갈수록 $$x_1$$의 정보량은 손실되고, 시점이 충분히 긴 상황에서는 $$x_1$$의 전체 정보에 대한 영향력이 거의 의미가 없다고 할 수 있습니다. 이를 쉽게 표현하면 RNN이 충분한 기억력을 가지고 있지 못한다고 이해할 수 있고 이를 **장기 의존성 문제 (the problem of Long-Term Dependencies)**라고 한다.
 
 ### 2. Vanila RNN 내부파악
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 LSTM에 대해서 이해해보기 전에 바닐라 RNN을 한번 더 알아봅시다. 위의 그림은 Vanilla RNN의 내부구조입니다. 편의성을 위해 위 그림에선 편향($$b$$)을 생략하여 표현하였습니다. 만일 편향 $$b$$를 그린다면 $$x_t$$옆에에 $$tanh()$$로 향하는 또 하나의 입력선을 그리면 된다.
 

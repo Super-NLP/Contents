@@ -1,5 +1,5 @@
 ---
-description: '#Transformer #Attention is all you need'
+description: '2024년 5월 5일; #Transformer #Attention is all you need'
 layout:
   title:
     visible: true
