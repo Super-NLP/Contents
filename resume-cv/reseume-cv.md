@@ -21,7 +21,6 @@ layout:
 ### :telephone\_receiver:  **Contact**  :telephone\_receiver:&#x20;
 
 * **Email** : diadiahun0902@gmail.com
-* **Phone**: 010-5822-9270
 * **LinkedIn**: [linkedin.com/in/choijaehun](https://www.linkedin.com/in/choijaehun)
 * **Address**: Seoul, Geomcheongu, Doksandong
 
@@ -34,7 +33,6 @@ I am currently working as a AI Researcher. I have a strong interest in implement
 **AI Researcher :** InterX. Co. Seoul, Korea\
 \- _Apr 2024 - Present_
 
-* Detail content later
 * Detail content later
 * Detail content later
 
@@ -57,10 +55,6 @@ Hannam University, Deajeon\
 * **Frameworks** : fastapi, Lagnchain, LlamaIndex, Langgraph
 * **Database** : Faiss, Chroma, MySQL, Postgresql, ParadeDB
 * **Tools** : Git, GitLab, Visual Studio Code, Docker, Pycharm, Slack, Notion
-
-### :scroll: Certifications :scroll:&#x20;
-
-* None
 
 ### :newspaper: References :newspaper:&#x20;
 
