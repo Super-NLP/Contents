@@ -210,3 +210,8 @@ _Decoder_
 * Label Smoothing
   * 훈련하는동안 label smoothing value $$\epsilon_{ls}=0.1$$을 사용함.
 * 모델이 불확실해지긴 하지만 정확도와 BLUE 점수를 향상하였음.
+
+### 6. Results
+
+이 시점 Transformer가 아주 혁신이었다! (자세한건 논문에!!)
+
