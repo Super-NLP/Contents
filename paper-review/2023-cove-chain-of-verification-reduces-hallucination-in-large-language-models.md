@@ -1,5 +1,5 @@
 ---
-description: '2024-06-16'
+description: 2024년 6월 16일
 ---
 
 # \[2023] CoVe : Chain of Verification Reduces Hallucination in Large Language Models
