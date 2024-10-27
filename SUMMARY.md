@@ -11,7 +11,7 @@
 * [Paper List](paper-review/paper-list.md)
 * [\[2017\] Attention is all you need](paper-review/2017-attention-is-all-you-need.md)
 * [\[2024\] Compounded AI System : The Shift from Models to Compound AI Systems](paper-review/2024-compounded-ai-system-the-shift-from-models-to-compound-ai-systems.md)
-* [Page](paper-review/page.md)
+* [\[2023\] CoVe : Chain of Verification Reduces Hallucination in Large Language Models](paper-review/2023-cove-chain-of-verification-reduces-hallucination-in-large-language-models.md)
 
 ## 📝 Methology
 
