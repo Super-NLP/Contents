@@ -1,3 +1,0 @@
-# 👾 Attention
-
-GPT

@@ -18,53 +18,11 @@
 
 ## 📝 Research
 
-* [Dataset](research/dataset.md)
-* [Useful Reference](research/useful-reference.md)
-* [Methods](research/methods.md)
-* [Fine tune](research/fine-tune.md)
-* [Quantizations](research/quantizations.md)
-* [Alignments](research/alignments.md)
-* [Prompt Engineering](research/prompt-engineering.md)
-
-## ✒️ Preprocessing
-
-* [Introduce](preprocessing/introduce.md)
-* [🐌 Basic Concept of Text data](preprocessing/basic-concept-of-text-data.md)
-* [🐌 Data Crawling](preprocessing/data-crawling.md)
-* [🐌 Data Cleaning](preprocessing/data-cleaning.md)
-
-## 🔪 Tokenizing
-
-* [Introduce](tokenizing/introduce.md)
-* [🦂 Basic Concept of Tokenizing](tokenizing/basic-concept-of-tokenizing.md)
-* [🦂 Subword Tokenizer](tokenizing/subword-tokenizer.md)
-* [🦂 Korean Preprocessing](tokenizing/korean-preprocessing.md)
-
-## 📙 Embedding Model
-
-* [Introduce](embedding-model/introduce.md)
-* [🕷️ Basic Concept of Embedding](embedding-model/basic-concept-of-embedding.md)
-* [🕷️ Word2Vec](embedding-model/word2vec.md)
-* [🕷️ GloVe](embedding-model/glove.md)
-* [🕷️ Doc2Vec](embedding-model/doc2vec.md)
-* [🕷️ ELMo](embedding-model/elmo.md)
-
-## 🧠 GPT Model
-
-* [Introduce](gpt-model/introduce.md)
-* [😀 Regression](gpt-model/regression.md)
-* [😃 Classification](gpt-model/classification.md)
-* [👾 Language Model](gpt-model/language-model.md)
-* [👾 1D CNN](gpt-model/1d-cnn.md)
-* [👾 RNN](gpt-model/rnn.md)
-* [👾 LSTM](gpt-model/lstm.md)
-* [👾 GRU](gpt-model/gru.md)
-* [👾 Seq2Seq](gpt-model/seq2seq.md)
-* [👾 Attention Algorithm](gpt-model/attention-algorithm.md)
-* [► Language Model Assemble](gpt-model/language-model-assemble.md)
-* [👾 Transformer](gpt-model/transformer.md)
-* [👾 BERT](gpt-model/bert.md)
-* [👾 GPT-1](gpt-model/gpt-1.md)
+* [Library](research/library.md)
+* [RAG에 대한 고찰](research/rag.md)
+* [LLM과 Grounding](research/llm-grounding.md)
+* [Essence of RAG](research/essence-of-rag.md)
+* [How to reduce HALLUCINATIONS](research/how-to-reduce-hallucinations.md)
 
 ## 👽 RAG / Agent
 
