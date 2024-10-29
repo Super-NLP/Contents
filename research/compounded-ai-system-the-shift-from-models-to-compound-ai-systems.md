@@ -2,7 +2,7 @@
 description: 2024년 5월 18일
 ---
 
-# \[2024] Compounded AI System : The Shift from Models to Compound AI Systems
+# Compounded AI System : The Shift from Models to Compound AI Systems
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p><em><strong>https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/</strong></em></p></figcaption></figure>
 
@@ -107,7 +107,7 @@ Generative AI는 자연어 프롬프트를 통해 다양한 기능을 제공하�
 
 ## 느낀점
 
-본 아티클은 Berkely Artificial Intelligence Research Blog에 올라온 내용입니다. LLM의 발전속도는 굉장히 빠르게 이루어지고 있고 다양한 응용분야와 현업에서 점점 도입을 고려하고 있는것 같습니다. 기술의 발전을 보면 감탄만 나오다가도 현실에 도입을 하고자하는 순간 막막하고 생각해야될게 굉장히 많아지죠. 그러한 관점에서 이번에 소개하고 알아본 Compound AI System은 굉장히 실리적이고 효용성이 짙은 개념이라고 생각합니다. 개인적으로는 앞으로 AI를 포함한 서비스는 이러한 방향으로 나아가야 맞는거구나 싶더라구요! 누군가는 "엥, 당연히 이렇게 해야하는거 아니야?"라고 말할 수도 있지만 제대로 알고 적용하는것이 더 좋다고 생각이 듭니다. 저를 포함한 많은 생성형 AI Researcher 혹은 Engineer분들께서 각 도메인 영역과 산업군에 어떻게 하면 요 기술을 잘 적용할 수 있을까 고민하고 계실텐데요, 그에 대한 하나의 좋은 참고자료가 되었으면 좋겠습니다 🤭
+본 내용은 Berkely Artificial Intelligence Research Blog에 올라온 내용입니다. LLM의 발전속도는 굉장히 빠르게 이루어지고 있고 다양한 응용분야와 현업에서 점점 도입을 고려하고 있는것 같습니다. 기술의 발전을 보면 감탄만 나오다가도 현실에 도입을 하고자하는 순간 막막하고 생각해야될게 굉장히 많아지죠. 이번에 소개하고 알아본 Compound AI System은 굉장히 실리적이고 효용성이 짙은 방향성이라고 생각합니다. 개인적으로는 앞으로 AI를 포함한 서비스는 이러한 방향으로 나아가야 맞는거구나 싶더라구요! 누군가는 "엥, 당연히 이렇게 해야하는거 아니야?"라고 말할 수도 있지만 제대로 알고 적용하는것이 더 좋다고 생각이 듭니다. 저를 포함한 많은 생성형 AI Researcher 혹은 Engineer분들께서 각 도메인 영역과 산업군에 어떻게 하면 요 기술을 잘 적용할 수 있을까 고민하고 계실텐데요, 그에 대한 하나의 좋은 참고자료가 되었으면 좋겠습니다 🤭
 
 ***
 
