@@ -14,7 +14,7 @@ layout:
 
 # Reseume / CV
 
-## Choi Jae Hun (ash-hun)
+## Choi Jae Hun (Ash-hun)
 
 ***
 
@@ -31,13 +31,13 @@ I am currently working as a AI Researcher. I have a strong interest in implement
 ### :necktie: Experience :necktie:&#x20;
 
 **AI Researcher :** InterX. Co. Seoul, Korea\
-\- _Apr 2024 - Present_
+\- _Apr. 2024 - <mark style="color:blue;">Present</mark>_
 
-* Detail content later
-* Detail content later
+* Responsible for overall tasks in the **RAG Parts** of the Gen.AI Teaam.
+* &#x20;the Gen.AI PoC for HD 미포d조d선.dfdsfd**Data Engineering Internship :** Baroon System, Daejeon, Korea\
+  &#x20; \- _July. 2018 - Aug. 2018_
 
-**Data Engineering Internship :** Baroon System, Daejeon, Korea\
-&#x20; \- _July 2018 - Aug 2018_
+<!---->
 
 * Assisted in the development of client projects using Python and Java.
 * Identified and fixed bugs within the software to improve user satisfaction.
