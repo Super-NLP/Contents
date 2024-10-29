@@ -15,14 +15,14 @@
 * [\[2023\] Interleaving Retrieval with Chain-of-Thought for Knowledge-Intensive Multi-Step Questions](paper-review/2023-interleaving-retrieval-with-chain-of-thought-for-knowledge-intensive-multi-step-questions.md)
 * [\[2024\] Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models](paper-review/2024-take-a-step-back-evoking-reasoning-via-abstraction-in-large-language-models.md)
 
-## 📝 Research
+## 🗂️ Research Article
 
-* [Library](research/library.md)
-* [RAG에 대한 고찰](research/rag.md)
-* [LLM과 Grounding](research/llm-grounding.md)
-* [Essence of RAG](research/essence-of-rag.md)
-* [How to reduce HALLUCINATIONS](research/how-to-reduce-hallucinations.md)
-* [Compounded AI System : The Shift from Models to Compound AI Systems](research/compounded-ai-system-the-shift-from-models-to-compound-ai-systems.md)
+* [Library](research-article/library.md)
+* [RAG에 대한 고찰](research-article/rag.md)
+* [LLM과 Grounding](research-article/llm-grounding.md)
+* [Essence of RAG](research-article/essence-of-rag.md)
+* [How to reduce HALLUCINATIONS](research-article/how-to-reduce-hallucinations.md)
+* [Compounded AI System : The Shift from Models to Compound AI Systems](research-article/compounded-ai-system-the-shift-from-models-to-compound-ai-systems.md)
 
 ## 👽 RAG / Agent
 
