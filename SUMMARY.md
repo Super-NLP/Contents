@@ -17,12 +17,12 @@
 
 ## 🗂️ Research Article
 
-* [Library](research-article/library.md)
-* [RAG에 대한 고찰](research-article/rag.md)
-* [LLM과 Grounding](research-article/llm-grounding.md)
-* [Essence of RAG](research-article/essence-of-rag.md)
-* [How to reduce HALLUCINATIONS](research-article/how-to-reduce-hallucinations.md)
-* [Compounded AI System : The Shift from Models to Compound AI Systems](research-article/compounded-ai-system-the-shift-from-models-to-compound-ai-systems.md)
+* [Library](research/library.md)
+* [RAG에 대한 고찰](research/rag.md)
+* [LLM과 Grounding](research/llm-grounding.md)
+* [Essence of RAG](research/essence-of-rag.md)
+* [How to reduce HALLUCINATIONS](research/how-to-reduce-hallucinations.md)
+* [Compounded AI System : The Shift from Models to Compound AI Systems](paper-review/2024-compounded-ai-system-the-shift-from-models-to-compound-ai-systems.md)
 
 ## 👽 RAG / Agent
 
