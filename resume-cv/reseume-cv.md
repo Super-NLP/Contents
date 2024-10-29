@@ -26,18 +26,20 @@ layout:
 
 ### :thumbsup: Professional Summary :thumbsup:
 
-I am currently working as a AI Researcher. I have a strong interest in implementing personalized assistants using RAG, Agents, and Prompt Engineering.
+I am currently working as a **AI Researcher**. \
+I have a strong interest in implementing personalized assistants using RAG, Agents, and Prompt Engineering.
 
 ### :necktie: Experience :necktie:&#x20;
 
 **AI Researcher :** InterX. Co. Seoul, Korea\
 \- _Apr. 2024 - <mark style="color:blue;">Present</mark>_
 
-* Responsible for overall tasks in the **RAG Parts** of the Gen.AI Teaam.
-* &#x20;the Gen.AI PoC for HD 미포d조d선.dfdsfd**Data Engineering Internship :** Baroon System, Daejeon, Korea\
-  &#x20; \- _July. 2018 - Aug. 2018_
+* Responsible for overall tasks in the **RAG Parts** of the Gen.AI Team.
+* Proceeding with the **Gen.AI PoC** for **HD 미포조선**.
+* etc..
 
-<!---->
+**Data Engineering Internship :** Baroon System, Daejeon, Korea\
+&#x20; \- _July. 2018 - Aug. 2018_
 
 * Assisted in the development of client projects using Python and Java.
 * Identified and fixed bugs within the software to improve user satisfaction.
@@ -51,10 +53,10 @@ Hannam University, Deajeon\
 ### :computer: Skills :computer:&#x20;
 
 * **Programming Languages** : Python
-* **Library** : Numpy, Pandas, Matplotlib
-* **Frameworks** : fastapi, Lagnchain, LlamaIndex, Langgraph
-* **Database** : Faiss, Chroma, MySQL, Postgresql, ParadeDB
-* **Tools** : Git, GitLab, Visual Studio Code, Docker, Pycharm, Slack, Notion
+* **Library** : Numpy, Pandas, Matplotlib, MLflow
+* **Frameworks** : fastAPI, Lagnchain, Langgraph, LlamaIndex
+* **Database** : Faiss, Chroma, Postgresql, ParadeDB
+* **Tools** : Git, GitLab, Visual Studio Code, Docker, PyCharm, Slack, Notion
 
 ### :newspaper: References :newspaper:&#x20;
 
