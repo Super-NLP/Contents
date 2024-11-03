@@ -32,11 +32,11 @@ layout:
 
 ## 2024.
 
-* \[📜]   Nov 3 : [Golden Gate Claude Review](../2024-golden-gate-claude-review.md)
-* \[🦜]   July 7 : [How to reduce HALLUCINATIONS](../2024-how-to-reduce-hallucinations.md)
-* \[🦜]   June 23 : [Essensce of RAG](../2024-essence-of-rag.md)
-* \[🦜]   June 16 : [LLM과 Grounding](../2024-llm-grounding.md)
-* \[🔬]   May 18 :  [Compounded AI System : The Shift from Models to Compound AI Systems](../2024-compounded-ai-system-the-shift-from-models-to-compound-ai-systems.md)
+* \[📜]   Nov 3 : [Golden Gate Claude Review](../golden-gate-claude-review.md)
+* \[🦜]   July 7 : [How to reduce HALLUCINATIONS](../how-to-reduce-hallucinations.md)
+* \[🦜]   June 23 : [Essensce of RAG](../essence-of-rag.md)
+* \[🦜]   June 16 : [LLM과 Grounding](../llm-grounding.md)
+* \[🔬]   May 18 :  [Compounded AI System : The Shift from Models to Compound AI Systems](../compounded-ai-system-the-shift-from-models-to-compound-ai-systems.md)
 
 ***
 
