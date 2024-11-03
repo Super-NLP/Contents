@@ -30,4 +30,4 @@
 * [How to reduce HALLUCINATIONS](research-article/how-to-reduce-hallucinations.md)
 * [Golden Gate Claude Review](research-article/golden-gate-claude-review.md)
 * [Editorial Thinking](research-article/editorial-thinking.md)
-* [\[2024\] 한국어 Tokenizing 비교 분석](research-article/2024-tokenizing.md)
+* [한국어 Tokenizing 비교 분석](research-article/tokenizing.md)

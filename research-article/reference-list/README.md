@@ -32,6 +32,7 @@ layout:
 
 ## 2024.
 
+* \[📜]   Nov 3 : [Editorial Thinking](../editorial-thinking.md)
 * \[📜]   Nov 3 : [Golden Gate Claude Review](../golden-gate-claude-review.md)
 * \[🦜]   July 7 : [How to reduce HALLUCINATIONS](../how-to-reduce-hallucinations.md)
 * \[🦜]   June 23 : [Essensce of RAG](../essence-of-rag.md)
@@ -44,8 +45,10 @@ layout:
 
 * Dataset : [Go!](dataset.md)
 * LLM : [Go!](llm.md)
-
-
+* Prompt Engineering : [Go!](prompt-engineering.md)
+* LLMops : [Go!](llmops.md)
+* RAG & Agent : [Go!](rag-and-agent.md)
+* Etc : [Go!](etc.md)
 
 
 
