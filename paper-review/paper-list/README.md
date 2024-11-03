@@ -1,5 +1,5 @@
 ---
-description: NLP & LLM & GenAI & Agent 에 대한 최신 논문 동향을 파악하고 리스트를 정리해보자!
+description: NLP & LLM & RAG & GenAI & Agent 에 대한 최신 논문 동향을 파악하고 리스트를 정리해보자!
 cover: >-
   https://images.unsplash.com/photo-1683723483309-fd1b42875bfb?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwyfHxhcmNoaXZ8ZW58MHx8fHwxNzExNTI0MjkzfDA&ixlib=rb-4.0.3&q=85
 coverY: 0
@@ -20,6 +20,18 @@ layout:
 ---
 
 # Paper List
+
+## Paper Review
+
+* [Attention is all you need](2017-attention-is-all-you-need.md)
+* [CoVe : Chain of Verifiction Reduces Hallucination in Large Language Models](2023-cove-chain-of-verification-reduces-hallucination-in-large-language-models.md)
+* [RAG Survey : A Survey on Retrieval-Augmented Text Generation for Large Language Models](2024-rag-survey-a-survey-on-retrieval-augmented-text-generation-for-large-language-models.md)
+* [Interleaving Retrieval with Chain-of-Thought for Knowledge-Intensive Multi-Step Questions](2023-interleaving-retrieval-with-chain-of-thought-for-knowledge-intensive-multi-step-questions.md)
+* [Taka a Step Back : Evoking Reasoning via Abstraction in Large Language Models](2024-take-a-step-back-evoking-reasoning-via-abstraction-in-large-language-models.md)
+
+
+
+## Paper List
 
 * **EEVE : Efficient and Effective Vocabulary Expansion Towards Mulitilingual Large Language Models**
   * [https://arxiv.org/pdf/2402.14714.pdf](https://arxiv.org/pdf/2402.14714.pdf)
