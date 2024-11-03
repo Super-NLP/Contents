@@ -17,11 +17,16 @@
 
 ## 🗂️ Research Article
 
-* [Research Article](research-article/research-article/README.md)
-  * [📖 Appendix](research-article/research-article/appendix.md)
+* [Reference List](research-article/reference-list/README.md)
+  * [Dataset](research-article/reference-list/dataset.md)
+  * [LLM](research-article/reference-list/llm.md)
+  * [Prompt Engineering](research-article/reference-list/prompt-engineering.md)
+  * [LLMops](research-article/reference-list/llmops.md)
+  * [RAG & Agent](research-article/reference-list/rag-and-agent.md)
+  * [Etc](research-article/reference-list/etc.md)
 * [\[2024\] Compounded AI System : The Shift from Models to Compound AI Systems](research-article/2024-compounded-ai-system-the-shift-from-models-to-compound-ai-systems.md)
 * [\[2024\] LLM과 Grounding](research-article/2024-llm-grounding.md)
 * [\[2024\] Essence of RAG](research-article/2024-essence-of-rag.md)
 * [\[2024\] How to reduce HALLUCINATIONS](research-article/2024-how-to-reduce-hallucinations.md)
 * [\[2024\] Golden Gate Claude Review](research-article/2024-golden-gate-claude-review.md)
-* [Page](research-article/page.md)
+* [\[2024\] 한국어 Tokenizing 비교 분석](research-article/2024-tokenizing.md)
