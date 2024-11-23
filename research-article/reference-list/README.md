@@ -32,7 +32,7 @@ layout:
 
 ## 2024.
 
-* \[🤖]   Nov 4 : [Embedding을 평가하는 방법 (1)](../embedding-1.md)
+* \[🤖]   Nov 4 : [Embedding을 평가하는 방법 (1)](../embedding.md)
 * \[📜]   Nov 3 : [Editorial Thinking](../editorial-thinking.md)
 * \[📜]   Nov 3 : [Golden Gate Claude Review](../golden-gate-claude-review.md)
 * \[🦜]   July 7 : [How to reduce HALLUCINATIONS](../how-to-reduce-hallucinations.md)

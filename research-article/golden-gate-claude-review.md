@@ -2,13 +2,13 @@
 description: 2024년 11월 3일
 ---
 
-# \[2024] Golden Gate Claude Review
+# Golden Gate Claude Review
 
 <figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p>Antropic News : Goldedn Gate Claude</p></figcaption></figure>
 
 **UPDATE** : "Golden Gate Claude"는 연구 데모로 24시간 동안 온라인 상태였으며, 현재는 더 이상 이용할 수 없습니다. Claude의 기능 활성화 및 해석 가능성에 대한 저희 연구에 대해 더 알고 싶으시다면, [이 게시물](https://www.anthropic.com/news/mapping-mind-language-model) 또는 전체 [연구 논문](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html)을 확인해 주세요. (해당 내용에 대해서 각각 따로 리뷰하겠습니다.)
 
-화요일에 저희는 대규모 언어 모델 해석에 관한 새로운 주요 연구 논문을 발표했습니다. 이 논문에서는 AI 모델인 _**Claude 3 Sonnet**_의 내부 작동 방식을 탐구하기 시작했습니다. Claude의 “mind” 속에서는 모델이 관련 텍스트를 읽거나 관련 이미지를 볼 때 활성화되는 수백만 개의 개념들이 발견되었으며, 저희는 이를 “features”이라고 부릅니다.
+화요일에 저희는 대규모 언어 모델 해석에 관한 새로운 주요 연구 논문을 발표했습니다. 이 논문에서는 AI 모델인 _**Claude 3 Sonnet**_&#xC758; 내부 작동 방식을 탐구하기 시작했습니다. Claude의 “mind” 속에서는 모델이 관련 텍스트를 읽거나 관련 이미지를 볼 때 활성화되는 수백만 개의 개념들이 발견되었으며, 저희는 이를 “features”이라고 부릅니다.
 
 그 중 하나가 바로 Golden Gate Bridge에 대한 개념이었습니다. Claude의 신경망에는 샌프란시스코의 이 유명한 랜드마크를 언급하거나 사진을 볼 때 활성화되는 특정 뉴런 조합이 있음을 발견했습니다. 이러한 기능을 식별할 수 있을 뿐만 아니라, 활성화 강도를 조절하여 Claude의 행동에서 나타나는 변화를 확인할 수도 있습니다.
 

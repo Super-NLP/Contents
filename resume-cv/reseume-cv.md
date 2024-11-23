@@ -20,19 +20,20 @@ layout:
 
 # Reseume / CV
 
-## Choi Jae Hun (Ash-hun)
+## MY RESUME / CV
 
 ***
 
 ## :telephone\_receiver:  **Contact**&#x20;
 
+* **Name** : Choi Jae Hun (Ash-hun)
 * **Email** : diadiahun0902@gmail.com
 * **LinkedIn**: [linkedin.com/in/choijaehun](https://www.linkedin.com/in/choijaehun)
 * **Address**: Seoul, Geomcheongu, Doksandong
 
 ## :thumbsup: About&#x20;
 
-I am currently working as a **AI Researcher**. I have a strong interest in implementing personalized assistants using RAG, Agents, and Prompt Engineering.
+I am currently working as a **AI Researcher**. I have a strong interest in implementing personalized assistants using <mark style="color:green;">**RAG**</mark>, <mark style="color:purple;">**Agents**</mark>, and <mark style="color:blue;">**Prompt Engineering**</mark>.
 
 ## :necktie: Experience &#x20;
 
@@ -40,10 +41,10 @@ I am currently working as a **AI Researcher**. I have a strong interest in imple
 \- _Apr. 2024 - <mark style="color:blue;">Present</mark>_
 
 * Responsible for overall tasks in the **RAG Parts** of the Gen.AI Team.
-* Proceeding with the **Gen.AI PoC** for **HD 미포조선**.
+* Proceeding with the **Gen.AI PoC** for **HD미포조선**.
 * etc..
 
-**Data Engineering Internship :** Baroon System, Daejeon, Korea\
+**Data Engineering Internship :** Baroon System & KINS, Daejeon, Korea\
 &#x20; \- _July. 2018 - Aug. 2018_
 
 * Assisted in the development of client projects using Python and Java.

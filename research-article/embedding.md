@@ -2,7 +2,7 @@
 description: 2024년 11월 4일
 ---
 
-# Embedding을 평가하는 방법 (1)
+# Embedding을 평가하는 방법
 
 <figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption><p>Embedding을 평가하는 방법</p></figcaption></figure>
 
@@ -28,6 +28,4 @@ Embedding은 자연어 처리(NLP)에서 텍스트 형태의 데이터를 벡터
 3. **Downstream Task Performance**
    1. 다운스트림 테스크에 해당하는 평가를 통해 성능을 확인하는 방식이다.
 
-음... 그만 알아보자.. 무언가.. 크게 달라지는게 없는듯 하다. 이제 나에게 남은건 단 하나의 방법뿐.. "없으면 만들어보자!" 즉, Specific한 Domain에 대해 학습된 Embedding Model의 성능을 측정할 수 있는 방법을 한번 만들어보자!&#x20;
-
-_Embedding을 평가하는 방법 (2) 에서 계속..!_
+한편  Specific한 Domain에 대해 학습된 Embedding Model의 성능을 측정할 수 있는 방법은 해당 도메인에 맞게 고유한 방법들이 존재해야하는게 아닌가 싶다. 조금 더 Vector Space에 해당 도메인에 Align 되는 것에 대한 연구와 그 정도를 평가/판단할 수 있는 방법이 조금 더 연구되었으면 좋겠다.
