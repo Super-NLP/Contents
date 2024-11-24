@@ -4,10 +4,6 @@ description: 2024년 11월 22일
 
 # \[2020] ColBERT
 
-
-
-
-
 > **Paper Link** : https://arxiv.org/pdf/2310.06117
 
 ```
