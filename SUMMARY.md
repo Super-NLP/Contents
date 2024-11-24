@@ -14,7 +14,7 @@
   * [\[2024\] RAG Survey : A Survey on Retrieval-Augmented Text Generation for Large Language Models](paper-review/paper-list/2024-rag-survey-a-survey-on-retrieval-augmented-text-generation-for-large-language-models.md)
   * [\[2023\] Interleaving Retrieval with Chain-of-Thought for Knowledge-Intensive Multi-Step Questions](paper-review/paper-list/2023-interleaving-retrieval-with-chain-of-thought-for-knowledge-intensive-multi-step-questions.md)
   * [\[2024\] Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models](paper-review/paper-list/2024-take-a-step-back-evoking-reasoning-via-abstraction-in-large-language-models.md)
-  * [\[2020\] ColBERT : Efficient and Effective Passage Search via Contextualized Late Interaction over BER](paper-review/paper-list/2020-colbert-efficient-and-effective-passage-search-via-contextualized-late-interaction-over-ber.md)
+  * [\[2020\] ColBERT](paper-review/paper-list/2020-colbert.md)
 
 ## 🗂️ Research Article
 
