@@ -25,11 +25,6 @@
   * [LLMops](research-article/reference-list/llmops.md)
   * [RAG & Agent](research-article/reference-list/rag-and-agent.md)
   * [Etc](research-article/reference-list/etc.md)
-* [Moducon 2023 행사 후기](research-article/moducon-2023.md)
-* [GDGXGDSC DevFest Happy Career 행사 후기](research-article/gdgxgdsc-devfest-happy-career.md)
-* [모두를 위한 한국어 오픈액세스 언어모델 못다한 이야기 (feat. 모두연) #1](research-article/feat.-1.md)
-* [모두를 위한 한국어 오픈액세스 언어모델 못다한 이야기 (feat. 모두연) #2](research-article/feat.-2.md)
-* [맨땅에서 구축해본 개인화시스템 구축기 Session 후기](research-article/session.md)
 * [Compounded AI System : The Shift from Models to Compound AI Systems](research-article/compounded-ai-system-the-shift-from-models-to-compound-ai-systems.md)
 * [LLM과 Grounding](research-article/llm-grounding.md)
 * [Essence of RAG](research-article/essence-of-rag.md)
@@ -37,3 +32,12 @@
 * [Golden Gate Claude Review](research-article/golden-gate-claude-review.md)
 * [Editorial Thinking](research-article/editorial-thinking.md)
 * [Embedding을 평가하는 방법](research-article/embedding.md)
+* [Chunking 잡으러 가자 (1)](research-article/chunking-1.md)
+
+## 🏵️ Conference
+
+* [Moducon 2023 행사 후기](conference/moducon-2023.md)
+* [GDGXGDSC DevFest Happy Career 행사 후기](conference/gdgxgdsc-devfest-happy-career.md)
+* [모두를 위한 한국어 오픈액세스 언어모델 못다한 이야기 (feat. 모두연) #1](conference/feat.-1.md)
+* [모두를 위한 한국어 오픈액세스 언어모델 못다한 이야기 (feat. 모두연) #2](conference/feat.-2.md)
+* [맨땅에서 구축해본 개인화시스템 구축기 Session 후기](conference/session.md)

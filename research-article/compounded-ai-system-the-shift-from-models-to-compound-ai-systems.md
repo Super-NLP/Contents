@@ -4,17 +4,17 @@ description: 2024년 5월 18일
 
 # Compounded AI System : The Shift from Models to Compound AI Systems
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p><em><strong>https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/</strong></em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><em><strong>https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/</strong></em></p></figcaption></figure>
 
 ## **Model에서 Compound AI Systems로의 전환**
 
-[_Matei Zaharia_](https://people.eecs.berkeley.edu/\~matei/) _,_ [_Omar Khattab_](https://omarkhattab.com/) _,_ [_Lingjiao Chen_](https://lchen001.github.io/) _,_ [_Jared Quincy Davis_](https://scholar.google.com/citations?user=\_3bbpWoAAAAJ\&hl=en) _,_ [_Heather Miller_](https://heather.miller.am/) _,_ [_Chris Potts_](https://web.stanford.edu/\~cgpotts/) _,_ [_James Zou_](https://www.james-zou.com/) _,_ [_Michael Carbin_](https://people.csail.mit.edu/mcarbin/) _,_ [_Jonathan Frankle_](http://www.jfrankle.com/) _,_ [_Naveen Rao_](https://www.linkedin.com/in/naveen-rao-bba5b01/) _,_ [_Ali Ghodsi_](https://www.linkedin.com/in/alighodsi/)  &#x20;
+[_Matei Zaharia_](https://people.eecs.berkeley.edu/~matei/) _,_ [_Omar Khattab_](https://omarkhattab.com/) _,_ [_Lingjiao Chen_](https://lchen001.github.io/) _,_ [_Jared Quincy Davis_](https://scholar.google.com/citations?user=_3bbpWoAAAAJ\&hl=en) _,_ [_Heather Miller_](https://heather.miller.am/) _,_ [_Chris Potts_](https://web.stanford.edu/~cgpotts/) _,_ [_James Zou_](https://www.james-zou.com/) _,_ [_Michael Carbin_](https://people.csail.mit.edu/mcarbin/) _,_ [_Jonathan Frankle_](http://www.jfrankle.com/) _,_ [_Naveen Rao_](https://www.linkedin.com/in/naveen-rao-bba5b01/) _,_ [_Ali Ghodsi_](https://www.linkedin.com/in/alighodsi/)  &#x20;
 
 _2024년 2월 18일_
 
 AI는 2023년에 프롬프트만으로 번역이나 코딩 등의 일반적인 작업을 수행하도록 지시할 수 있는 LLM으로 모든 사람의 관심을 끌었습니다. 이로 인해 자연스럽게 AI Application 개발의 주요 요소로서 모델에 집중하게 되었고, 모두가 새로운 LLM이 어떤 기능을 가져올지 궁금해했습니다. 그러나 더 많은 개발자가 LLM을 사용하여 구축하기 시작하면서 이러한 초점이 빠르게 변화하고 있다고 생각합니다. 가장 최고의 **AI를 이용한 결과는 단일 모델이 아닌 여러 구성 요소가 있는 복합 시스템(=Compound AI System)에서 점점 더 많이 얻어지고 있습니다** .
 
-예를 들어, Google의 [AlphaCode 2](https://storage.googleapis.com/deepmind-media/AlphaCode2/AlphaCode2\_Tech\_Report.pdf)는 LLM을 사용하여 작업에 대해 최대 100만 개의 가능한 솔루션을 생성한 다음 필터링하는 방식의 신중하게 설계된 시스템을 통해 프로그래밍하고 최고의 결과를 만듭니다. 마찬가지로 [AlphaGeometry](https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/) 는 LLM과 기존 Symbolic Solver를 결합하여 올림피아드 문제를 해결합니다.
+예를 들어, Google의 [AlphaCode 2](https://storage.googleapis.com/deepmind-media/AlphaCode2/AlphaCode2_Tech_Report.pdf)는 LLM을 사용하여 작업에 대해 최대 100만 개의 가능한 솔루션을 생성한 다음 필터링하는 방식의 신중하게 설계된 시스템을 통해 프로그래밍하고 최고의 결과를 만듭니다. 마찬가지로 [AlphaGeometry](https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/) 는 LLM과 기존 Symbolic Solver를 결합하여 올림피아드 문제를 해결합니다.
 
 기업에서 Databricks의 동료들은 LLM 애플리케이션의 60%가 일종의 [검색 증강 생성(RAG)](https://arxiv.org/pdf/2005.11401.pdf) 형식을 사용 하고 30%가 multi-step chain을 사용한다는 사실을 발견했습니다. 단일 LLM 호출의 결과를 보고했던 전통적인 언어 모델 작업을 수행하는 연구원조차도 이제 점점 더 복잡해지는 추론 전략의 결과를 보고하고 있습니다. Microsoft는 의료 검사에서 GPT-4의 정확도를 9% 초과하는 연결 전략에 대해 썼습니다. [Google의 Gemini 출시 게시물은](https://blog.google/technology/ai/google-gemini-ai/#performance) 모델을 32번 호출하는 새로운 CoT@32 추론 전략을 사용하여 MMLU 벤치마크 결과를 측정했는데, 이는 GPT-4에 대한 단일 호출과의 비교에 대한 의문을 제기했습니다. 이러한 Compound AI System으로의 전환은 많은 흥미로운 설계 질문을 불러일으키지만, 교육을 확장하는 것뿐만 아니라 영리한 엔지니어링을 통해 선도적인 AI 결과를 달성할 수 있다는 의미이기 때문에 흥미롭기도 합니다.
 
@@ -28,7 +28,7 @@ AI는 2023년에 프롬프트만으로 번역이나 코딩 등의 일반적인 �
 
 우리는 Compound AI System을 모델, 검색기 또는 외부 도구에 대한 다중 호출을 포함하여 상호 작용하는 여러 구성 요소를 사용하여 AI 작업을 처리하는 시스템으로 정의합니다.
 
-대조적으로, AI 모델은 단순히 [통계 모델](https://en.wikipedia.org/wiki/Statistical\_model) 입니다 (예: 텍스트의 다음 토큰을 예측하는 것).
+대조적으로, AI 모델은 단순히 [통계 모델](https://en.wikipedia.org/wiki/Statistical_model) 입니다 (예: 텍스트의 다음 토큰을 예측하는 것).
 
 AI 모델은 지속적으로 향상되고 확장에 대한 명확한 끝이 보이지 않지만 복합 시스템을 사용하여 점점 더 많은 최첨단 결과를 얻습니다. 왜 그런 걸까요? 몇 가지 뚜렷한 이유를 확인했습니다.
 
