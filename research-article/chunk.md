@@ -2,9 +2,9 @@
 description: 2024.12.02.
 ---
 
-# 당신... Chunking이 뭔지 알아...?
+# 나야, Chunk
 
-<figure><img src="../.gitbook/assets/gds.png" alt=""><figcaption><p>당신.. Chunking이 뭔지 알아..?</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/나야 청크 (1).png" alt=""><figcaption><p>나야, 청크</p></figcaption></figure>
 
 RAG하는 사람들의 공통적인 고민거리중 하나는 데이터를 어떻게 잘 정제하느냐에 있다. 여기서 말하는 '정제'는 기본적인 텍스트 전처리가 아닌 어떠한 기준을 두고 **Chunking Strategy**를 취할 것인가? 를 의미한다. 무릇 RAG를 한다고 하면 아래와 같은 생각을 한번쯤은 해봤을것이다. (당연히, 나만 했을수도 있다 😆)
 
