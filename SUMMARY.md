@@ -32,7 +32,7 @@
 * [Golden Gate Claude Review](research-article/golden-gate-claude-review.md)
 * [Editorial Thinking](research-article/editorial-thinking.md)
 * [Embedding을 평가하는 방법](research-article/embedding.md)
-* [Chunking 잡으러 가자 (1)](research-article/chunking-1.md)
+* [당신... Chunking이 뭔지 알아...?](research-article/...-chunking-....md)
 
 ## 🏵️ Conference
 
