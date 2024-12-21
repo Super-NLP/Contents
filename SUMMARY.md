@@ -34,6 +34,7 @@
 * [Embedding을 평가하는 방법](research-article/embedding.md)
 * [나야, Chunk](research-article/chunk.md)
 * [당신.. Chunking이 뭔지 정확히 알아..?](research-article/..-chunking-...md)
+* [그래서 제일 좋은 Chunking이 뭔데?](research-article/chunking.md)
 
 ## 🏵️ Conference
 

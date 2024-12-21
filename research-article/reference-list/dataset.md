@@ -1,12 +1,14 @@
 ---
 icon: '1'
-description: 다양한 종류의 데이터셋을 수집합니다.
+description: 다양한 종류의 데이터셋에 대한 소개와 이를 수집하는 방식을 알아봅니다!
 cover: >-
   https://images.unsplash.com/photo-1451187580459-43490279c0fa?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxMHx8dGFidWxhciUyMGRhdGF8ZW58MHx8fHwxNzMwNjE5NTk1fDA&ixlib=rb-4.0.3&q=85
 coverY: 0
 ---
 
 # Dataset
+
+### <mark style="color:blue;">Ⅰ. Dataset</mark>&#x20;
 
 * **AwesomeKorean Data**
   * [https://github.com/songys/AwesomeKorean\_Data](https://github.com/songys/AwesomeKorean_Data)
@@ -34,4 +36,26 @@ coverY: 0
   * [https://huggingface.co/datasets/HAERAE-HUB/Korean-Human-Judgements](https://huggingface.co/datasets/HAERAE-HUB/Korean-Human-Judgements)
 * **Ko-Calibration**
   * [https://huggingface.co/datasets/maywell/ko-calibration](https://huggingface.co/datasets/maywell/ko-calibration)
+
+
+
+### <mark style="color:blue;">Ⅱ. Data Collecting</mark>
+
+* **MegaParse**
+  * [https://github.com/QuivrHQ/MegaParse](https://github.com/QuivrHQ/MegaParse)
+* **FireCrawl**
+  * [https://github.com/mendableai/firecrawl](https://github.com/mendableai/firecrawl)
+* **Playwright**
+  * [https://github.com/microsoft/playwright](https://github.com/microsoft/playwright)
+
+
+
+### <mark style="color:blue;">Ⅲ. Data Engineering</mark>
+
+* **Airflow**
+  * [https://airflow.apache.org/](https://airflow.apache.org/)
+* **Prefect**
+  * [https://www.prefect.io/](https://www.prefect.io/)
+
+
 
