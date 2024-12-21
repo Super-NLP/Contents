@@ -15,6 +15,7 @@
   * [\[2023\] Interleaving Retrieval with Chain-of-Thought for Knowledge-Intensive Multi-Step Questions](paper-review/paper-list/2023-interleaving-retrieval-with-chain-of-thought-for-knowledge-intensive-multi-step-questions.md)
   * [\[2024\] Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models](paper-review/paper-list/2024-take-a-step-back-evoking-reasoning-via-abstraction-in-large-language-models.md)
   * [\[2020\] ColBERT](paper-review/paper-list/2020-colbert-efficient-and-effective-passage-search-via-contextualized-late-interaction-over-ber.md)
+  * [\[2024\] Retrieval Augmented Generation (RAG) and Beyond](paper-review/paper-list/2024-retrieval-augmented-generation-rag-and-beyond.md)
 
 ## 🗂️ Research Article
 

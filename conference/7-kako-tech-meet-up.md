@@ -4,7 +4,7 @@ description: 2024년 12월 18일
 
 # 제 7회 Kako Tech Meet Up 후기
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="563"><figcaption><p>제 7회 Kakao Tech Meetup</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (50).png" alt="" width="563"><figcaption><p>제 7회 Kakao Tech Meetup</p></figcaption></figure>
 
 짜잔! 작년 6회 Kakao Meetup에는 아쉽게도 선발되지 않아 참가할 수 없었지만 이번에는 더욱 더 큰 기대감을 안고 다행히 당선되었다! 사실 if Kakao 2024에 가장 기대하던 영상이 있어서 그 세션에 대한 추가적인 내용을 들을 수 있을까 했는데 아쉽게도 해당 세션은 존재하지 않았다.. (흡,,ㅜ 아쉽지만,, [링크](https://youtu.be/jCEgRK7GgXs?si=W25V9ulCAXqYEWUv)를 남긴다.)
 
