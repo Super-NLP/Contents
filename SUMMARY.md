@@ -37,6 +37,7 @@
 
 ## 🏵️ Conference
 
+* [제 7회 Kako Tech Meet Up 후기](conference/7-kako-tech-meet-up.md)
 * [Moducon 2023 행사 후기](conference/moducon-2023.md)
 * [GDGXGDSC DevFest Happy Career 행사 후기](conference/gdgxgdsc-devfest-happy-career.md)
 * [모두를 위한 한국어 오픈액세스 언어모델 못다한 이야기 (feat. 모두연) #1](conference/feat.-1.md)
