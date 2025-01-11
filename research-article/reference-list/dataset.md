@@ -8,7 +8,9 @@ coverY: 0
 
 # Dataset
 
-### <mark style="color:blue;">Ⅰ. Dataset</mark>&#x20;
+## <mark style="color:blue;">Ⅰ. Dataset</mark>
+
+> 하나의 완전한 데이터셋을 소개합니다.
 
 * **AwesomeKorean Data**
   * [https://github.com/songys/AwesomeKorean\_Data](https://github.com/songys/AwesomeKorean_Data)
@@ -39,7 +41,9 @@ coverY: 0
 
 
 
-### <mark style="color:blue;">Ⅱ. Data Collecting</mark>
+## <mark style="color:blue;">Ⅱ. Data Collecting</mark>
+
+> 주어진 문서에서 내용을 추출하거나 외부에서 데이터를 수집/크롤링하는 레퍼런스를 소개합니다.
 
 * **MegaParse**
   * [https://github.com/QuivrHQ/MegaParse](https://github.com/QuivrHQ/MegaParse)
@@ -47,10 +51,15 @@ coverY: 0
   * [https://github.com/mendableai/firecrawl](https://github.com/mendableai/firecrawl)
 * **Playwright**
   * [https://github.com/microsoft/playwright](https://github.com/microsoft/playwright)
+* **MinerU**
+  * [https://github.com/opendatalab/MinerU](https://github.com/opendatalab/MinerU)
+* **PDFMathTranslate**
+  * [https://github.com/Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
+* **OpenParse : Easy PDF Chunking open-source library**
+  * [https://github.com/Filimoa/open-parse](https://github.com/Filimoa/open-parse)
+*
 
-
-
-### <mark style="color:blue;">Ⅲ. Data Engineering</mark>
+## <mark style="color:blue;">Ⅲ. Data Engineering</mark>
 
 * **Airflow**
   * [https://airflow.apache.org/](https://airflow.apache.org/)
