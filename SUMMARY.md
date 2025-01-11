@@ -36,8 +36,9 @@
 * [나야, Chunk](research-article/chunk.md)
 * [당신.. Chunking이 뭔지 정확히 알아..?](research-article/..-chunking-...md)
 * [그래서 제일 좋은 Chunking이 뭔데?](research-article/chunking.md)
+* [AI Agent vs Agentic AI](research-article/ai-agent-vs-agentic-ai.md)
 
-## 🏵️ Conference
+## 🏵️ Conference
 
 * [2024년 회고](conference/2024.md)
 * [제 7회 Kako Tech Meet Up 후기](conference/7-kako-tech-meet-up.md)

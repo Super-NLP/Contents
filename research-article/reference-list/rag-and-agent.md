@@ -49,6 +49,10 @@ coverY: 0
     * [https://github.com/AI-App/OpenDevin.OpenDevin](https://github.com/AI-App/OpenDevin.OpenDevin)
   * OpenHands
     * [https://github.com/All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands)
+  * AWS multi-agent-orchestrator
+    * [https://github.com/awslabs/multi-agent-orchestrator](https://github.com/awslabs/multi-agent-orchestrator)
+  * SmolAgent
+    * [https://huggingface.co/blog/smolagents](https://huggingface.co/blog/smolagents)
   * AI Agent vs Agentic AI?
     * [https://modulabs.co.kr/blog/ai-agent-vs-agentic-ai?page=1](https://modulabs.co.kr/blog/ai-agent-vs-agentic-ai?page=1)
 * **Conference**
