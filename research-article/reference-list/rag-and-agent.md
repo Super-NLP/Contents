@@ -38,23 +38,28 @@ coverY: 0
   * Chainlit : [https://github.com/Chainlit/chainlit](https://github.com/Chainlit/chainlit)
   * Phidata : [https://github.com/phidatahq/phidata](https://github.com/phidatahq/phidata)
   * Ollama : [https://github.com/ollama/ollama](https://github.com/ollama/ollama)
-* **Agent**
-  * BabyAGI
-  * Autonomous Agent
-  * HAAS (Hierarchical Autonomous Agent Swarm)
-    * [https://github.com/daveshap/OpenAI\_Agent\_Swarm](https://github.com/daveshap/OpenAI_Agent_Swarm)&#x20;
-  * Swarm
-    * [https://github.com/openai/swarm](https://github.com/openai/swarm)
-  * OpenDevin
-    * [https://github.com/AI-App/OpenDevin.OpenDevin](https://github.com/AI-App/OpenDevin.OpenDevin)
-  * OpenHands
-    * [https://github.com/All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands)
-  * AWS multi-agent-orchestrator
-    * [https://github.com/awslabs/multi-agent-orchestrator](https://github.com/awslabs/multi-agent-orchestrator)
-  * SmolAgent
-    * [https://huggingface.co/blog/smolagents](https://huggingface.co/blog/smolagents)
-  * AI Agent vs Agentic AI?
-    * [https://modulabs.co.kr/blog/ai-agent-vs-agentic-ai?page=1](https://modulabs.co.kr/blog/ai-agent-vs-agentic-ai?page=1)
+*   **Agent**
+
+    * BabyAGI
+    * Autonomous Agent
+    * HAAS (Hierarchical Autonomous Agent Swarm)
+      * [https://github.com/daveshap/OpenAI\_Agent\_Swarm](https://github.com/daveshap/OpenAI_Agent_Swarm)&#x20;
+    * Swarm
+      * [https://github.com/openai/swarm](https://github.com/openai/swarm)
+    * OpenDevin
+      * [https://github.com/AI-App/OpenDevin.OpenDevin](https://github.com/AI-App/OpenDevin.OpenDevin)
+    * OpenHands
+      * [https://github.com/All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands)
+    * AWS multi-agent-orchestrator
+      * [https://github.com/awslabs/multi-agent-orchestrator](https://github.com/awslabs/multi-agent-orchestrator)
+    * SmolAgent
+      * [https://huggingface.co/blog/smolagents](https://huggingface.co/blog/smolagents)
+    * AI Agent vs Agentic AI?
+      * [https://modulabs.co.kr/blog/ai-agent-vs-agentic-ai?page=1](https://modulabs.co.kr/blog/ai-agent-vs-agentic-ai?page=1)
+    * Browser Use
+      * [https://github.com/browser-use/browser-use](https://github.com/browser-use/browser-use)
+
+
 * **Conference**
   * if kakao 2024
     * 공공데이터를 활용한 RAG 기술구현 및 프레임워크 소개

@@ -53,6 +53,10 @@ coverY: 0
   * [https://github.com/flairNLP/flair](https://github.com/flairNLP/flair)
 * **Kiwipiepy**
   * [https://github.com/bab2min/kiwipiepy](https://github.com/bab2min/kiwipiepy)
+* **Samurai : Adapting Segment Anything Model for Zero-Shot Visual Tracking with Motion-Aware Memory**
+  * [https://github.com/yangchris11/samurai](https://github.com/yangchris11/samurai)
+* **Genesis**
+  * [https://github.com/Genesis-Embodied-AI/Genesis](https://github.com/Genesis-Embodied-AI/Genesis)
 
 
 

@@ -20,6 +20,7 @@
 ## 🗂️ Research Article
 
 * [Reference List](research-article/reference-list/README.md)
+  * [Research Article](research-article/reference-list/research-article.md)
   * [Dataset](research-article/reference-list/dataset.md)
   * [LLM](research-article/reference-list/llm.md)
   * [Prompt Engineering](research-article/reference-list/prompt-engineering.md)
@@ -36,7 +37,7 @@
 * [나야, Chunk](research-article/chunk.md)
 * [당신.. Chunking이 뭔지 정확히 알아..?](research-article/..-chunking-...md)
 * [그래서 제일 좋은 Chunking이 뭔데?](research-article/chunking.md)
-* [AI Agent vs Agentic AI](research-article/ai-agent-vs-agentic-ai.md)
+* [웅장한 대결 AI Agent와 Agentic AI](research-article/ai-agent-agentic-ai.md)
 
 ## 🏵️ Conference
 
