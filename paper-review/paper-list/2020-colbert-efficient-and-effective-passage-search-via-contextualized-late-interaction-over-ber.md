@@ -4,6 +4,8 @@ description: 2024년 11월 22일
 
 # \[2020] ColBERT
 
+<figure><img src="../../.gitbook/assets/colBERT paper_cover.png" alt=""><figcaption><p>ColBERT : Efficient and Effective Passage Search via Contextualized Late Interaction over BERT</p></figcaption></figure>
+
 > **Paper Link** : https://arxiv.org/pdf/2310.06117
 
 ```
