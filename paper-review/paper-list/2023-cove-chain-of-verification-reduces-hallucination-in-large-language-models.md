@@ -1,12 +1,12 @@
 ---
-description: 2024년 6월 16일
+description: 2024.06.16.
 ---
 
 # \[2023] CoVe : Chain of Verification Reduces Hallucination in Large Language Models
 
-![](https://velog.velcdn.com/images/ash-hun/post/810bdc48-4aa9-410c-9f1b-96d28681e631/image.png)
+![Chain of Verification Reduces Hallucination in Large Language Models](https://velog.velcdn.com/images/ash-hun/post/810bdc48-4aa9-410c-9f1b-96d28681e631/image.png)
 
-> **Paper Link :** https://arxiv.org/pdf/2309.11495
+> **Paper Link :** [https://arxiv.org/pdf/2309.11495](https://arxiv.org/pdf/2309.11495)
 
 ```
 ※ 본 포스팅은 논문의 가장 중요한 내용에 대한 리뷰를 정리하여 올리기 때문에 다소 축약되거나 의역된 내용이 많습니다. 참고하세요.

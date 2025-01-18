@@ -1,12 +1,12 @@
 ---
-description: 2024년 6월 16일
+description: 2024.06.16.
 ---
 
 # \[2024] RAG Survey : A Survey on Retrieval-Augmented Text Generation for Large Language Models
 
-![](https://velog.velcdn.com/images/ash-hun/post/80ecce08-24e5-4082-9e64-a93e3fbdf87b/image.png)
+![A Survey on Retrieval-Augmented Text Generation for Large Language Models ](https://velog.velcdn.com/images/ash-hun/post/80ecce08-24e5-4082-9e64-a93e3fbdf87b/image.png)
 
-> **Paper Link** : https://arxiv.org/pdf/2404.10981
+> **Paper Link** : [https://arxiv.org/pdf/2404.10981](https://arxiv.org/pdf/2404.10981)
 
 ```
 ※ 본 포스팅은 논문의 가장 중요한 내용에 대한 리뷰를 정리하여 올리기 때문에 다소 축약되거나 의역된 내용이 많습니다. 참고하세요.

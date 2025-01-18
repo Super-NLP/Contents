@@ -1,5 +1,5 @@
 ---
-description: 2024년 5월 5일
+description: 2024.05.05.
 layout:
   title:
     visible: true
@@ -14,6 +14,14 @@ layout:
 ---
 
 # \[2017] Attention is all you need
+
+<figure><img src="../../.gitbook/assets/transformers_paper_cover.png" alt=""><figcaption><p>Attention is All You Need (a.k.a. Transformers)</p></figcaption></figure>
+
+> **Paper Link :** [https://arxiv.org/pdf/2309.11495](https://arxiv.org/pdf/1706.03762)
+
+```
+※ 본 포스팅은 논문의 가장 중요한 내용에 대한 리뷰를 정리하여 올리기 때문에 다소 축약되거나 의역된 내용이 많습니다. 참고하세요.
+```
 
 ## 0. Abstract
 
@@ -169,7 +177,7 @@ _Decoder_
   * network에서 long-range dependency 사이의 path 길이
     * network에서 순회해야하는 forward 와 backward의 path 길이가 이런 dependency를 학습하는 능력에 영향을 주는 주요 요인
     * input과 output sequence에서 position의 조합 간의 path가 짧을수록, long-range dependecy를 학습하기가 쉬움
-    * \-> input과 output position 사이의 최대 path 길이를 비교할 것
+    * -> input과 output position 사이의 최대 path 길이를 비교할 것
 
 ![](https://velog.velcdn.com/images/ash-hun/post/5b225282-adb0-4fcb-ab56-20e4688ea417/image.png)
 

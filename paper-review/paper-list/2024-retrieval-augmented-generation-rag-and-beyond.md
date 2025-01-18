@@ -6,6 +6,12 @@ description: 2024.12.21.
 
 <figure><img src="../../.gitbook/assets/rag_beyond_paper_cover.png" alt=""><figcaption><p>RAG and Beyond : A Comprehensive survey on How to make your LLMs use External Data More Wisely</p></figcaption></figure>
 
+> **Paper Link** : [https://arxiv.org/pdf/2409.14924](https://arxiv.org/pdf/2409.14924)
+
+```
+※ 본 포스팅은 논문의 가장 중요한 내용에 대한 리뷰를 정리하여 올리기 때문에 다소 축약되거나 의역된 내용이 많습니
+```
+
 ## ABSTRACT
 
 외부 데이터를 활용한 대규모 언어 모델(LLM)은 실제 과제를 수행하는 데 있어 뛰어난 능력을 보여주고 있습니다. 외부 데이터는 모델의 특정 도메인 전문성과 시의성(= 시간적 시점에 대한 관련성)을 강화할 뿐 아니라 환각(hallucination) 발생을 줄여 결과물의 제어 가능성과 해석 가능성을 높이는 데 기여합니다. 검색 기반 생성 (RAG, Retrieval-Augmented Generation) 및 파인튜닝과 같은 외부 데이터를 LLM에 통합하는 기술은 점점 더 주목받고 있으며, 다양한 분야에서 널리 응용되고 있습니다. 그럼에도 불구하고, 데이터로 강화된 LLM을 다양한 전문 분야에 효과적으로 배치하는 것은 여전히 큰 도전 과제로 남아 있습니다. 이러한 도전 과제는 관련 데이터 검색 및 사용자 의도 해석에서부터 복잡한 과제를 해결하기 위한 LLM의 추론 능력을 온전히 활용하는 것에 이르기까지 광범위한 영역에 걸쳐 있습니다. 우리는 데이터로 강화된 LLM 응용에 있어 만능 해결책이 존재하지 않는다고 믿습니다. <mark style="color:red;">**실제로 성과 부진은 종종 작업의 핵심 초점을 올바르게 파악하지 못하거나, 작업이 본질적으로 여러 능력을 조합해야 하는 경우로 인해 발생합니다. 이러한 능력을 분리해 문제 해결에 최적화하지 못했기 때문입니다.**</mark>
