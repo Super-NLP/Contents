@@ -66,6 +66,11 @@ Hannam University, Deajeon\
 
 ## :newspaper: References&#x20;
 
+* **Langchain OpenTutorials Contributors**\
+  : Jan 2025 \~ Feb 2025
+  * Langchain Global Tutorial Contribution with below contents
+    * JsonOutputParser
+    * Text2SQL
 * **Langchain Documents Contributors**\
   &#x20;: Jan 2024
   * Acknowledged an error in the example for **RetryParser** in the official documentation due to a version update of Langchain.

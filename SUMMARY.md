@@ -20,7 +20,6 @@
 ## 🗂️ Research Article
 
 * [Reference List](research-article/reference-list/README.md)
-  * [Research Article](research-article/reference-list/research-article.md)
   * [Dataset](research-article/reference-list/dataset.md)
   * [LLM](research-article/reference-list/llm.md)
   * [Prompt Engineering](research-article/reference-list/prompt-engineering.md)
