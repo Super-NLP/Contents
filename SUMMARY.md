@@ -18,6 +18,7 @@
   * [\[2024\] Retrieval Augmented Generation (RAG) and Beyond](paper-review/paper-list/2024-retrieval-augmented-generation-rag-and-beyond.md)
   * [\[2009\] Reciprocal Rank Fusion outperforms Condorcet and individual Rank Learning Methods](paper-review/paper-list/2009-reciprocal-rank-fusion-outperforms-condorcet-and-individual-rank-learning-methods.md)
   * [\[2024\] Don't Do RAG : When Cache-Augmented Generation is All you Need for Knowledge Tasks](paper-review/paper-list/2024-dont-do-rag-when-cache-augmented-generation-is-all-you-need-for-knowledge-tasks.md)
+  * [\[2024\] Text2SQL is Not Enough : Unifying AI and Database with TAG](paper-review/paper-list/2024-text2sql-is-not-enough-unifying-ai-and-database-with-tag.md)
 
 ## 🗂️ Research Article
 

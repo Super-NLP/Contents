@@ -31,7 +31,8 @@ layout:
 * [ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT](2020-colbert-efficient-and-effective-passage-search-via-contextualized-late-interaction-over-bert.md)
 * [Retrieval Augmented Generation (RAG) and Beyond](2024-retrieval-augmented-generation-rag-and-beyond.md)
 * [Reciprocal Rank Fusion outperforms Condorcet and individual Rank Learning Methods](2009-reciprocal-rank-fusion-outperforms-condorcet-and-individual-rank-learning-methods.md)
-* Don't Do RAG : When Cache-Augmented Generation is All you Need for Knowledge Tasks
+* [Don't Do RAG : When Cache-Augmented Generation is All you Need for Knowledge Tasks](2024-dont-do-rag-when-cache-augmented-generation-is-all-you-need-for-knowledge-tasks.md)
+* [Text2SQL is Not Enough : Unifying AI and Database with TAG](2024-text2sql-is-not-enough-unifying-ai-and-database-with-tag.md)
 
 ## Storage List
 
