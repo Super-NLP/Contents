@@ -13,6 +13,7 @@ coverY: 0
 
 ## Ⅰ. Reference
 
+* [**ResearchTrend.AI**](https://researchtrend.ai/)
 * **StreamDiffusion의 realtime interactive generation의 원리**
   * [https://github.com/cumulo-autumn/StreamDiffusion](https://github.com/cumulo-autumn/StreamDiffusion)
 * **Deploying Langchain apps with langserve on GCP**
