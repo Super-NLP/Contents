@@ -4,7 +4,7 @@ description: 2024년 5월 18일
 
 # Compounded AI System : The Shift from Models to Compound AI Systems
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p><em><strong>https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/</strong></em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><em><strong>https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/</strong></em></p></figcaption></figure>
 
 ## **Model에서 Compound AI Systems로의 전환**
 

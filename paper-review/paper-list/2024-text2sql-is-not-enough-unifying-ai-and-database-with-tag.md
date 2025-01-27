@@ -148,3 +148,41 @@ _**Agentic Data Assistants**_ 최근 연구에서는 LM 에이전트를 데이�
 ## 7. ACKNOWLEDGEMENTS
 
 이 연구는 과거에 Stanford DAWN 프로젝트와 Berkeley의 Sky Computing Lab의 제휴 회원들과 후원자들, 특히 Accenture, AMD, Anyscale, Cisco, Google, IBM, Intel, Meta, Microsoft, Mohamed Bin Zayed University of Artificial Intelligence, NVIDIA, Samsung SDS, SAP, VMware, 그리고 Sloan Fellowship의 지원을 받았습니다. 본 자료에 표현된 의견, 연구 결과, 결론 또는 추천 사항은 저자들의 의견이며, 후원자들의 견해를 반드시 반영하지는 않습니다.
+
+
+
+***
+
+## A. Sample Queries
+
+우리 벤치마크를 위한 BIRD 질의에 대한 수정 사항을 상세히 설명합니다. 각 질의는 답변을 위해 LM 지식 또는 추론이 필요하도록 수정되었습니다. 아래에 샘플 질의를 보여드립니다.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>sample queries</p></figcaption></figure>
+
+## B. LM Prompts
+
+우리는 질의 생성 및 답변 생성을 위한 지침 조정된 Llama-3.1 80B 모델에 사용된 프롬프트를 요약합니다.
+
+### B.1 Query Synthesis
+
+질의 생성 단계, 즉 우리의 경우 Text2SQL 단계에서는 원래 BIRD 벤치마크와 동일한 테이블 스키마 인코딩과 LM 프롬프트를 사용합니다. 질의 생성을 위한 예시 프롬프트는 아래와 같습니다.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+### B.2 Answer Generation
+
+Text2SQL + LM 및 RAG 베이스라인에서는 답변 생성 단계에서 LM이 제공된 행들을 바탕으로 사용자 질문에 답해야 합니다. 우리는 집계 쿼리에 대해 별도의 프롬프트를 사용하며, 일치 기반, 비교, 순위 쿼리는 동일한 프롬프트를 공유합니다. 두 가지 프롬프트는 아래에 나와 있습니다.
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+## C. HandWritten Pipelines
+
+우리는 LOTUS 패키지를 사용하여 손으로 작성한 TAG 파이프라인을 구성합니다. 벤치마크에 있는 각 쿼리에 대해 데이터프레임 변환 및 필터링과 LOTUS 의미론적 LM 연산자를 포함한 파이프라인을 파이썬으로 작성했습니다. 아래에 예시 파이프라인을 볼 수 있습니다.
+
+<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
