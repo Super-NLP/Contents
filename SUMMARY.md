@@ -40,6 +40,7 @@
 * [당신.. Chunking이 뭔지 정확히 알아..?](research-article/..-chunking-...md)
 * [그래서 제일 좋은 Chunking이 뭔데?](research-article/chunking.md)
 * [웅장한 대결 AI Agent와 Agentic AI](research-article/ai-agent-agentic-ai.md)
+* [UV 괜찮아\~ 괜찮아\~ 딩딩딩](research-article/uv.md)
 
 ## 🏵️ Conference
 
