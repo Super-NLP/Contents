@@ -31,6 +31,7 @@ layout:
 ## <mark style="color:blue;">2025.</mark>
 
 * \[🦜🔬] Jan : Text2SQL 넌 내꺼야!
+* \[📑] Jan 28 : [UV써도 괜찮아\~ 딩딩딩딩딩](../uv.md)
 * \[🥑📑] Jan 12 : [웅장한 대결 AI Agent와 Agentic AI](../ai-agent-agentic-ai.md)
 
 ## <mark style="color:orange;">2024.</mark>

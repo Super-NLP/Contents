@@ -21,18 +21,26 @@ layout:
 
 # Paper List
 
-## My Review
+## <mark style="color:blue;">2025.</mark>
 
-* [Attention is all you need](2017-attention-is-all-you-need.md)
-* [CoVe : Chain of Verifiction Reduces Hallucination in Large Language Models](2023-cove-chain-of-verification-reduces-hallucination-in-large-language-models.md)
-* [RAG Survey : A Survey on Retrieval-Augmented Text Generation for Large Language Models](2024-rag-survey-a-survey-on-retrieval-augmented-text-generation-for-large-language-models.md)
-* [Interleaving Retrieval with Chain-of-Thought for Knowledge-Intensive Multi-Step Questions](2023-interleaving-retrieval-with-chain-of-thought-for-knowledge-intensive-multi-step-questions.md)
-* [Taka a Step Back : Evoking Reasoning via Abstraction in Large Language Models](2024-take-a-step-back-evoking-reasoning-via-abstraction-in-large-language-models.md)
-* [ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT](2020-colbert-efficient-and-effective-passage-search-via-contextualized-late-interaction-over-bert.md)
-* [Retrieval Augmented Generation (RAG) and Beyond](2024-retrieval-augmented-generation-rag-and-beyond.md)
-* [Reciprocal Rank Fusion outperforms Condorcet and individual Rank Learning Methods](2009-reciprocal-rank-fusion-outperforms-condorcet-and-individual-rank-learning-methods.md)
-* [Don't Do RAG : When Cache-Augmented Generation is All you Need for Knowledge Tasks](2024-dont-do-rag-when-cache-augmented-generation-is-all-you-need-for-knowledge-tasks.md)
+* Do We Need Domain-Specific Embedding Models? An Empirical Investigation
+* Enhancig Text-to-SQL Translation for Financial System Design
 * [Text2SQL is Not Enough : Unifying AI and Database with TAG](2024-text2sql-is-not-enough-unifying-ai-and-database-with-tag.md)
+* [Don't Do RAG : When Cache-Augmented Generation is All you Need for Knowledge Tasks](2024-dont-do-rag-when-cache-augmented-generation-is-all-you-need-for-knowledge-tasks.md)
+* MEDEC : A Benchmark for Medical Error Detection and Correction in Clinical notes
+* [Reciprocal Rank Fusion outperforms Condorcet and individual Rank Learning Methods](2009-reciprocal-rank-fusion-outperforms-condorcet-and-individual-rank-learning-methods.md)
+
+## <mark style="color:orange;">\~ 2024.</mark>
+
+* [Retrieval Augmented Generation (RAG) and Beyond](2024-retrieval-augmented-generation-rag-and-beyond.md)
+* [ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT](2020-colbert-efficient-and-effective-passage-search-via-contextualized-late-interaction-over-bert.md)
+* [Take a Step Back : Evoking Reasoning via Abstraction in Large Language Models](2024-take-a-step-back-evoking-reasoning-via-abstraction-in-large-language-models.md)
+* [Interleaving Retrieval with Chain-of-Thought for Knowledge-Intensive Multi-Step Questions](2023-interleaving-retrieval-with-chain-of-thought-for-knowledge-intensive-multi-step-questions.md)
+* [RAG Survey : A Survey on Retrieval-Augmented Text Generation for Large Language Models](2024-rag-survey-a-survey-on-retrieval-augmented-text-generation-for-large-language-models.md)
+* [CoVe : Chain of Verification Reduces Hallucination in Large Language Models](2023-cove-chain-of-verification-reduces-hallucination-in-large-language-models.md)
+* [Attention is all you need](2017-attention-is-all-you-need.md)
+
+***
 
 ## Storage List
 
