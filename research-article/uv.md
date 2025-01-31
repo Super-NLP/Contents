@@ -155,3 +155,8 @@ $ .venv\Scripts\activate
 $ deactivate
 ```
 
+***
+
+_<mark style="color:purple;">**P.S.**</mark>**&#x20;****Pycharm IDE의 latest 버전인 2024.3.2 버전 (2025년 1월 28일 빌드)으로 업데이트 하시면 uv를 지원하도록 업데이트되어있습니다! 개인적으로 만족하며 사용중이니 관심있으신분들은 한번 사용해보세요!!**_
+
+<figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
