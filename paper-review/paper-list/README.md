@@ -35,6 +35,7 @@ layout:
 * [Retrieval Augmented Generation (RAG) and Beyond](2024-retrieval-augmented-generation-rag-and-beyond.md)
 * [ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT](2020-colbert-efficient-and-effective-passage-search-via-contextualized-late-interaction-over-bert.md)
 * [Take a Step Back : Evoking Reasoning via Abstraction in Large Language Models](2024-take-a-step-back-evoking-reasoning-via-abstraction-in-large-language-models.md)
+* RAFT : Adapting Language Model to Domain Specific RAG
 * [Interleaving Retrieval with Chain-of-Thought for Knowledge-Intensive Multi-Step Questions](2023-interleaving-retrieval-with-chain-of-thought-for-knowledge-intensive-multi-step-questions.md)
 * [RAG Survey : A Survey on Retrieval-Augmented Text Generation for Large Language Models](2024-rag-survey-a-survey-on-retrieval-augmented-text-generation-for-large-language-models.md)
 * [CoVe : Chain of Verification Reduces Hallucination in Large Language Models](2023-cove-chain-of-verification-reduces-hallucination-in-large-language-models.md)

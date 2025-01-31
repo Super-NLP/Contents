@@ -167,7 +167,7 @@ _**Agentic Data Assistants**_ 최근 연구에서는 LM 에이전트를 데이�
 
 질의 생성 단계, 즉 우리의 경우 Text2SQL 단계에서는 원래 BIRD 벤치마크와 동일한 테이블 스키마 인코딩과 LM 프롬프트를 사용합니다. 질의 생성을 위한 예시 프롬프트는 아래와 같습니다.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 

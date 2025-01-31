@@ -41,6 +41,7 @@
 * [그래서 제일 좋은 Chunking이 뭔데?](research-article/chunking.md)
 * [웅장한 대결 AI Agent와 Agentic AI](research-article/ai-agent-agentic-ai.md)
 * [UV써도 괜찮아\~ 딩딩딩딩딩](research-article/uv.md)
+* [아무도 RAG 평가 셋 만드는 것에 관심가지지 않아\~](research-article/rag.md)
 
 ## 🏵️ Conference
 
