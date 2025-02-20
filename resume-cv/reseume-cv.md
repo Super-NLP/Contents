@@ -33,7 +33,12 @@ layout:
 
 ## :thumbsup: About&#x20;
 
-I am currently working as a **AI Researcher**. I have a strong interest in implementing personalized assistants using <mark style="color:green;">**RAG**</mark>, <mark style="color:purple;">**Agents**</mark>, and <mark style="color:blue;">**Prompt Engineering**</mark>.
+I am currently working as a **AI Researcher**. \
+I have a strong interest to followings:&#x20;
+
+* Implementing hyper-personalized assistants using <mark style="color:green;">**RAG**</mark>, <mark style="color:purple;">**Agents**</mark>, and <mark style="color:blue;">**Prompt Engineering**</mark>.
+* **Extracting hidden information** from user instruction.
+* Exploring and incorporating **linguistic features and characteristics** into prompt design, **applying them across various sub-modules of&#x20;**<mark style="color:green;">**RAG**</mark>.
 
 ## :necktie: Experience &#x20;
 
@@ -41,7 +46,17 @@ I am currently working as a **AI Researcher**. I have a strong interest in imple
 \- _Apr. 2024 - <mark style="color:blue;">Present</mark>_
 
 * Responsible for overall tasks in the **RAG Parts** of the Gen.AI Team.
-* Proceeding with the **Gen.AI PoC** for **HD미포조선**.
+* Developed the **Chatbot for our company’s website**.\
+  &#xNAN;_- Mar. 2025 - <mark style="color:blue;">Present</mark>_
+  * etc
+* Developed the **Chatbot Assistant** parts for the **Gen.AI Appliance**.\
+  &#xNAN;_- Nov. 2024 - <mark style="color:blue;">Present</mark>_
+  * Designed and implemented an **Advanced RAG Pipeline optimized for the service** environment.
+  * Implemented **access control and security features** by restricting Retriever document access based on user permissions.
+* Proceeding with the **PoC** with **HD미포조선**.\
+  &#xNAN;_- July. 2024 - Sep. 2024_
+  * **Extracted metadata** based on data from the shipbuilding domains and utilized it to **build an Advanced RAG Pipeline**.
+  * Designed and implemented a **2-Stage Retriever** **method** to accommodate the requirement of periodic partial updates to document content.
 * etc..
 
 **Data Engineering Internship :** Baroon System & KINS, Daejeon, Korea\
@@ -52,28 +67,29 @@ I am currently working as a **AI Researcher**. I have a strong interest in imple
 
 ## :books: Education&#x20;
 
-**Bachelor's Degree in Computer Science**\
-Hannam University, Deajeon\
-\- _Graduated: Feb 2023_
+**Bachelor's Degree in Computer Science**, Hannam University, Daejeon\
+: _Graduated: Feb 2023_
 
 ## :computer: Skills&#x20;
 
 * **Programming Languages** : Python
 * **Library** : Numpy, Pandas, Matplotlib
-* **Frameworks** : fastAPI, Lagnchain, Langgraph, LlamaIndex
+* **Frameworks** : fastAPI, Lagnchain, Langgraph, LangMem, LlamaIndex
 * **Database** : Faiss, Chroma, Postgresql, ParadeDB
 * **Tools** : Git, GitLab, Visual Studio Code, Docker, PyCharm, Slack, Notion
 
 ## :newspaper: References&#x20;
 
 * **Langchain OpenTutorials Contributors**\
-  : Jan 2025 \~ Feb 2025
+  &#xNAN;_: Jan 2025 \~ Feb 2025_
   * LangChain Global Tutorial Contribution with followings:
-    * JsonOutputParser
-    * Text2SQL
-    * Synthetic Dataset Generation
+    * Original Tutorial : JsonOutputParser
+    * New Tutorial : Text2SQL
+    * New Tutorial : Synthetic Dataset Generation
+* **Certificate of completion obtained for the LangGraph course accredited by LangChain Academy.**\
+  &#xNAN;_: Jan 2025_
 * **Langchain Documents Contributors**\
-  &#x20;: Jan 2024
+  &#x20;_: Jan 2024_
   * Acknowledged an error in the example for **RetryParser** in the official documentation due to a version update of Langchain.
   * Submitted a PR request to change `from pydantic import BaseModel, Field` to `from langchain_core.pydantic_v1 import BaseModel, Field`.
   * The issue was raised in Langchain's official repository under **DOC: Error in Retry Parser example documentation #16698**.
