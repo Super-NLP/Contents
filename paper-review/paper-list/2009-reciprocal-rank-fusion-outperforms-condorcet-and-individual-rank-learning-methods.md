@@ -44,7 +44,7 @@ $$
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Table 1 : 예비실험, TREC topic 351-400에 대한 30개의 모델 시스템 결과에서 RR Fusion의 k 값이 MAP에 미치는 영향. 비교를 위해 최고 모델 시스템과 경쟁적인 융합 방법들의 결과가 함께 제시됩니다. 동일한 시스템을 3가지 다른 테스트 컬렉션에 적용했을 때도 유사한 결과가 나타났습니다.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Table 2 : TREC 3, TREC 5, TREC 9의 애드혹 태스크와 TREC 2004 robust한 트랙에 제출된 실행 결과들의 융합에 대한 MAP 점수.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Table 2 : TREC 3, TREC 5, TREC 9의 애드혹 태스크와 TREC 2004 robust한 트랙에 제출된 실행 결과들의 융합에 대한 MAP 점수.</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Table 3 : LETOR 3 코퍼스에서 583,850개의 문서-쿼리 쌍에 대한 개별 순위와 융합. <br>각 방법에 대한 MAP 점수와 융합 결과와 개별 MAP 점수 간의 차이, 95% 신뢰 구간.</p></figcaption></figure>
 

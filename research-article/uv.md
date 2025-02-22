@@ -16,7 +16,7 @@ Official Documents of uv
 
 아래 그래프가 바로 uv가 뽐내는 타 패키지&프로젝트 매니저들과의 속도차이인데요, 한눈에 봐도 엄청 빠른것을 알 수 있죠? ㅎㅎ
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p><em>Installing</em> <a href="https://trio.readthedocs.io/"><em>Trio</em></a><em>'s dependencies with a warm cache.</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><em>Installing</em> <a href="https://trio.readthedocs.io/"><em>Trio</em></a><em>'s dependencies with a warm cache.</em></p></figcaption></figure>
 
 
 
@@ -24,7 +24,7 @@ Official Documents of uv
 
 그렇다면 uv가 왜 주목받을까요?&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Hell with Python Package : <a href="https://www.reddit.com/r/Python/comments/cry1fn/rant_after_going_through_literal_hell_with/">https://www.reddit.com/r/Python/comments/cry1fn/rant_after_going_through_literal_hell_with/</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Hell with Python Package : <a href="https://www.reddit.com/r/Python/comments/cry1fn/rant_after_going_through_literal_hell_with/">https://www.reddit.com/r/Python/comments/cry1fn/rant_after_going_through_literal_hell_with/</a></p></figcaption></figure>
 
 위의 그림에서 볼 수 있듯 PyPI에서 pip을 거치게 되었고 현재는 pip이 거의 표준처럼 사용되고 있죠! 이후 data science 생태계가 발전하면서 conda가 부상했지만 환경의 일원화가 되지 않는다는 문제점을 혹처럼 달고 있었습니다.. 이후엔 개발자와 개발환경에 따라 poetry가 잘 사용되기도 했구요. 다만 전체적으로 온전하지 않았고 느린속도는 여전했던것이죠. uv는 이러한 환경속에서 2024년 초에 등장했습니다!!
 
