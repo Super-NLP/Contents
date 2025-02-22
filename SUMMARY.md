@@ -42,10 +42,12 @@
 * [웅장한 대결 AI Agent와 Agentic AI](research-article/ai-agent-agentic-ai.md)
 * [UV써도 괜찮아\~ 딩딩딩딩딩](research-article/uv.md)
 * [아무도 RAG 평가 셋 만드는 것에 관심가지지 않아\~](research-article/rag.md)
+* [Generations Never Easy](research-article/generations-never-easy.md)
+* [Text2SQL 넌 내꺼야!](research-article/text2sql.md)
 
 ## 🏵️ Conference
 
-* [Talk: Prompt and Language The Science of Prompts](conference/talk-prompt-and-language-the-science-of-prompts.md)
+* [Talk: Prompt and Language The Science of Prompts 후기](conference/talk-prompt-and-language-the-science-of-prompts.md)
 * [2024년 회고](conference/2024.md)
 * [제 7회 Kako Tech Meet Up 후기](conference/7-kako-tech-meet-up.md)
 * [Moducon 2023 행사 후기](conference/moducon-2023.md)

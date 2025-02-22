@@ -31,6 +31,7 @@ layout:
 ## <mark style="color:blue;">2025.</mark>
 
 * \[🦜🔬] Feb : Text2SQL 넌 내꺼야!
+* \[🦜🔬] Feb : Generations Never Easy
 * \[🦜🔬] Jan 31 : [아무도 RAG 평가 셋 만드는 것에 관심가지지 않아\~](../rag.md)
 * \[📑] Jan 28 : [UV써도 괜찮아\~ 딩딩딩딩딩](../uv.md)
 * \[🥑📑] Jan 12 : [웅장한 대결 AI Agent와 Agentic AI](../ai-agent-agentic-ai.md)
