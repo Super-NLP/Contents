@@ -45,6 +45,7 @@
 
 ## 🏵️ Conference
 
+* [Talk: Prompt and Language The Science of Prompts](conference/talk-prompt-and-language-the-science-of-prompts.md)
 * [2024년 회고](conference/2024.md)
 * [제 7회 Kako Tech Meet Up 후기](conference/7-kako-tech-meet-up.md)
 * [Moducon 2023 행사 후기](conference/moducon-2023.md)
