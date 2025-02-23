@@ -22,13 +22,13 @@ Linguistic을 바탕으로 Prompt를 작성하면 다음과 같은 내용을 본
 * 맥락을 잃거나 못찾으면 인간의 인지 구조와 개념 체계를 이해해야 함.
 * 문장 레벨 이상의 의미해석을 못하면 담화와 대화 구조를 이해해야 함.
 
-## Ⅱ. Syntaxs (통사론)
+## Ⅱ. Syntaxs
 
 Syntax는 이렇게 정의내릴 수 있다. The set of rules that govern the structure and arrangement of words in sentences. 즉, 문장이 어떻게 구성되는지 (e.g. 주어, 술어, 목적어, 등) 생성문법과 구문 규칙 파싱, 구조적인 해석이 Syntax(=통사론)에 해당한다.&#x20;
 
-### Ⅱ-1. Generation Grammer (=생성문법)
+### Ⅱ-1. Generation Grammer
 
-생성문법이란, Generation Grammer라고 하는데 '모든 언어는 근간을 이루는 규칙을 가진다.'고 하는 것이다.\
+Generation Grammer(=생성문법)은 '모든 언어는 근간을 이루는 규칙을 가진다.'고 하는 것이다.\
 대표적으로 Chomsky(1970)와 Jackendoff(1977)의 X-bar Theory가 존재한다. 아래 예를 보자.
 
 `A Cute Cat`&#x20;
@@ -37,7 +37,7 @@ Syntax는 이렇게 정의내릴 수 있다. The set of rules that govern the st
 
 ### Ⅱ-2. Syntax Tree
 
-syntax tree란 단어들 간의 수직적 위계 관계가 존재하며, 문장 구조가 지니는 계층 표상방법을 tree형태로 표현한 것이다. 이는 언어의 모호성을 표현해주기 위한 방법이다. 언어란 무릇 어순이 중요한 언어와 그렇지 못한 언어가 있기 때문에 어순 또한 의미적 모호성을 구별해주는 중요한 기준이 된다. 아래 예시를 살펴보자.
+Syntax Tree란 단어들 간의 수직적 위계 관계가 존재하며, 문장 구조가 지니는 계층 표상방법을 tree형태로 표현한 것이다. 이는 언어의 모호성을 표현해주기 위한 방법이다. 언어란 무릇 어순이 중요한 언어와 그렇지 못한 언어가 있기 때문에 어순 또한 의미적 모호성을 구별해주는 중요한 기준이 된다. 아래 예시를 살펴보자.
 
 * English
   * The boy likes the girl
@@ -68,11 +68,13 @@ Recursive Rule은 동일한 규칙이 반복되어 복잡한 구조를 형성하
   * 낮은 빈도로 등장하는 어려운 문법 구조에서 성능이 저하됨.
   * Semantic Anomalies (의미적 이상 현상) 문장에서 논리적 모순을 제대로 인식하지 못함.
 
-## Ⅲ. Semantics (의미학)
+## Ⅲ. Semantics
 
-Semantics의 정의는 The study of meaning in language, focusing on how words, phrases, and sentences convey meaning이라고 한다. 문장의 구성에 따라 어떤방식으로 의미가 달리지고 구성되는가에 대한 학문인것 같다. 문장은 크게 object와 function으로 구성되는데, 이를 형이상학적 관점에서 소개해주셨다.
+Semantics(=의미론)의 정의는 The study of meaning in language, focusing on how words, phrases, and sentences convey meaning이라고 한다. 문장의 구성에 따라 어떤방식으로 의미가 달리지고 구성되는가에 대한 학문인것 같다. 문장은 크게 object와 function으로 구성되는데, 이를 형이상학적 관점에서 소개해주셨다.
 
-### Ⅲ-1. Metaphysics(=형이상학)
+### Ⅲ-1. Metaphysics
+
+Metaphysics(=형이상학)에 대하여 소개하겠다.
 
 * 존재하는 것들은 어떤방식으로 존재하는가? ⇒ object
 * 사물과 개념은 어떤 관계인가? ⇒ function
@@ -84,7 +86,7 @@ Semantics의 정의는 The study of meaning in language, focusing on how words, 
     * 의미 구성 (Copositional Semantics)
       * 단어, 구, 문장이 어떻게 결합되어 전체적인 의미를 형성하는지 설명
       * 전체의 의미는 그 구성요소들의 의미와 결합 방식에 의해 결정된다. (원리적 구성)
-    * Semantic Relations : 의미적 관계
+    * **Semantic Relations** : 의미적 관계
       * 의미적 관계에 따른 분류
         * 동의어 : 의미가 유사한 단어들
         * 반의어 : 서로 반대되는 의미의 단어들
@@ -100,13 +102,13 @@ Semantics의 정의는 The study of meaning in language, focusing on how words, 
         * The chicken is ready to eat.
           * 닭이 먹을 준비가 됐어.
           * (내가) 닭을 먹을 준비가 됐어.
-    * Reference Theory : 어떤 단어나 표현이 실제 세계에서 특정한 대상(참조대상)을 직접 지시
+    * **Reference Theory** : 어떤 단어나 표현이 실제 세계에서 특정한 대상(참조대상)을 직접 지시
       * 러셀 : 고유 명사는 그 자체로 특정한 대상을 지시한다.
       * 프레게 : 의미와 지시를 구분하며, 단어의 의미는 단순히 대상이 아니라 개념적 내용도 포함할 수 있다.
         * ex) 그는 천재야.
           * 대명사 : 그
           * 속성 : 천재
-      * Deixis(=직시) : 발화 상황에 따라 지시첵 달라지는 지시어
+      * **Deixis**(=직시) : 발화 상황에 따라 지시체가 달라지는 지시어
         * Personal Deixis
           * 그, 그녀
         * Temporal Deixis
@@ -115,7 +117,7 @@ Semantics의 정의는 The study of meaning in language, focusing on how words, 
           * 그 사람만 이해하는 표현
         * Discourse Deixis
           * 담화 내에서만 이해하는 표현 (e.g. As I Said Before)
-      * Conceptual Semantics (=개념적 의미론)
+      * **Conceptual Semantics** (=개념적 의미론)
         * 인지구조의 기본 요소
           * 감각 경험과 지각
             * 인간은 주변세계를 감각 기관을 통해 경험
@@ -130,7 +132,7 @@ Semantics의 정의는 The study of meaning in language, focusing on how words, 
               * 개인이 경험한 종보를 조직화 (병원 = 가운, 의사, 흰색)
             * 개념적 은유 (=Conceptual Metaphor)
               * 시간은 돈이다.
-      * 은유와 환유 : Lakoff, G. & Johnson, M. (1980). Metaphors We Live By.
+      * **은유와 환유** : Lakoff, G. & Johnson, M. (1980). Metaphors We Live By.
         * 은유 : 한 개념 영역에서 다른 개념 영역으로 의미가 전이되는 방식\
           e.g. 시간은 돈이다.
         * 환유 : 어떤 개념을 그와 밀접하게 관련된 다른 개념으로 대체하는 것\
@@ -138,9 +140,9 @@ Semantics의 정의는 The study of meaning in language, focusing on how words, 
 
 RAG는 Semanitc loss가 굉장히 심함. 기존 데이터가 가지는 tone & mannerr가 모두 박살나기 일쑤.
 
-## Ⅳ. Pragmatics (화용론)
+## Ⅳ. Pragmatics
 
-Pragmatics는 The study of how context influences how we interpret and make meaning of communication. It is often described as the study of "language in use"로 정의한다. 언어는 Lower Context Language와 Higher Context Language가 존재한다. 대표적인 예시로 영어는 Lower Context, 한국어는 Higher Context에 속한다.
+Pragmatics(=화용론)는 The study of how context influences how we interpret and make meaning of communication. It is often described as the study of "language in use"로 정의한다. 언어는 Lower Context Language와 Higher Context Language가 존재한다. 대표적인 예시로 영어는 Lower Context, 한국어는 Higher Context에 속한다.
 
 ### Ⅳ-1. Personal Space
 

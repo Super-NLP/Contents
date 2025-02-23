@@ -4,7 +4,7 @@ description: 2025.02.22.
 
 # LangChainOpenTutorial를 진행하며
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>LangChainOpenTutorial</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt="" width="375"><figcaption><p>LangChainOpenTutorial</p></figcaption></figure>
 
 ## 2달간의 오픈소스 여정을 마치고
 

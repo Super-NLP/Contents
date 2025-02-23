@@ -43,6 +43,7 @@
 * [UV써도 괜찮아\~ 딩딩딩딩딩](research-article/uv.md)
 * [아무도 RAG 평가 셋 만드는 것에 관심가지지 않아\~](research-article/rag.md)
 * [Linguistic Prompts](research-article/linguistic-prompts.md)
+* [Chroma야, Chunking 평가를 어떻게 한다고?](research-article/chroma-chunking.md)
 * [Generations Never Easy](research-article/generations-never-easy.md)
 * [Text2SQL 넌 내꺼야!](research-article/text2sql.md)
 

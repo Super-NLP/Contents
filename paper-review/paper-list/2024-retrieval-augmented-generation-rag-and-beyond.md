@@ -55,7 +55,7 @@ $$
 
 데이터로 augmented된 LLM application의 맥락에서, Query는 복잡성과 요구되는 데이터 상호작용의 깊이에 따라 계층화될 수 있습니다. 이러한 계층화는 LLM이 정확하고 관련성 높은 응답을 생성하기 위해 수행해야 하는 다양한 수준의 인지적 처리를 이해하는 데 도움을 줍니다. 단순한 사실 검색에서 암시적 지식의 정교한 해석에 이르기까지, 각 계층은 LLM이 처리해야 할 과제의 정교함이 한 단계씩 높아지는 것을 나타냅니다. 아래에서는 이러한 계층을 구분하여 각 단계에서 요구되는 고유한 도전 과제와 필요 역량에 대한 통찰을 제공합니다.
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p><strong>Figure 01</strong> : 4단계 Query에 대한 Main Focus</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p><strong>Figure 01</strong> : 4단계 Query에 대한 Main Focus</p></figcaption></figure>
 
 #### <mark style="color:purple;">Level 1 : Explicit Facts</mark>
 
@@ -73,7 +73,7 @@ $$
 
 이 범주의 질문은 더 어려운 영역으로, 논리가 명시적으로 문서화되어 있지 않고, 외부 데이터에서 관찰된 패턴과 결과를 기반으로 추론해야 하는 경우를 다룹니다. 여기서 숨겨진 논리는 암묵적인 추론 체계와 논리적 관계뿐만 아니라, 각 질문에 필요한 외부 논리를 식별하고 추출하는 본질적으로 까다롭고 복잡한 작업을 포함합니다. 예를 들어, IT 운영 시나리오에서 클라우드 운영 팀은 과거에 여러 사건을 처리했으며, 각각 고유한 상황과 해결 방법을 가지고 있습니다. 대규모 언어 모델(LLM)은 이러한 풍부한 암묵적 지식의 저장소를 탐색하여 성공적인 전략과 의사 결정 과정을 도출할 수 있어야 합니다. 마찬가지로, 소프트웨어 개발에서는 이전 버그의 디버깅 기록이 풍부한 암묵적 통찰을 제공할 수 있습니다. 각 디버깅 결정의 단계별 논리가 체계적으로 기록되어 있지 않을 수도 있지만, LLM은 해당 결정을 이끈 기본 원칙을 추출할 수 있어야 합니다. 이러한 숨겨진 논리를 종합함으로써, LLM은 정확할 뿐만 아니라, 오랜 경험을 통해 숙련된 전문가들이 다듬어온 암묵적인 전문성과 문제 해결 접근 방식을 반영한 응답을 생성할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><strong>Figure 02</strong> : 데이터 augmented된 LLM applications에서의 Query Level 요약</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><strong>Figure 02</strong> : 데이터 augmented된 LLM applications에서의 Query Level 요약</p></figcaption></figure>
 
 요약하자면, 질문을 여러 수준으로 분류하는 것은 복잡성과 LLM(대규모 언어 모델)이 요구하는 이해 유형의 점진적인 단계를 반영합니다. Figure 01과 Figure 02에서 예시된 바와 같이, 첫 번째와 두 번째 수준인 **Explicit Facts**와 **Implicit Facts**은 각각 명시적으로 주어진 정보이든, 기본적인 추론이 필요한 정보이든 사실적 데이터를 검색하는 데 초점을 맞춥니다. 이 두 수준은 LLM이 데이터를 추출하고 이를 일관된 사실로 종합하는 능력을 시험합니다. 반대로, **Interpretable Rationales**와 **Hidden Rationales**로 이루어진 후속 두 수준은 데이터를 뒷받침하는 논리를 학습하고 적용하는 LLM의 능력에 초점을 맞춥니다. 이러한 수준은 각각 LLM이 전문가적 사고방식과 조율하거나 비구조화된 역사적 데이터에서 지혜를 추출해야 하는 더 깊은 인지적 참여를 요구합니다.
 
@@ -81,7 +81,7 @@ $$
 
 ## 3. Explicit Fact Queries (L1)
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Table 01 : Common Dataset 계층화에 따른 Fact 제공 분류</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>Table 01 : Common Dataset 계층화에 따른 Fact 제공 분류</p></figcaption></figure>
 
 ### 3.1 Overview
 
@@ -162,7 +162,7 @@ RAG의 인기로 인해 이러한 과제를 해결하기 위한 다양한 연구
 
 **Query Document Alignment** : 이 단계의 목표는 외부 데이터에서 질의와 문서 세그먼트를 일치시켜, 질의에 답변하는 데 가장 적합한 문서 세그먼트를 식별하는 것입니다. Figure 03에서 설명된 것처럼, 이러한 alignment에는 주로 3가지 접근 방식이 있습니다: **전통적 정렬(traditional alignment)**, **문서 도메인 정렬(document domain alignment)**, **질의 도메인 정렬(query domain alignment)**&#xC785;니다. **전통적 정렬(Traditional Alignment)**&#xC740; 문서 세그먼트와 질의를 동일한 인코딩 공간으로 매핑하는 방식입니다. 예를 들어, 듀얼 인코더 기반의 많은 밀집 검색 아키텍처는 특화된 질의 인코더를 사용하는 특징이 있습니다. 반대로, RAG와 같은 시스템이 희소 검색을 사용하는 경우, 검색을 위해 질의에서 키워드를 추출해야 합니다. 검색 정확도를 더욱 개선하기 위해 **질의 재작성 (query rewriting)** 기술을 활용할 수 있습니다. 이는 사용자 용어의 부정확성이나 모호한 설명과 관련된 문제를 완화하여 검색 결과의 정밀도를 효과적으로 향상시킵니다. **문서 도메인 정렬 (Document Domain Alignment)**&#xC740; 먼저 합성 답변(synthetic answer)을 생성한 다음, 이러한 답변을 사용하여 관련 데이터를 검색하는 방식을 포함합니다. 이를 통해 질의와 검색된 데이터가 동일한 분포 공간에 있지 않은 문제를 효과적으로 해결할 수 있습니다. 이 분야에서 주목할 만한 연구는 **HyDE**입니다. **질의 도메인 정렬(Query Domain Alignment)**&#xC740; 각 텍스트의 원자적 단위에 대해 합성 질문 세트를 생성하고, 텍스트 세그먼트를 질의 공간으로 매핑한 다음, 원래 질의와 가장 가까운 합성 질문과 해당 텍스트 세그먼트를 검색하는 방식입니다. 이 방법은 질의에 답변하기 위해 가장 관련 있고 맥락적으로 적합한 세그먼트를 선택할 수 있도록 보장합니다. **SlimPLM**은 소규모 프록시 모델을 사용하여 휴리스틱 답변을 생성하고, 이를 통해 질문에 답변하는 데 필요한 지식을 예측합니다. 이 접근법은 질의를 문서 공간에 정렬하는 효과적인 방법을 제공합니다.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p><strong>Figure 03</strong> : Query Document Alignment의 3가지 유형</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption><p><strong>Figure 03</strong> : Query Document Alignment의 3가지 유형</p></figcaption></figure>
 
 **Re-ranking and Correction** : 최상위 $$k$$개의 텍스트 블록을 검색한 후, RAG 시스템은 이 세그먼트를 filtering하고 reordering해야 합니다. 대부분의 RAG 시스템은 검색기가 제공하는 관련성 점수를 순위 기준으로 사용하지만, 일부 연구에서는 perplexity나 perplexity gain과 같은 특정 지표를 순위 기준으로 활용하기도 합니다. 또 다른 접근법으로는 LLM을 사용하여 검색된 텍스트 블록의 신뢰성과 유용성을 평가하고, 검색기 출력 결과를 개선하기 위해 플러그인 방식의 보상 기반 contextual adapter를 학습시키는 방법이 있습니다. 추가적으로, 일부 연구는 사실 검증에 특화된 소형 언어 모델을 사전 학습하여 부정확한 검색 텍스트 청크를 필터링하는 데 사용하는 것에 초점을 맞추고 있습니다. 이를 통해 검색된 텍스트의 품질을 향상시킬 수 있습니다.
 
@@ -262,7 +262,7 @@ _**Wheter to Seperate Different Levels of Fact Queries (사실 질의의 수준�
 
 도메인 특화 논거는 워크플로우, 의사결정 트리, 의사코드(pseudocode)와 같은 형식으로 표현될 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p><strong>Figure 04</strong> : Rationale Data의 분류와 예시</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p><strong>Figure 04</strong> : Rationale Data의 분류와 예시</p></figcaption></figure>
 
 **해당 레벨에서의 질의 예시**
 
