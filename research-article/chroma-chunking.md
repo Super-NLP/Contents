@@ -196,43 +196,116 @@ $$
 
 ## Ⅳ. Chunking Evaluation Dataset
 
+우리의 평가 프레임워크를 사용하여 AI 응용 프로그램의 검색을 위한 문서 분할 전략을 평가할 수 있는 데이터셋을 생성하였습니다.
+
 ### Ⅳ-1. Corpora
 
+데이터셋에는 깔끔한 텍스트와 복잡한 텍스트 소스를 모두 포함한 다섯 개의 다양한 코퍼스를 선정했습니다. 깔끔한 코퍼스는 잘 구성된 텍스트를 포함하는 반면, 복잡한 코퍼스는 일반적으로 웹 스크래핑으로 얻은 비구조적인 텍스트의 특성을 반영합니다. 각 코퍼스에 대한 간단한 설명은 아래에 제공되어 있습니다. 각 코퍼스의 길이는 OpenAI의 GPT-4에서 사용하는 표준인 “cl100k\_base”에 맞춰 Tiktoken으로 측정한 토큰 수로 제공됩니다. 모든 Hugging Face 코퍼스는 전체 코퍼스의 하위 집합이며, 제공된 길이는 우리가 사용한 하위 집합을 기준으로 합니다. 이 하위 집합은 항상 Hugging Face에 있는 텍스트의 시작 부분부터 시작합니다.
 
+비록 이 코퍼스들이 대부분의 대규모 검색 벤치마크에 비해 상대적으로 작지만, 우리의 목표는 대표적인 데이터를 대상으로 한 평가 프레임워크의 유용성을 입증하고, 쉽게 재현 가능한 결과를 제공하며, 향후 연구를 위한 출발점을 마련하는 데 있습니다. 우리가 제시하는 구체적인 데이터셋이 포괄적이라고 주장하는 것이 아니라, 오히려 이 평가 프레임워크의 유용성을 보여준다는 점을 강조합니다.
 
-
+* State of the Union Address 2024
+  * 이는 2024년 국가 연설(State of the Union Address)의 단순한 녹취록으로, 잘 구성되어 있고 명료합니다. 이 코퍼스는 총 10,444 토큰으로 이루어져 있습니다.
+* WikiText
+  * WikiText 언어 모델링 데이터셋은 위키백과의 검증된 우수 및 추천 기사에서 추출된 1억 개 이상의 토큰으로 구성됩니다. 우리의 하위 데이터셋은 Hugging Face에 표시된 해당 텍스트의 처음 26,649 토큰으로 이루어져 있습니다.
+* Chatlogs
+  * UltraChat 200k 데이터셋은 ChatGPT가 생성한 140만 개의 대화 중에서 품질이 높은 대화를 선별한 데이터셋입니다. 이 코퍼스는 실제 원시 텍스트를 보다 정확하게 반영하기 위해 모든 주변 JSON 구문을 포함하고 있으며, 우리의 하위 데이터셋은 해당 텍스트의 처음 7,727 토큰으로 구성되어 있습니다.
+* Finance
+  * ConvFinQA 데이터셋은 금융 분야의 대화형 질문 응답에서 수치적 추론을 연구하기 위해 설계되었습니다. 이 코퍼스는 금융 보고서를 기반으로 한 복잡한 다중 회전 질문과 답변을 포함하며, 장기적인 수치 추론 경로 모델링에 중점을 두고 있습니다. 우리의 하위 데이터셋은 해당 텍스트의 처음 166,177 토큰으로 이루어져 있습니다.
+* Pubmed
+  * PMC Open Access Subset은 국립 의학 도서관에서 제공하는 생의학 및 생명과학 학술 문헌 모음입니다. 우리의 하위 데이터셋은 이 텍스트의 처음 117,211 토큰으로 구성되어 있습니다.
 
 ### Ⅳ-2. Generation & Prefiltering
 
+중복 임계값을 결정하기 위해, 주어진 임계값에 대해 생성된 쿼리 쌍에서 샘플을 추출한 후 이 샘플 쌍들을 수동으로 검토하고, 각 쌍의 쿼리가 충분히 구별되는지에 따라 임계값을 조정하는 이진 탐색을 수행합니다.
 
+<figure><img src="../.gitbook/assets/image (68).png" alt=""><figcaption><p>Pubmed 코퍼스에서 쿼리와 해당 발췌문 간 코사인 유사도 분포</p></figcaption></figure>
 
+<figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption><p>Pubmed 코퍼스에서 모든 쿼리 쌍 간 코사인 유사도 분포</p></figcaption></figure>
 
+유사한 접근 방식이 발췌 필터에도 사용됩니다. 향후 연구에서는 이 과정을 자동화할 수 있을 것으로 기대됩니다. 또한 채택된 임계값들이 코퍼스 간에 유사하게 나타난다는 점은 실제 적용 시 휴리스틱 값으로 사용할 수 있음을 시사합니다.
 
+<figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption><p>각 코퍼스에 대한 토큰 수, 쿼리 수, 발췌 임계값 및 중복 쿼리 임계값.</p></figcaption></figure>
 
+모든 텍스트 발췌문과 질문은 GitHub 저장소에서 확인할 수 있습니다.
+
+### Ⅳ-3. Time & Cost Analysis
+
+질문 생성에 걸린 시간은 질문 당 3초에서 16초까지 다양했으며, 평균 약 10초였습니다. 시간이 더 길어진 경우는 주로 잘못된 발췌문을 기반으로 한 질문을 배제하기 위한 추가 처리 과정 때문이었습니다.
+
+기본 프롬프트로는 OpenAI의 cl100k Tokenizer로 측정하여 703 토큰을 사용했습니다. 질문 생성 시 원본 코퍼스에서 무작위로 선택한 4,000자 분량과 데이터셋에서 샘플링한 50개의 질문을 포함하여, 평균 프롬프트 크기는 2,000 토큰이 되었습니다. 평균 응답 길이는 200 토큰으로, 질문 당 전체 입력 길이는 2,000 토큰, 출력 길이는 200 토큰이었습니다.
+
+현재 시점에서 GPT-4를 사용해 한 개의 질문을 생성하는 비용은 약 $0.01입니다. 따라서 1,000개의 질문으로 구성된 데이터셋을 생성하는 데 약 $10의 비용이 소요됩니다. 이 추정치는 최종 질문 수를 줄이는 후속 필터링 단계를 고려하지 않은 값임을 유의해 주시기 바랍니다.
 
 ## Ⅴ. Chunking Algorithms
 
+아래에서는 이 보고서에서 사용한 chunking 방법들을 소개합니다. 우리는 범용적이고 일반적으로 사용되는 chunking뿐만 아니라 새로운 접근법들도 평가하였습니다. 이 섹션에서 언급된 토큰은 모두 OpenAI의 cl100k Tokenizer를 기준으로 한 것입니다. ★ 기호는 이후에 소개되는 알고리즘이 본 연구를 위해 새로 개발된 chunking 방법임을 나타냅니다.
+
 ### Ⅴ-1. RecursiveTextSplitter & TokenTextSplitter
 
+`RecursiveCharacterTextSplitter`와 `TokenTextSplitter`는 가장 널리 사용되는 chunking strategy중 일부이며, 많은 RAG 시스템에서 기본적으로 사용됩니다. 이러한 chunking strategy들은 코퍼스의 의미적 내용에는 민감하지 않고, 대신 문자 시퀀스의 위치에 의존하여 문서를 최대 길이가 지정된 chunk로 분할합니다. 우리는 인기 있는 Langchain 라이브러리의 구현 방식을 따랐습니다.
 
+공정한 결과를 얻기 위해 몇 가지 기본 설정을 변경할 필요가 있음을 발견했습니다. 기본적으로 RecursiveCharacterTextSplitter는 다음과 같은 구분자들을 사용합니다: \["\n\n", "\n", " ", ""]. 그러나 이 방식은 일반적으로 너무 짧은 chunk를 생성하여, 기본적으로 고정 길이의 chunk를 생성하는 TokenTextSplitter에 비해 성능이 떨어지는 것으로 나타났습니다. 따라서 우리는 구분자 집합으로 \["\n\n", "\n", ".", "?", "!", " ", ""]를 사용합니다.
 
 ### Ⅴ-2. KamradtSemanticChunker
 
+Greg Kamradt는 후에 LangChain에 통합된 새로운 Semantic Chunking 알고리즘을 제안했습니다. 이 chunker는 먼저 코퍼스를 문장 단위로 분할한 후, 문서의 토큰에 대해 sliding window의 임베딩을 계산하고 연속 윈도우 간의 코사인 거리에서 불연속성을 탐지하는 방식으로 작동합니다. 기본적으로 불연속성을 감지하기 위한 임계값은 모든 연속 거리의 95번째 백분위수를 초과하는 거리로 설정되며, 이는 상대적인 척도이기 때문에 코퍼스가 클수록 더 큰 청크가 생성될 수 있습니다.
 
+#### Ⅴ-2-1. KamradtModifiedChunker
 
+사용자가 임베딩 모델의 컨텍스트 창에 chunk가 맞도록 chunk size를 직접 설정할 수 있으면 바람직합니다. \
+이를 해결하기 위해, 지정된 길이보다 큰 chunk가 없도록 불연속성 임계값에 대해 이진 탐색을 수행하는 방식으로 `KamradtSemanticChunker`를 수정하였습니다.
 
+#### Ⅴ-2-2. ClusterSemanticChunker
 
+또한, 임베딩 기반 semantic chunking의 원리를 확장하여 `KamradtSemanticChunker` 알고리즘이 본질적으로 탐욕적(greedy)이라는 점을 관찰했습니다. 이로 인해 내부 유사성이 높은 chunk를 보존하는 목표 하에서 최적의 chunking이 이루어지지 않을 수 있습니다. 이에, 사용자 지정 최대 길이까지 chunk 내 코사인 유사도의 합을 최대화하여 전역적으로 최적의 chunk를 생성하는 것을 목표로 하는 새로운 알고리즘인 `ClusterSemanticChunker`를 제안합니다. 직관적으로 이는 문서 전체에서 유사한 의미 정보를 최대한 보존하면서 각 chunk내에 관련 정보를 압축하는 역할을 합니다.
 
+문서는 `RecursiveCharacterTextSplitter`를 사용하여 최대 50 토큰 단위로 분할되며, 각 조각은 개별적으로 임베딩됩니다. 이후, 동적 프로그래밍 기법을 활용하여 각 chunk 내의 모든 조각 쌍 간의 코사인 유사도를 최대화하도록 합니다. 이 알고리즘의 코드는 GitHub 저장소에서 확인할 수 있습니다.
 
+이 방법의 한계점은 전역 최적의 패킹이 코퍼스의 전반적인 통계에 의존하기 때문에, 데이터가 추가될 때마다 chunk를 다시 계산해야 한다는 점입니다. 이 한계는 데이터가 추가되거나 제거될 때 소규모 조각들에 대해 적절한 자료구조를 유지함으로써 개선할 수 있을 것으로 보이며, 이는 향후 연구 과제로 남겨둡니다.
 
+#### Ⅴ-2-3. LLMSemanticChunker
 
+“just \[ask] the model”는 취지에 따라, 텍스트를 chunking하도록 LLM에 직접 프롬프트를 주는 방법을 실험해보았습니다. 그러나 LLM에게 <|split|> 토큰을 사용해 코퍼스를 반복하도록 하는 순진한 접근 방식은 비용이 많이 들고 느리며, 생성된 텍스트에서 환각 현상이 발생하는 문제가 있음을 확인했습니다.
 
+이 문제를 해결하기 위해 RecursiveCharacterTextSplitter를 사용하여 텍스트를 50 토큰 단위의 청크로 나눈 후, 각 청크를 청크 태그로 감싸는 방식으로 텍스트를 다시 결합하였습니다. 그 결과 다음과 같은 형태의 텍스트가 생성되었습니다.
+
+```
+<start_chunk_0>On glancing over my notes of the seventy odd cases in which I 
+have during the last eight years <end_chunk_0><start_chunk_1>studied the 
+methods of my friend Sherlock Holmes, I find many tragic, some comic, 
+a large number <end_chunk_1><start_chunk_2> . . .
+```
+
+그 후, LLM에게 아래와 같은 형식으로 분할할 chun의 인덱스를 반환하도록 지시했습니다.
+
+```
+split_after: 3, 5
+```
+
+GPT-4o와 Llama 3 8B Instruct 모두 이 형식을 일관되게 준수하는 것을 확인했습니다. 이 알고리즘에 대한 전체 프롬프트와 코드는 GitHub 저장소에서 확인할 수 있습니다.
 
 ## Ⅵ. Results
 
+평가에 사용된 모든 쿼리와 코퍼스에 대해 각 청크 분할 방법의 $$\mathrm{Recall}$$, $$\mathrm{Precision}$$, $$\mathrm{Precision_{Ω}}$$, $$\mathrm{IoU}$$ 점수의 평균을 제시합니다. ±는 표준 편차를 나타냅니다. OpenAI의 text-embedding-3-large 임베딩 모델을 사용하여, n=5개의 검색된 청크에 대한 결과를 보고합니다.
 
+<figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption><p>text-embedding-3-large에 대한 결과입니다. 여기서 Size는 토큰( cl100k 토크나이저 기준) 단위의 chunk size를 의미하며, 괄호 안의 수치는 chunking strategy에 따라 달라질 수 있는 평균 chunk size를 나타냅니다. Overlap은 chunk 간의 중첩되는 토큰 수를 의미하며, 굵은 글씨는 각 범주에서 최고의 성능을 나타냅니다.</p></figcaption></figure>
 
+연구 결과, chunk size 200에 overlap이 없는 휴리스틱 RecursiveCharacterTextSplitter가 우수한 성능을 보였습니다. 비록 최고 결과를 달성하지는 못했지만, 모든 평가 지표에서 일관되게 높은 성능을 기록했습니다. 또한, chunk overlap이 없는 상태에서 chunk size가 400 이하일 경우, TokenTextSplitter보다 모든 지표에서 더 우수한 성능을 보였습니다. 흥미롭게도, 이 결과는 chunk size가 더 크거나 overlap이 있는 경우에는 적용되지 않았습니다. 예상대로, 중복 정보를 페널티하는 IoU 점수의 특성상, chunk overlap을 줄이면 IoU 점수가 개선됨을 확인할 수 있었습니다.
 
+OpenAI 어시스턴트는 표준 RAG 프로세스를 따라 파일 검색을 활용해 응답의 질을 향상시킬 수 있습니다. 문서에 따르면, 기본 chunking strategy는 800 토큰 크기의 chunk를 사용하며 400 토큰의 중복을 포함합니다. TokenTextSplitter 방식을 사용한다고 가정할 때, 이 설정은 평균보다 약간 낮은 recall과 다른 모든 지표에서 가장 낮은 점수를 나타내어, recall과 효율성 사이의 trade-off가 특히 좋지 않음을 시사합니다.
+
+최대 chunk size를 400 토큰으로 설정한 ClusterSemanticChunker는 0.913의 두 번째로 높은 recall을 달성합니다. 최대 chunk size를 200 토큰으로 줄이면 평균 recall을 보이지만, PrecisionΩ와 IoU에서는 가장 높은 수치를 기록합니다. LLMSemanticChunkers는 0.919의 가장 높은 recall을 달성하면서 나머지 지표에서는 평균 수준의 점수를 보여, LLM이 이 작업에 비교적 능숙함을 시사합니다.
+
+KamradtSemanticChunker는 기본 설정에서 모든 지표에서 약간 평균 이하의 점수를 보이며, recall은 0.836입니다. KamradtModifiedChunker의 수정사항을 적용하면 recall이 0.871로 상승하며, 다른 지표들에서도 유사한 향상을 보입니다. 평균 chunk size가 줄어들었음에도 recall이 개선된 점은 주목할 만합니다.
+
+우리는 관련 정보가 chunk 내에서 희석되어 검색이 어려워지기 전에 recall이 최대치에 도달할 수 있다고 추정하며, 반대로 chunk가 너무 작으면 단일 단위 내에서 필요한 맥락을 포착하지 못한다고 생각합니다.
+
+또한, 임베딩 모델을 Sentence Transformers의 ‘all-MiniLM-L6-v2’로 변경하여 실험을 반복하였습니다.
+
+<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption><p>MiniLM-L6-v2 결과입니다. 여기서 Size는 토큰 단위의 chunk size(측정 도구: cl100k tokenizer)를 의미하며, 괄호 안의 크기는 chunking strategy에 따라 달라질 수 있는 평균 chunk size를 나타냅니다. Overlap은 청크 간 중첩되는 토큰 수를 의미합니다. 굵은 값은 각 범주에서 최고의 성능을 나타냅니다.</p></figcaption></figure>
+
+ClusterSemanticChunker는 가장 높은 Precision, PrecisionΩ 및 IoU를 달성했으나, 평균 chunk size가 작기 때문에 recall은 약간 평균 이하로 나타났습니다. TokenTextSplitter는 chunk size 250, chunk overlap 125로 구성했을 때 0.824의 최고 recall을 기록했습니다. chunk overlap을 0으로 설정하면 recall이 0.771로 떨어지는데, 이는 작은 문맥에서는 높은 recall을 위해 chunk overlap이 필요함을 시사합니다.
 
 ## Ⅶ. Limitations & Future Work and Conclusion
 
@@ -250,17 +323,8 @@ $$
 
 또한, 인기 있는 chunking stratgey에 대한 평가 결과, 이 평가가 선택된 청크 분할 전략에 따른 검색 성능의 차이를 효과적으로 포착함을 보여주었습니다. 평가 전반에서 꾸준히 우수한 성능을 보인 임베딩 모델을 고려한 chunking stratgey인 ClusterSemanticChunker를 개발하였으며, 또 다른 새로운 chunking stratgey인 LLMSemanticChunker 또한 이 평가에서 좋은 성능을 달성하는 것을 확인하였습니다.
 
+***
 
+## My Insight
 
-## Ⅷ. Insight
-
-
-
-
-
-
-
-
-
-
-
+기존 chunking 방식의 한계점을 파악하고 새로운 chunking 방식을 제안한 것은 매우 논리적이고 합리적인 이유로 보여지나 chunking의 방식이 RecursiveTextSplitter, TokenTextSplitter, SemanticChunker의 3가지만 비교분석하였다는 것이 아쉬웠던 것 같습니다. 또한, Chunk의 본질적인 의의를 생각해본다면 Chunk 구성에 따른 Retriever를 평가해야 이것이 chunking에 대한 성능을 대변할 수 있으리라 생각됩니다. 또한 실험에 대하여 고정적인 chunk size가 너무 작은 것을 고려하면 다양성이 조금 부족하지 않을까 싶습니다. 그러나 IoU라는 평가방식은 굉장히 참신하고 의미가 짙다고 보여지는 것 같습니다. LLM 역시 데이터에 의존할 수 밖에 없는 현실을 부정할 수 없습니다. RAG도 마찬가지입니다. 데이터의 본질에 집중하는 Chunking Strategy와 Chunk의 구성에 대한 연구가 활발해지면 좋겠습니다.
