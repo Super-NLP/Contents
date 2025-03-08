@@ -23,6 +23,10 @@ layout:
 
 ## <mark style="color:blue;">2025.</mark>
 
+* Balancing Content Size in RAG-Text2SQL System
+* Semantic Captioning : Benchmark Dataset and Graph-Aware Few-Shot In-Context Learning in SQL2Text
+* SPSQL : Step-by-step Parsing Based Framework for Text-to-SQL Generation
+* PET-SQL : A Prompt-Enhanced Two-round Refinement of Text-to-SQL with Cross-consistency
 * Data Ambiguity Strikes Back: How Documentation Improves GPT's Text-to-SQL
   * [https://arxiv.org/pdf/2310.18742](https://arxiv.org/pdf/2310.18742)
 * Do We Need Domain-Specific Embedding Models? An Empirical Investigation
