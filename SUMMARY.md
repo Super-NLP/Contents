@@ -45,6 +45,8 @@
 * [Linguistic Prompts](research-article/linguistic-prompts.md)
 * [Chroma야, Chunking 평가를 어떻게 한다고?](research-article/chroma-chunking.md)
 * [Generations Never Easy](research-article/generations-never-easy.md)
+* [Model Context Protocol](research-article/model-context-protocol.md)
+* [Function Call의 실체](research-article/function-call.md)
 * [Text2SQL 넌 내꺼야!](research-article/text2sql.md)
 
 ## 🏵️ Conference

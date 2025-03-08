@@ -30,8 +30,10 @@ layout:
 
 ## <mark style="color:blue;">2025.</mark>
 
-* \[🦜🔬] Feb : Text2SQL 넌 내꺼야!
-* \[🦜🔬] Mar 1 : Generations Never Easy
+* \[🦜🔬] Mar : Text2SQL 넌 내꺼야!
+* \[🦜🔬] Mar 9 : Function Call의 실체
+* \[🥑📑] Mar 8 : Model Context Protocol
+* \[🦜🔬] Mar 1 : [Generations Never Easy](../generations-never-easy.md)
 * \[🦜📑] Feb 23 : [Chroma야, Chunking 평가를 어떻게 한다고?](../chroma-chunking.md)
 * \[🦜🔬] Feb 23 : [Linguistic Prompts](../linguistic-prompts.md)
 * \[🦜🔬] Jan 31 : [아무도 RAG 평가 셋 만드는 것에 관심가지지 않아\~](../rag.md)
@@ -53,14 +55,14 @@ layout:
 
 ***
 
-### APPENDIX.
+### 🍓 APPENDIX.
 
-* Dataset : [Go!](dataset.md)
-* LLM : [Go!](llm.md)
-* Prompt Engineering : [Go!](prompt-engineering.md)
-* LLMops : [Go!](llmops.md)
-* RAG & Agent : [Go!](rag-and-agent.md)
-* Etc : [Go!](etc.md)
+1. Dataset : [Go!](dataset.md)
+2. LLM : [Go!](llm.md)
+3. Prompt Engineering : [Go!](prompt-engineering.md)
+4. LLMops : [Go!](llmops.md)
+5. RAG & Agent : [Go!](rag-and-agent.md)
+6. Etc : [Go!](etc.md)
 
 
 
