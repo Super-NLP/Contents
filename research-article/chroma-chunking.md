@@ -4,7 +4,7 @@ description: 2025.02.23.
 
 # Chroma야, Chunking 평가를 어떻게 한다고?
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Chroma Technical Report</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Chroma Technical Report</p></figcaption></figure>
 
 > 본 아티클은 [Chroma Techincal Report](https://research.trychroma.com/evaluating-chunking)를 번역한 것이다. 원문링크를 참조하여 보아도 좋다.
 
@@ -17,7 +17,7 @@ description: 2025.02.23.
 
 문서 분할이 전처리 단계로 사실상 보편적으로 사용되고 있음에도 불구하고, 그 영향이 검색 성능에 미치는 효과를 조사한 연구는 거의 이루어지지 않았다. 이는 주로 전체 문서 검색 작업을 대상으로 하는 일반적인 정보 검색 벤치마크의 구조 때문이라고 할 수 있다. 본 연구에서는 토큰 수준의 관련성을 고려한 평가 방식을 제시하며, 이를 통해 여러 인기 있는 Chunking Strategies을 평가할 수 있도록 하였다. 연구 결과, Chunking Strategy의 선택이 검색 성능에 상당한 영향을 미칠 수 있으며, 일부 Chunking Strategy은 다른 것보다 Recall에서 최대 9%까지 더 우수한 성능을 보이는 것으로 나타났다.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>다양한 인기 있는 Chunking Strategy와 함께 새롭게 제안하는 (★) 전략들을 평가하였다. <br>그 결과, chunking strategy의 선택이 정확도와 효율성 측면에서 검색 성능에 큰 영향을 미칠 수 있음을 확인하였다. 여기서 “Size”는 토큰 단위의 chunk size를 의미하며, 괄호 안의 값은 chunking strategy에 따라 달라질 수 있는 평균 chunk size를 나타낸다. “Overlap”은 토큰 단위의 chunk overlap을 의미한다. 굵은 글씨로 표시된 값은 각 범주에서 가장 우수한 성능을 나타낸다. 각 평가 지표에 대한 자세한 내용은 지표 섹션을 참고하라.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>다양한 인기 있는 Chunking Strategy와 함께 새롭게 제안하는 (★) 전략들을 평가하였다. <br>그 결과, chunking strategy의 선택이 정확도와 효율성 측면에서 검색 성능에 큰 영향을 미칠 수 있음을 확인하였다. 여기서 “Size”는 토큰 단위의 chunk size를 의미하며, 괄호 안의 값은 chunking strategy에 따라 달라질 수 있는 평균 chunk size를 나타낸다. “Overlap”은 토큰 단위의 chunk overlap을 의미한다. 굵은 글씨로 표시된 값은 각 범주에서 가장 우수한 성능을 나타낸다. 각 평가 지표에 대한 자세한 내용은 지표 섹션을 참고하라.</p></figcaption></figure>
 
 문서를 AI 애플리케이션의 검색 대상으로 활용할 때 전처리 단계로 흔히 chunking이 사용된다. chunking은 문서를 정보 단위로 나누어, 임베딩 기반 검색 및 LLM(대형 언어 모델)에 의한 처리가 가능한 의미 있는 내용으로 구성하는 역할을 한다. <mark style="background-color:orange;">**본 기술 보고서의 목적은 AI 애플리케이션 환경에서 문서 분할 및 검색이 어떻게 사용되는지를 대표하는 방식으로, 문서 분할 전략 선택이 검색 성능에 미치는 영향을 평가**</mark>하는 것이다.
 
@@ -25,7 +25,7 @@ description: 2025.02.23.
 
 일반적으로 사용되는 벤치마크, 예를 들어 MTEB와 같은 경우 전통적인 정보 검색(IR) 접근 방식을 취하여, 검색 성능을 문서 전체의 관련성을 기준으로 평가합니다. 이로 인해 문단이나 토큰 단위의 chunking을 반영할 수 없습니다.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>AI 응용 분야에서는 query와 관련된 모든 토큰을 포함하는 발췌문이 여러 문서 내 또는 여러 문서에 걸쳐 존재할 수 있다. chunk는 관련 토큰과 무관한 토큰을 모두 포함할 수 있으며, 관련 발췌문이 여러 chunk에 걸쳐 분산될 수도 있다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>AI 응용 분야에서는 query와 관련된 모든 토큰을 포함하는 발췌문이 여러 문서 내 또는 여러 문서에 걸쳐 존재할 수 있다. chunk는 관련 토큰과 무관한 토큰을 모두 포함할 수 있으며, 관련 발췌문이 여러 chunk에 걸쳐 분산될 수도 있다.</p></figcaption></figure>
 
 전통적인 IR 벤치마크는 또한 검색된 문서들의 상대적 순위에 중점을 두지만, 실제로 LLM은 context length 내에서 관련 정보의 위치에 대해 상대적으로 둔감합니다. 게다가, 특정 query에 해당하는 관련 정보가 여러 문서에 걸쳐 분포할 수 있어, 문서 간 상대 순위 평가가 모호해집니다.
 
