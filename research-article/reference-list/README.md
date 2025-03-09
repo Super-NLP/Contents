@@ -31,7 +31,7 @@ layout:
 ## <mark style="color:blue;">2025.</mark>
 
 * \[🦜🔬] Mar : Text2SQL 넌 내꺼야!
-* \[🦜🔬] Mar 9 : Function Call의 실체
+* \[🦜🔬] Mar 9 : Chill한 Function Calling
 * \[🥑📑] Mar 8 : Model Context Protocol
 * \[🦜🔬] Mar 1 : [Generations Never Easy](../generations-never-easy.md)
 * \[🦜📑] Feb 23 : [Chroma야, Chunking 평가를 어떻게 한다고?](../chroma-chunking.md)
