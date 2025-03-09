@@ -4,7 +4,7 @@ description: 2024년 11월 3일
 
 # Editorial Thinking
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Editorial Thinking - 최혜진</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Editorial Thinking - 최혜진</p></figcaption></figure>
 
 세상의 변화가 매우 급격하게 진행되고 있으며 변화를 일으키는 중심에는 매우 많은 요소가 존재한다. 과학기술발전의 분야에서 바라보았을 때 Gen.AI (생성형 ai)를 논하지 않을 수 없을 것이라 생각한다.
 

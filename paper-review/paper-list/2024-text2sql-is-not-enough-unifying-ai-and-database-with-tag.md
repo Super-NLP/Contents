@@ -157,7 +157,7 @@ _**Agentic Data Assistants**_ 최근 연구에서는 LM 에이전트를 데이�
 
 우리 벤치마크를 위한 BIRD 질의에 대한 수정 사항을 상세히 설명합니다. 각 질의는 답변을 위해 LM 지식 또는 추론이 필요하도록 수정되었습니다. 아래에 샘플 질의를 보여드립니다.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>sample queries</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>sample queries</p></figcaption></figure>
 
 ## B. LM Prompts
 
@@ -167,17 +167,17 @@ _**Agentic Data Assistants**_ 최근 연구에서는 LM 에이전트를 데이�
 
 질의 생성 단계, 즉 우리의 경우 Text2SQL 단계에서는 원래 BIRD 벤치마크와 동일한 테이블 스키마 인코딩과 LM 프롬프트를 사용합니다. 질의 생성을 위한 예시 프롬프트는 아래와 같습니다.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### B.2 Answer Generation
 
 Text2SQL + LM 및 RAG 베이스라인에서는 답변 생성 단계에서 LM이 제공된 행들을 바탕으로 사용자 질문에 답해야 합니다. 우리는 집계 쿼리에 대해 별도의 프롬프트를 사용하며, 일치 기반, 비교, 순위 쿼리는 동일한 프롬프트를 공유합니다. 두 가지 프롬프트는 아래에 나와 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## C. HandWritten Pipelines
 
@@ -185,4 +185,4 @@ Text2SQL + LM 및 RAG 베이스라인에서는 답변 생성 단계에서 LM이 
 
 <figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>

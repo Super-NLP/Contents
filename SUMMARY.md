@@ -47,7 +47,6 @@
 * [Generations Never Easy](research-article/generations-never-easy.md)
 * [Model Context Protocol](research-article/model-context-protocol.md)
 * [Chill한 Function Calling](research-article/chill-function-calling.md)
-* [Agentic Pattern](research-article/agentic-pattern.md)
 * [Text2SQL 넌 내꺼야!](research-article/text2sql.md)
 
 ## 🏵️ Conference

@@ -42,11 +42,11 @@ $$
 
 예비실험과 TREC 실험 결과, RRF는 평균적으로 Condorcet, CombMNZ, 그리고 최고 시스템을 4%에서 5% 정도 능가하는 것으로 나타났습니다. 우리는 간단한 부호 검정을 사용하여 통계적 유의성을 확인했습니다. 첫 번째 예비실험을 제외하고, RRF는 Condorcet를 7번 모두 능가했으며$$(p \approx 0.008)$$, CombMNZ는 7번 중 6번을 능가했습니다$$(p \approx 0.04)$$. 또한, RRF는 최고 개별 결과를 6번 또는 7번 능가했으며$$(0.008 \leq p \leq 0.04)$$, 이는 manual한 결과가 포함된 여부에 따라 다릅니다. 따라서 측정된 모든 차이는 통계적으로 유의미합니다.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Table 1 : 예비실험, TREC topic 351-400에 대한 30개의 모델 시스템 결과에서 RR Fusion의 k 값이 MAP에 미치는 영향. 비교를 위해 최고 모델 시스템과 경쟁적인 융합 방법들의 결과가 함께 제시됩니다. 동일한 시스템을 3가지 다른 테스트 컬렉션에 적용했을 때도 유사한 결과가 나타났습니다.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Table 1 : 예비실험, TREC topic 351-400에 대한 30개의 모델 시스템 결과에서 RR Fusion의 k 값이 MAP에 미치는 영향. 비교를 위해 최고 모델 시스템과 경쟁적인 융합 방법들의 결과가 함께 제시됩니다. 동일한 시스템을 3가지 다른 테스트 컬렉션에 적용했을 때도 유사한 결과가 나타났습니다.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Table 2 : TREC 3, TREC 5, TREC 9의 애드혹 태스크와 TREC 2004 robust한 트랙에 제출된 실행 결과들의 융합에 대한 MAP 점수.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Table 2 : TREC 3, TREC 5, TREC 9의 애드혹 태스크와 TREC 2004 robust한 트랙에 제출된 실행 결과들의 융합에 대한 MAP 점수.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>Table 3 : LETOR 3 코퍼스에서 583,850개의 문서-쿼리 쌍에 대한 개별 순위와 융합. <br>각 방법에 대한 MAP 점수와 융합 결과와 개별 MAP 점수 간의 차이, 95% 신뢰 구간.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Table 3 : LETOR 3 코퍼스에서 583,850개의 문서-쿼리 쌍에 대한 개별 순위와 융합. <br>각 방법에 대한 MAP 점수와 융합 결과와 개별 MAP 점수 간의 차이, 95% 신뢰 구간.</p></figcaption></figure>
 
 우리의 마지막 실험에서는 LETOR 3 데이터셋과 함께 제공된 샘플 학습 결과를 사용했으며, 우리가 개발 중인 로지스틱 경사 하강법(LGD)도 사용했습니다. 분석을 위해, 우리는 7개의 문서-쿼리 쌍 세트를 하나로 결합하고 전체 MAP 점수를 계산했습니다. 또한 RRF와 개별 MAP 점수 간의 차이, 95% 신뢰 구간, p-value(차이가 0이라는 귀무 가설 하에서의 가능성)를 계산했습니다. table 3은 이러한 결과를 보여줍니다. RRF는 모든 개별 순위를 능가했으며$$(p < 0.003)$$, 가장 우수한 순위는 0.02의 차이$$(4\%)$$로 능가했습니다. Condorcet는 RRF보다 열등했으며$$(p \approx 0.004)$$, 개별 순위는 다소 개선된 것으로 보였습니다$$(p \approx 0.2)$$. CombMNZ는 RRF를 약간 능가했으나$$(p \approx 0.2)$$, 기본 시스템 간의 측정된 차이 중 유의미한 차이는 없었습니다.
 
