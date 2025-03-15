@@ -21,9 +21,13 @@ layout:
 
 # Paper List
 
+> **Posting을 남기는 논문도 있고, 그렇지 않은 논문도 있습니다!** \
+> **논문 목록 하단에 원본 링크가 있다면 해당 논문은 읽은 것이고, 그렇지 않다면 읽을 예정인 논문입니다 😁**
+
 ## <mark style="color:blue;">2025.</mark>
 
 * Balancing Content Size in RAG-Text2SQL System
+  * [https://arxiv.org/pdf/2502.15723v1](https://arxiv.org/pdf/2502.15723v1)
 * Semantic Captioning : Benchmark Dataset and Graph-Aware Few-Shot In-Context Learning in SQL2Text
 * SPSQL : Step-by-step Parsing Based Framework for Text-to-SQL Generation
 * PET-SQL : A Prompt-Enhanced Two-round Refinement of Text-to-SQL with Cross-consistency
@@ -36,6 +40,8 @@ layout:
   * [https://arxiv.org/pdf/2408.14717](https://arxiv.org/pdf/2408.14717)
 * [Don't Do RAG : When Cache-Augmented Generation is All you Need for Knowledge Tasks](2024-dont-do-rag-when-cache-augmented-generation-is-all-you-need-for-knowledge-tasks.md)
   * [https://arxiv.org/pdf/2412.15605](https://arxiv.org/pdf/2412.15605)
+* BM25S : Ordered of magnitude fasteer lexical search via eagger sparse scoring
+  * [https://arxiv.org/pdf/2407.03618](https://arxiv.org/pdf/2407.03618)
 * MEDEC : A Benchmark for Medical Error Detection and Correction in Clinical notes
   * [https://arxiv.org/pdf/2412.19260](https://arxiv.org/pdf/2412.19260)
 * [Reciprocal Rank Fusion outperforms Condorcet and individual Rank Learning Methods](2009-reciprocal-rank-fusion-outperforms-condorcet-and-individual-rank-learning-methods.md)
