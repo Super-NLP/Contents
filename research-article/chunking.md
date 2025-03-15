@@ -142,7 +142,7 @@ $$\pi_{eval}$$은 $$eval$$ 기준에 따라 수행된 전체 chunking strategy �
 
 &#x20;실험결과를 보자.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>[ Fig. 08 ] RC-Score from each chunking strategies</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>[ Fig. 08 ] RC-Score from each chunking strategies</p></figcaption></figure>
 
 평가결과, 가장 종합적인 성능이 높은 방식은 Semantic Chunking으로 판단하였다. \
 다만, 아래와 같은 한계점이 분명히 존재한다.

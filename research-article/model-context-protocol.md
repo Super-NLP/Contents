@@ -4,7 +4,7 @@ description: 2025.03.09
 
 # Model Context Protocol
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Model Context Protocol</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Model Context Protocol</p></figcaption></figure>
 
 필자는 주로 GeekNews를 통해 최신정보를 업데이트하는 편으로 AI의 분야는 여러방면에서 빠른 발전을 이루고 있지만 이제 막 태동하고 있는 분야도 존재한다. 오늘 소개할 MCP (= Model Context Protocol)는 그중 하나로 Agent가 점점 화두가 되는 트렌드에서 앞으로 각광받을 수 있는 내용이라 소개하고자 한다.&#x20;
 
@@ -40,13 +40,13 @@ MCP에는 크게 3가지 핵심구성이 존재한다.
 
 MCP 서버는 LLM이 사용할 수 있는 도구와 데이터 액세스 기능을 제공하는 프로그램이다. 전통적인 원격 API 서버와는 달리, MCP 서버는 사용자의 장치에서 로컬 애플리케이션으로 실행되거나 원격 서버에 배포될 수 있는것이 특징이다. 각 MCP 서버는 로컬 데이터나 원격 서비스에서 정보를 검색하는 특정 도구 세트를 제공하는데 LLM이 작업을 처리하는 동안 특정 도구를 사용해야 한다고 결정하면, MCP 서버가 제공하는 도구를 사용하여 필요한 데이터를 얻고 이를 LLM에 반환하는 구조를 가진다.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>[ Fig. 02 ] MCP Server</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>[ Fig. 02 ] MCP Server</p></figcaption></figure>
 
 ### 2. MCP Client
 
 MCP 클라이언트는 LLM과 MCP 서버를 연결하는 다리 역할로 LLM에 포함되어 LLM으로부터의 요청 수신, 적절한 MCP 서버로 요청 전달, MCP 서버로부터 결과를 LLM에 반환하는 등의 기능을 담당한다.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>[ Fig. 03 ] MCP Client </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>[ Fig. 03 ] MCP Client </p></figcaption></figure>
 
 ### 3. MCP Host
 
