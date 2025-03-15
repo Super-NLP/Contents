@@ -1,6 +1,6 @@
 ---
-icon: '1'
 description: 다양한 종류의 데이터셋에 대한 소개와 이를 수집하는 방식을 알아봅니다!
+icon: '1'
 cover: >-
   https://images.unsplash.com/photo-1451187580459-43490279c0fa?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxMHx8dGFidWxhciUyMGRhdGF8ZW58MHx8fHwxNzMwNjE5NTk1fDA&ixlib=rb-4.0.3&q=85
 coverY: 0
@@ -57,7 +57,8 @@ coverY: 0
   * [https://github.com/Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 * **OpenParse : Easy PDF Chunking open-source library**
   * [https://github.com/Filimoa/open-parse](https://github.com/Filimoa/open-parse)
-*
+
+
 
 ## <mark style="color:blue;">Ⅲ. Data Engineering</mark>
 

@@ -1,6 +1,6 @@
 ---
-icon: '2'
 description: 다양한 LLM에 대한 자료를 수집합니다.
+icon: '2'
 cover: >-
   https://images.unsplash.com/photo-1645839057098-5ea8761a6b09?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw1fHxsbG18ZW58MHx8fHwxNzMwNjE5NjcwfDA&ixlib=rb-4.0.3&q=85
 coverY: 0
@@ -101,11 +101,19 @@ coverY: 0
 
 > LLM Alignment에 대한 레퍼런스를 소개합니다.
 
-* DPO
-* Instruct Following
+* **Offline-DPO**
+* **Online-DPO**
+  * [https://jackyoung96.github.io/2024/03/24/DAP-OnlineDAP/](https://jackyoung96.github.io/2024/03/24/DAP-OnlineDAP/)
 * **OpenAi Alignment handbook**
   * [https://github.com/huggingface/alignment-handbook](https://github.com/huggingface/alignment-handbook)
 * **LoRA Instruct**
   * [https://github.com/leehanchung/lora-instruct](https://github.com/leehanchung/lora-instruct)
+
+
+
+## Ⅵ. Etc
+
 * **FlashAttention : Fast and memory-efficient exact attention**
   * [https://github.com/Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention)
+* **Speculative Decoding : Fast Inference from Transformers via Speculative Decoding**
+  * [https://arxiv.org/pdf/2211.17192](https://arxiv.org/pdf/2211.17192)
