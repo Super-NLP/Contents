@@ -20,7 +20,7 @@ layout:
 
 # Reseume / CV
 
-## MY RESUME / CV
+## RESUME / CV
 
 ***
 
@@ -33,8 +33,7 @@ layout:
 
 ## :thumbsup: About&#x20;
 
-I am currently working as a **AI Researcher**. \
-I have a strong interest to followings:&#x20;
+I am currently working as a **AI Researcher**. I have a strong interest to followings:&#x20;
 
 * Implementing hyper-personalized assistants using <mark style="color:green;">**RAG**</mark>, <mark style="color:purple;">**Agents**</mark>, and <mark style="color:blue;">**Prompt Engineering**</mark>.
 * **Extracting hidden information** from user instruction.
@@ -46,13 +45,14 @@ I have a strong interest to followings:&#x20;
 \- _Apr. 2024 - <mark style="color:blue;">Present</mark>_
 
 * Responsible for overall tasks in the **RAG Parts** of the Gen.AI Team.
-* Developed the **Chatbot for our company’s website**.\
-  &#xNAN;_- Mar. 2025 - <mark style="color:blue;">Present</mark>_
-  * etc
 * Developed the **Chatbot Assistant** parts for the **Gen.AI Appliance**.\
   &#xNAN;_- Nov. 2024 - <mark style="color:blue;">Present</mark>_
   * Designed and implemented an **Advanced RAG Pipeline optimized for the service** environment.
   * Implemented **access control and security features** by restricting Retriever document access based on user permissions.
+  * Development of a **retriever hyper-parameter optimization module** and application of the solution
+  * Apply prior research on **the most effective chunking strategies**.
+  * Perform and apply prior research on **Query Construction** methods like **Text2SQL and Text2Cypher**.
+  * Apply prior research on the **creation of RAG evaluation datasets**.
 * Proceeding with the **PoC** with **HD미포조선**.\
   &#xNAN;_- July. 2024 - Sep. 2024_
   * **Extracted metadata** based on data from the shipbuilding domains and utilized it to **build an Advanced RAG Pipeline**.

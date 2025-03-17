@@ -30,7 +30,7 @@ layout:
 
 ## <mark style="color:blue;">2025.</mark>
 
-* \[🦜🔬] Mar : Text2SQL 넌 내꺼야!
+* \[🦜🔬] Apr : Text2SQL 넌 내꺼야!
 * \[🦜🔬] Mar 10 : [Chill칠치 못한 Function Calling](../chill-function-calling.md)
 * \[🥑📑] Mar 9 : [Model Context Protocol](../model-context-protocol.md)
 * \[🦜🔬] Mar 1 : [Generations Never Easy](../generations-never-easy.md)

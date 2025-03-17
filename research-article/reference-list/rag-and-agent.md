@@ -1,8 +1,8 @@
 ---
-icon: '5'
 description: 다양한 RAG에 대한 자료를 수집합니다.
+icon: '5'
 cover: >-
-  https://images.unsplash.com/photo-1675557009483-e6cf3867976b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxMHx8b3BlbmFpfGVufDB8fHx8MTczMDYyMDYzOHww&ixlib=rb-4.0.3&q=85
+  https://images.unsplash.com/photo-1623984109622-f9c970ba32fc?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwyfHxpcm9ubWFuJTIwaHVkfGVufDB8fHx8MTc0MjIwNzQwM3ww&ixlib=rb-4.0.3&q=85
 coverY: 0
 ---
 
@@ -12,21 +12,24 @@ coverY: 0
 
 > RAG (Retriever Augmented Generation)에 관한  모든 레퍼런스를 소개합니다.
 
-* **RAG**
+* **Core Library**
   * LangChain
-    * [https://python.langchain.com/docs/get\_started/introduction](https://python.langchain.com/docs/get_started/introduction)
-    * [https://wikidocs.net/book/14314](https://wikidocs.net/book/14314)
+    * [https://www.langchain.com/](https://www.langchain.com/)
   * Langgraph
     * [https://github.com/langchain-ai/langgraph](https://github.com/langchain-ai/langgraph)
   * Langfuse
     * [https://github.com/langfuse/langfuse](https://github.com/langfuse/langfuse)
-  * Langflow
-    * [https://github.com/langflow-ai/langflow](https://github.com/langflow-ai/langflow)
-* **Application**
-  * pyscript : [https://github.com/pyscript/pyscript](https://github.com/pyscript/pyscript)
-  * Chainlit : [https://github.com/Chainlit/chainlit](https://github.com/Chainlit/chainlit)
-  * Phidata : [https://github.com/phidatahq/phidata](https://github.com/phidatahq/phidata)
-  * Ollama : [https://github.com/ollama/ollama](https://github.com/ollama/ollama)
+  * Langmem
+    * [https://github.com/langchain-ai/langmem](https://github.com/langchain-ai/langmem)
+* **Application Library**
+  * pyscript
+    * [https://github.com/pyscript/pyscript](https://github.com/pyscript/pyscript)
+  * Chainlit
+    * [https://github.com/Chainlit/chainlit](https://github.com/Chainlit/chainlit)
+  * Ollama
+    * [https://github.com/ollama/ollama](https://github.com/ollama/ollama)
+* **Reference**
+  * Langchain Open Tutorial : [https://langchain-opentutorial.gitbook.io/langchain-opentutorial](https://langchain-opentutorial.gitbook.io/langchain-opentutorial)
 
 
 
@@ -63,14 +66,14 @@ coverY: 0
   * [https://github.com/awslabs/multi-agent-orchestrator](https://github.com/awslabs/multi-agent-orchestrator)
 * SmolAgent
   * [https://huggingface.co/blog/smolagents](https://huggingface.co/blog/smolagents)
-* AI Agent vs Agentic AI?
-  * [https://modulabs.co.kr/blog/ai-agent-vs-agentic-ai?page=1](https://modulabs.co.kr/blog/ai-agent-vs-agentic-ai?page=1)
 * Browser Use
   * [https://github.com/browser-use/browser-use](https://github.com/browser-use/browser-use)
 * Agent Laboratory
   * [https://github.com/SamuelSchmidgall/AgentLaboratory](https://github.com/SamuelSchmidgall/AgentLaboratory)
 * AiSuite
   * [https://github.com/andrewyng/aisuite](https://github.com/andrewyng/aisuite)
+* Agno
+  * [https://github.com/agno-agi/agno](https://github.com/agno-agi/agno)
 
 ## Ⅳ. Conference
 
