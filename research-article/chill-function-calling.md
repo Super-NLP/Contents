@@ -131,7 +131,7 @@ print(response.output)
 
 해당 부분에 대해서 다양한 연구와 적용을 해봐야 알겠지만 가장 간단한 pattern 하나만 소개해보겠다.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>[ Fig 01. ] Re-Question Pattern</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>[ Fig 01. ] Re-Question Pattern</p></figcaption></figure>
 
 추출이 어렵다면 다시 되물으면 된다. 해당 로직의 핵심은 Function Calling을 위해 필요한 parameter가 구체적으로 알 고있을 때 사용할 수 있는 패턴이다. 물론, 해당 패턴을 사용했을 때 성공적으로 function calling하기위해서는 최초에 정보를 extraction하는 성능도 좋아야 한다는 점을 명심하자!
 

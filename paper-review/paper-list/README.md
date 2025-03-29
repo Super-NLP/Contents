@@ -27,6 +27,9 @@ layout:
 
 ## <mark style="color:blue;">2025.</mark>
 
+* HoarePrompt : Structural Reasoning About Program Correctness in Natural Language
+* SWI : Speaking with Intent in Large Language Models
+* 4bit-Quantization in Vector Embedding for RAG
 * RAGVAL : Automatic Dataset Creation and Evaluation for RAG System
   * [https://www.researchgate.net/publication/388465129\_RAGVAL\_Automatic\_Dataset\_Creation\_and\_Evaluation\_for\_RAG\_Systems](https://www.researchgate.net/publication/388465129_RAGVAL_Automatic_Dataset_Creation_and_Evaluation_for_RAG_Systems)
 * Qwen2.5 Technical Report

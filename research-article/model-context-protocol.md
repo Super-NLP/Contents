@@ -40,7 +40,7 @@ MCP에는 크게 3가지 핵심구성이 존재한다.
 
 MCP 서버는 LLM이 사용할 수 있는 도구와 데이터 액세스 기능을 제공하는 프로그램이다. 전통적인 원격 API 서버와는 달리, MCP 서버는 사용자의 장치에서 로컬 애플리케이션으로 실행되거나 원격 서버에 배포될 수 있는것이 특징이다. 각 MCP 서버는 로컬 데이터나 원격 서비스에서 정보를 검색하는 특정 도구 세트를 제공하는데 LLM이 작업을 처리하는 동안 특정 도구를 사용해야 한다고 결정하면, MCP 서버가 제공하는 도구를 사용하여 필요한 데이터를 얻고 이를 LLM에 반환하는 구조를 가진다.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>[ Fig. 02 ] MCP Server</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>[ Fig. 02 ] MCP Server</p></figcaption></figure>
 
 ### 2. MCP Client
 

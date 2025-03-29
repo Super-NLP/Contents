@@ -15,7 +15,7 @@ description: 2025.01.31.
 
 주어진 Context로부터 Query를 만들고, 해당 Query와 Context를 바탕으로 Answer를 생성하여 이 3가지 쌍(triple-pair)를 Evaluation Dataset으로 정한 뒤, 실제 RAG Pipeline에 접목시켜 평가한다. 사용자에 따라, 평가 셋을 만드는 환경에 따라 Query를 생성할 때 Evolving과정을 넣기도 하고 아니기도 한다. 필자는 Evolving단계가 꼭 필요하다는 주의이다. 아래에 해당 파트에서 조금 더 자세하게 설명하도록 하겠다. 평가(evaluation)의 관점에서 RAG는 다양한 관점에서 바라봐야한다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p><strong>Figure 01</strong> : RAG Metric List (<a href="https://github.com/Marker-Inc-Korea/AutoRAG?tab=readme-ov-file">https://github.com/Marker-Inc-Korea/AutoRAG?tab=readme-ov-file</a>)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><strong>Figure 01</strong> : RAG Metric List (<a href="https://github.com/Marker-Inc-Korea/AutoRAG?tab=readme-ov-file">https://github.com/Marker-Inc-Korea/AutoRAG?tab=readme-ov-file</a>)</p></figcaption></figure>
 
 위의 **Figure 01**에 보면서 얘기를 나누어보자. RAG의 평가는 크게 Retriever 평가와 Generation 평가가 이루어져야 한다. 먼저 Retriever 평가의 경우 기존의 통계적 평가지표인 Precision, Recall, F1 3가지를 가져가며 추천시스템에서 널리 사용되는 mAP, mRR, NDCG도 사용될 수 있다. 또한, Retriever의 task적인 면에서 주어진 query에 따라 top-k개의 context가 뽑히는걸 생각하면 Context-Precision, Context-Recall을 사용하는 곳도 있다. 일반적으로 언급되는 Precision, Recall이 Context-Precision, Context-Recall과 동일시되기도 한다. Generation 평가를 살펴보자. 정량적인 평가방식으로 BLEU, Rouge, METEOR, BERT\_Score, Sem Score를 보통 사용한다. 다만, 평가 metric의 경우 목적과 환경에 맞게 적절하게 선택해야 한다. 당연한 말이지만 평가지표 수치의 높고 낮음이 절대적인 성능을 대변하지 않기 때문이다. 정성적인 평가방식으로는 G-Eval을 많이 사용한다. G-Eval은 LLM을 이용한 평가방식으로 평가기준을 사용자가 잘 정립하여 prompt를 작성해주어야 한다.
 

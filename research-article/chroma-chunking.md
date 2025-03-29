@@ -17,7 +17,7 @@ description: 2025.02.23.
 
 문서 분할이 전처리 단계로 사실상 보편적으로 사용되고 있음에도 불구하고, 그 영향이 검색 성능에 미치는 효과를 조사한 연구는 거의 이루어지지 않았다. 이는 주로 전체 문서 검색 작업을 대상으로 하는 일반적인 정보 검색 벤치마크의 구조 때문이라고 할 수 있다. 본 연구에서는 토큰 수준의 관련성을 고려한 평가 방식을 제시하며, 이를 통해 여러 인기 있는 Chunking Strategies을 평가할 수 있도록 하였다. 연구 결과, Chunking Strategy의 선택이 검색 성능에 상당한 영향을 미칠 수 있으며, 일부 Chunking Strategy은 다른 것보다 Recall에서 최대 9%까지 더 우수한 성능을 보이는 것으로 나타났다.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>다양한 인기 있는 Chunking Strategy와 함께 새롭게 제안하는 (★) 전략들을 평가하였다. <br>그 결과, chunking strategy의 선택이 정확도와 효율성 측면에서 검색 성능에 큰 영향을 미칠 수 있음을 확인하였다. 여기서 “Size”는 토큰 단위의 chunk size를 의미하며, 괄호 안의 값은 chunking strategy에 따라 달라질 수 있는 평균 chunk size를 나타낸다. “Overlap”은 토큰 단위의 chunk overlap을 의미한다. 굵은 글씨로 표시된 값은 각 범주에서 가장 우수한 성능을 나타낸다. 각 평가 지표에 대한 자세한 내용은 지표 섹션을 참고하라.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>다양한 인기 있는 Chunking Strategy와 함께 새롭게 제안하는 (★) 전략들을 평가하였다. <br>그 결과, chunking strategy의 선택이 정확도와 효율성 측면에서 검색 성능에 큰 영향을 미칠 수 있음을 확인하였다. 여기서 “Size”는 토큰 단위의 chunk size를 의미하며, 괄호 안의 값은 chunking strategy에 따라 달라질 수 있는 평균 chunk size를 나타낸다. “Overlap”은 토큰 단위의 chunk overlap을 의미한다. 굵은 글씨로 표시된 값은 각 범주에서 가장 우수한 성능을 나타낸다. 각 평가 지표에 대한 자세한 내용은 지표 섹션을 참고하라.</p></figcaption></figure>
 
 문서를 AI 애플리케이션의 검색 대상으로 활용할 때 전처리 단계로 흔히 chunking이 사용된다. chunking은 문서를 정보 단위로 나누어, 임베딩 기반 검색 및 LLM(대형 언어 모델)에 의한 처리가 가능한 의미 있는 내용으로 구성하는 역할을 한다. <mark style="background-color:orange;">**본 기술 보고서의 목적은 AI 애플리케이션 환경에서 문서 분할 및 검색이 어떻게 사용되는지를 대표하는 방식으로, 문서 분할 전략 선택이 검색 성능에 미치는 영향을 평가**</mark>하는 것이다.
 

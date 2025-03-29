@@ -47,10 +47,12 @@
 * [Generations Never Easy](research-article/generations-never-easy.md)
 * [Model Context Protocol](research-article/model-context-protocol.md)
 * [Chill칠치 못한 Function Calling](research-article/chill-function-calling.md)
+* [RAG 평가지표 정복하기](research-article/rag-1.md)
 * [Text2SQL 넌 내꺼야!](research-article/text2sql.md)
 
 ## 🏵️ Conference
 
+* [일할맛 판교 3월 세미나](conference/3.md)
 * [LangChainOpenTutorial를 진행하며](conference/langchainopentutorial.md)
 * [Talk: Prompt and Language The Science of Prompts 후기](conference/talk-prompt-and-language-the-science-of-prompts.md)
 * [2024년 회고](conference/2024.md)
