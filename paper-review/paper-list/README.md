@@ -21,15 +21,21 @@ layout:
 
 # Paper List
 
-> **Posting을 남기는 논문도 있고, 그렇지 않은 논문도 있습니다!** \
-> **연도별 Paper List에 해당하는 각 논 하단에 원본 링크가 있다면 해당 논문은 읽은 것이고,** \
-> **그렇지 않다면 읽을 예정인 논문입니다 😁**
+> **Posting을 남기는 논문도 있고, 그렇지 않은 논문도 있습니다! 연도별 Paper List에 해당하는 각 논 하단에 원본 링크가 있다면 해당 논문은 읽은 것이고, 그렇지 않다면 읽을 예정인 논문입니다 😁**
 
 ## <mark style="color:blue;">2025.</mark>
 
 * HoarePrompt : Structural Reasoning About Program Correctness in Natural Language
 * SWI : Speaking with Intent in Large Language Models
 * 4bit-Quantization in Vector Embedding for RAG
+* LongSkywork : A Training Recipe for Efficiently Extending Context Length in Large Language Models
+  * [https://arxiv.org/pdf/2406.00605](https://arxiv.org/pdf/2406.00605)
+* Multi-Field Adaptive Retrieval
+  * [https://arxiv.org/pdf/2410.20056](https://arxiv.org/pdf/2410.20056)
+* BERGEN : A Benchmarking Library for Retrieval-Augemented Generation
+  * [https://arxiv.org/pdf/2407.01102](https://arxiv.org/pdf/2407.01102)
+* NoLIMA : Long-Context Evaluation Beyond Literal Matching
+  * [https://arxiv.org/pdf/2502.05167](https://arxiv.org/pdf/2502.05167)
 * RAGVAL : Automatic Dataset Creation and Evaluation for RAG System
   * [https://www.researchgate.net/publication/388465129\_RAGVAL\_Automatic\_Dataset\_Creation\_and\_Evaluation\_for\_RAG\_Systems](https://www.researchgate.net/publication/388465129_RAGVAL_Automatic_Dataset_Creation_and_Evaluation_for_RAG_Systems)
 * Qwen2.5 Technical Report
