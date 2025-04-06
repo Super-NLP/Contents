@@ -51,6 +51,7 @@ I am currently working as a **AI Researcher**. I have a strong interest to follo
   * Implemented **access control and security features** by restricting Retriever document access based on user permissions.
   * Development of a **retriever hyper-parameter optimization module** and application of the solution
   * Apply prior research on **the most effective chunking strategies**.
+  * Develop and apply **End-2-End Chunking Strategy evaluation Pipeline**.
   * Perform and apply prior research on **Query Construction** methods like **Text2SQL and Text2Cypher**.
   * Apply prior research on the **Creation of RAG evaluation datasets**.
 * Proceeding with the **PoC** with **HD미포조선**.\
