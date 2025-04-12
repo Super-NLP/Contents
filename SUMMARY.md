@@ -62,3 +62,8 @@
 * [모두를 위한 한국어 오픈액세스 언어모델 못다한 이야기 (feat. 모두연) #1](conference/feat.-1.md)
 * [모두를 위한 한국어 오픈액세스 언어모델 못다한 이야기 (feat. 모두연) #2](conference/feat.-2.md)
 * [맨땅에서 구축해본 개인화시스템 구축기 Session 후기](conference/session.md)
+
+## ♟️ Basic
+
+* [00 Introduction](basic/00-introduction.md)
+* [01-1 LLM 지도](basic/01-1-llm.md)
