@@ -48,6 +48,7 @@
 * [Model Context Protocol](research-article/model-context-protocol.md)
 * [Chill칠치 못한 Function Calling](research-article/chill-function-calling.md)
 * [RAG 평가지표 정복하기](research-article/rag-1.md)
+* [LLM Quantization 방법론 알아보기](research-article/llm-quantization.md)
 * [Text2SQL 넌 내꺼야!](research-article/text2sql.md)
 
 ## 🏵️ Conference
@@ -67,3 +68,4 @@
 
 * [00 Introduction](basic/00-introduction.md)
 * [01-1 LLM 지도](basic/01-1-llm.md)
+* [01-2 LLM의 중추 트랜스포머 아키텍처 살펴보기](basic/01-2-llm.md)
