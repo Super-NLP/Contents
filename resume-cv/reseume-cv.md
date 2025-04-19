@@ -45,8 +45,10 @@ I am currently working as a **AI Researcher**. I have a strong interest to follo
 \- _Apr. 2024 - <mark style="color:blue;">Present</mark>_
 
 * Responsible for overall tasks in the **RAG Parts** of the Gen.AI Team.
-* Developed the **Chatbot Assistant** parts for the **Gen.AI Appliance**.\
-  &#xNAN;_- Nov. 2024 - <mark style="color:blue;">Present</mark>_
+* Developed the **Chatbot/Report Assistant** parts from the **Gen.AI Server**.\
+  &#xNAN;_- Nov. 2024 - Mar. 2025_
+  * Deploy to **Gen.AI Server :** [https://www.etnews.com/20250404000323](https://www.etnews.com/20250404000323)
+  * Implementing and using **Langflow**, a no‑code–based pipeline, along with **Langfuse**, a tracking platform.
   * Designed and implemented an **Advanced RAG Pipeline optimized for the service** environment.
   * Implemented **access control and security features** by restricting Retriever document access based on user permissions.
   * Development of a **retriever hyper-parameter optimization module** and application of the solution
