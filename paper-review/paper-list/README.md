@@ -28,6 +28,8 @@ layout:
 * HoarePrompt : Structural Reasoning About Program Correctness in Natural Language
 * SWI : Speaking with Intent in Large Language Models
 * 4bit-Quantization in Vector Embedding for RAG
+* GISTEmbed : Guided In-sample Selection of Training Negatives for Text Embedding Finetuning
+  * [https://arxiv.org/pdf/2402.16829](https://arxiv.org/pdf/2402.16829)
 * LongSkywork : A Training Recipe for Efficiently Extending Context Length in Large Language Models
   * [https://arxiv.org/pdf/2406.00605](https://arxiv.org/pdf/2406.00605)
 * Multi-Field Adaptive Retrieval
