@@ -49,6 +49,7 @@
 * [Chill칠치 못한 Function Calling](research-article/chill-function-calling.md)
 * [RAG 평가지표 정복하기](research-article/rag-1.md)
 * [LLM Quantization 방법론 알아보기](research-article/llm-quantization.md)
+* [LLM은 더우면 헛소리를 해?](research-article/llm.md)
 * [Text2SQL 넌 내꺼야!](research-article/text2sql.md)
 
 ## 🏵️ Conference
